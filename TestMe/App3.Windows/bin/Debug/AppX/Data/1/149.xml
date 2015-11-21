@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="41" max="32" name="Мотивация к успеху">
+  <question number="1" name="Когда имеется выбор между двумя вариантами, то его лучше сделать быстрее, чем отложить на определенное время">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="2" name="Я легко раздражаюсь, когда замечаю, что не могу полностью выполнить задание.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="3" name="Когда я работаю, это выглядит так, будто я все ставлю на карту.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="4" name="Когда возникает проблемная ситуация, я чаще всего принимаю решение одним из последних.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="5" name="Когда у меня два дня подряд нет дела, я теряю покой.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="6" name="В некоторые дни мои успехи ниже средних.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="7" name="По отношению к себе я более строг, чем по отношению к другим.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="8" name="Я более доброжелателен, чем другие.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="9" name="Когда я отказываюсь от трудного задания, я потом сурово осуждаю себя, так как знаю, что в нем я добился бы успеха.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="10" name="В процессе работы я нуждаюсь в небольших паузах для отдыха.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="11" name="Усердие – это не основная моя черта.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="12" name="Мои достижения в труде не всегда одинаковы.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="13" name="Меня больше привлекает другая работа, чем та, которой я занят.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="14" name="Порицание стимулирует меня сильнее, чем похвала.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="15" name="Я знаю, что мои коллеги считают меня дельным человеком.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="16" name="Препятствия делают мои решения более твердыми.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="17" name="У меня легко вызвать честолюбие.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="18" name="Когда я работаю без вдохновения, это обычно заметно.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="19" name="При выполнении работы я не рассчитываю на помощь других.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="20" name="Иногда я откладываю то, что должен был сделать сейчас.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="21" name="Нужно полагаться только на самого себя.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="22" name="В жизни мало вещей более важных, чем деньги.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="23" name="Всегда, когда мне предстоит выполнить важное задание, я ни о чем другом не думаю.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="24" name="Я менее честолюбив, чем многие другие.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="25" name="В конце отпуска я обычно радуюсь, что скоро выйду на работу.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="26" name="Когда я расположен к работе, я делаю ее лучше и квалифицированнее, чем другие.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="27" name="Мне проще и легче общаться с людьми, которые могут упорно работать.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="28" name="Когда у меня нет дел, я чувствую, что мне не по себе.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="29" name="Мне приходится выполнять ответственную работу чаще, чем другим.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="30" name="Когда мне приходится принимать решение, я стараюсь делать это как можно лучше.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="31" name="Мои друзья иногда считают меня ленивым.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="32" name="Мои успехи в какой-то мере зависят от моих коллег.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="33" name="Бессмысленно противодействовать воле руководителя.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="34" name="Иногда не знаешь, какую работу придется выполнять.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="35" name="Когда что-то не ладится, я нетерпелив.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="36" name="Я обычно обращаю мало внимания на свои достижения.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="37" name="Когда я работаю вместе с другими, моя работа дает большие результаты, чем работа других.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="38" name="Многое, за что я берусь, я не довожу до конца.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="39" name="Я завидую людям, которые не загружены работой.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="40" name="Я не завидую тем, кто стремится к власти и положению.">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="41" name="Когда я уверен, что стою на правильном пути, то для доказательства своей правоты я иду вплоть до крайних мер.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+
+  <end>
+    <result min="21" >У Вас слишком высокий уровень мотивации к успеху.</result>
+    <result min="17" >У Вас умеренно высокий уровень мотивации </result>
+    <result min="11" >У Вас средний уровень мотивации </result>
+    <result min="0" >У Вас низкая мотивация к успеху </result>
+  </end>
+</head>

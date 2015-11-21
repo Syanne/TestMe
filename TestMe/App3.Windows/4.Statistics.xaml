@@ -1,0 +1,70 @@
+﻿<Page
+    xmlns:Charting="using:WinRTXamlToolkit.Controls.DataVisualization.Charting"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Test_me_alfa"
+    xmlns:common="using:Test_me_alfa.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="pageRoot"
+    x:Class="Test_me_alfa.Statistics"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Mode=Self}}"
+    mc:Ignorable="d"
+    RequestedTheme="Light"
+    Loaded="pageRoot_Loaded"
+    Unloaded="pageRoot_Unloaded">
+
+    <Page.Resources>
+        <CollectionViewSource x:Name="statMain" IsSourceGrouped="true" ItemsPath="group"/>
+    </Page.Resources>
+
+
+    <Page.TopAppBar>
+        <AppBar Height="90" IsSticky="True" IsOpen="True" Background="Transparent" BorderThickness="0">
+            <Grid>
+            <TextBlock x:Name="gName" Style="{StaticResource HeaderTextBlockStyle}" TextAlignment="Center"
+                       TextWrapping="WrapWholeWords" VerticalAlignment="Center" Margin="100, 0, 50, 0" Foreground="Black" FontSize="36"/>
+            <AppBarButton HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,10,0,0" Width="100" Icon="Back" 
+                          AutomationProperties.AutomationId="BackButton"
+                          AutomationProperties.ItemType="Navigation Button" Click="AppBarButton_Click"/>
+            </Grid>
+        </AppBar>
+    </Page.TopAppBar>
+
+    <Page.BottomAppBar>
+        <AppBar Background="#FF1FBFBA" BorderBrush="{x:Null}" Height="90" IsSticky="True" IsOpen="True">
+            <Grid>
+                <TextBlock x:Name="pageTitle" Text="Нажмите на название, чтобы увидеть результат" Style="{StaticResource HeaderTextBlockStyle}" 
+        		TextWrapping="WrapWholeWords" VerticalAlignment="Center" Margin="50,0,50,0" Foreground="White" SelectionHighlightColor="#00525252" HorizontalAlignment="Center" FontSize="40"/>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+
+    <Grid Background="#FFEEEEEE">
+
+        <Grid x:Name="main" Grid.Row="1">
+                    <Charting:Chart x:Name="Charty" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,0,110"  >
+                <Charting:PieSeries Margin="0" IndependentValuePath="Title" DependentValuePath="Result" HorizontalContentAlignment="Center" VerticalContentAlignment="Top"/>
+            </Charting:Chart>
+            <Button Name="ChangeTextBtn" Content="Текст результата" Click="Button_Click2" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="150" Foreground="#FF131313" RequestedTheme="Dark" Background="#FFE1E1E1" BorderBrush="#FFBCBCBC" BorderThickness="0" Height="50"/>
+            <TextBlock Name="descBlock" FontSize="22" HorizontalAlignment="Right" VerticalAlignment="Center" Padding="20,20,20,20" TextWrapping="WrapWholeWords" SelectionHighlightColor="{x:Null}" Margin="0,0,0,100" />
+        </Grid>        
+        
+        <ListView x:Name="lvMain" 
+                  IsRightTapEnabled="False" 
+                  IsItemClickEnabled="True" 
+                  Grid.Row="1" 
+                  SelectionMode="None" 
+                  RequestedTheme="Light" 
+                  HorizontalAlignment="Left" 
+                  HorizontalContentAlignment="Center" 
+                  VerticalContentAlignment="Center" 
+                  IsDoubleTapEnabled="False" 
+                  IsHoldingEnabled="False" 
+                  IsTapEnabled="False" 
+                  ManipulationMode="None" 
+                  Margin="80,0,0,110" 
+                  VerticalAlignment="Center"
+                  ItemClick="lvMain_ItemClick"/>
+    </Grid>
+</Page>

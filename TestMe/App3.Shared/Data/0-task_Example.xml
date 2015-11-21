@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="" max="" minute="1" name="">
+  <question id="" name=""
+            ans=""
+            exp=""/>
+
+  
+  <end>
+    <result min="7" >Потрясающий результат!</result>
+    <result min="4" >И это выше среднего, прекрасно!</result>
+    <result min="0" >Неплохой результат, но стоит попробовать еще раз.</result>
+  </end>
+</head>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="13" max="13" name="Эх, память...">
+  <question number="1" name="Легко ли Вы запомните 5 различных телефонных номеров?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="2" name="Случалось ли вам забыть о деловой встрече?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="3" name="Можете ли Вы вспомнить, что Вы ели на завтрак 3 дня назад?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="4" name="Помните ли Вы свой первый поцелуй?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="5" name="Позабыли ли Вы свою первую любовь?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="6" name="Можете ли Вы вспомнить свой первый день в школе?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="7" name="Сумеете ли прочесть наизусть стихотворение, которое учили еще в детстве?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="8" name="Можете ли Вы припомнить что нибудь из одежды, которую носили в 10 лет?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="9" name="Перед тем, как позвонить, Вы обычно ищете номер в телефонной книжке?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="10" name="Можете ли Вы вспомнить имя вашего первого друга?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="11" name="Напоминают ли вам некоторые запахи какие либо знакомые места?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="12" name="Можете ли Вы вспомнить дорогу, по которой ходили когда-то в школу, детский сад?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="13" name="Помните ли Вы о днях рождения и юбилеях друзей?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+
+
+  <end>
+    <result min="8" >У вас отличная память, Вы почти все запоминаете.</result>
+    <result min="0" >У вас неважная память. Вероятно, Вы часто забываете о деловых встречах и звонках. Однако у такого положения вещей есть и свои преимущества – Вы также легко забываете и о своих оплошностях.</result>
+  </end>
+</head>

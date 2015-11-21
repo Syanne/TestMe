@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="13" max="13" name="Этимология">
+  <question number="1" name="Богема">
+    <ans id="1" value="1" means="Цыганщина"/>
+    <ans id="2" value="0" means="Блуд"/>
+    <ans id="3" value="0" means="Блеск"/>
+  </question>
+  <question number="2" name="Приличный">
+    <ans id="1" value="1" means="Похожий"/>
+    <ans id="2" value="0" means="Нормальный"/>
+    <ans id="3" value="0" means="Образцовый"/>
+  </question>
+  <question number="3" name="Врач">
+    <ans id="1" value="0" means="Спасать"/>
+    <ans id="2" value="0" means="Вредить"/>
+    <ans id="3" value="1" means="Заговаривать"/>
+  </question>
+  <question number="4" name="Небеса">
+    <ans id="1" value="1" means="Облако"/>
+    <ans id="2" value="0" means="Вознесение"/>
+    <ans id="3" value="0" means="Ангельский"/>
+  </question>
+  <question number="5" name="Кибернетика">
+    <ans id="1" value="0" means="Изучение"/>
+    <ans id="2" value="1" means="Управление"/>
+    <ans id="3" value="0" means="Информация"/>
+  </question>
+  <question number="6" name="Ресторан">
+    <ans id="1" value="0" means="Выпивающий"/>
+    <ans id="2" value="0" means="Отравляющий"/>
+    <ans id="3" value="1" means="Укрепляющий"/>
+  </question>
+  <question number="7" name="Кольчуга">
+    <ans id="1" value="0" means="Железо"/>
+    <ans id="2" value="0" means="Колесо"/>
+    <ans id="3" value="1" means="Кольцо"/>
+  </question>
+  <question number="8" name="Невеста">
+    <ans id="1" value="0" means="Мученица"/>
+    <ans id="2" value="0" means="Возлюбленная"/>
+    <ans id="3" value="1" means="Невежда"/>
+  </question>
+  <question number="9" name="Варежка">
+    <ans id="1" value="1" means="Оберегать"/>
+    <ans id="2" value="0" means="Утеплять"/>
+    <ans id="3" value="0" means="Мешать"/>
+  </question>
+  <question number="10" name="Композитор">
+    <ans id="1" value="0" means="Человек искусства"/>
+    <ans id="2" value="0" means="Фантазер"/>
+    <ans id="3" value="1" means="Составитель"/>
+  </question>
+  <question number="11" name="Фиаско">
+    <ans id="1" value="0" means="Пропажа"/>
+    <ans id="2" value="1" means="Бутыль"/>
+    <ans id="3" value="0" means="Горе"/>
+  </question>
+  <question number="12" name="Аргумент">
+    <ans id="1" value="0" means="Правда, истина"/>
+    <ans id="2" value="1" means="Белый"/>
+    <ans id="3" value="0" means="Повесть"/>
+  </question>
+  <question number="13" name="Матрац">
+    <ans id="1" value="0" means="Подстилка для беременных"/>
+    <ans id="2" value="0" means="Большая подушка"/>
+    <ans id="3" value="1" means="Коврик для сна"/>
+  </question>
+
+
+  <end>
+    <result min="9" >У Вас прекрасное логическое мышление, Вы хорошо разбираетесь в этимологии. Или же интернет пришел на помощь?)</result>
+    <result min="5" >Неплохо, очень даже</result>
+    <result min="0" >Может, просто не повезло?..</result>
+  </end>
+</head>

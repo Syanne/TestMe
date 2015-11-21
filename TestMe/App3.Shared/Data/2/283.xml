@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="16" max="16" name="В какой стране находится это здание?">
+  <question number="1" name="Тадж Махал">
+    <ans id="1" value="0" means="ОАЭ"/>
+    <ans id="2" value="1" means="Индия"/>
+    <ans id="3" value="0" means="Таиланд"/>
+  </question>
+  <question number="2" name="Эмпайр Стейт Билдинг">
+    <ans id="1" value="0" means="Великобритания"/>
+    <ans id="2" value="0" means="Канада"/>
+    <ans id="3" value="1" means="США"/>
+  </question>
+  <question number="3" name="Нотр-Дам (собор)">
+    <ans id="1" value="1" means="Франция"/>
+    <ans id="2" value="0" means="Италия"/>
+    <ans id="3" value="0" means="Германия"/>
+  </question>
+  <question number="4" name="Храм Неба">
+    <ans id="1" value="0" means="Япония"/>
+    <ans id="2" value="0" means="Таиланд"/>
+    <ans id="3" value="1" means="Китай"/>
+  </question>
+  <question number="5" name="Мачу Пикчу">
+    <ans id="1" value="0" means="Мексика"/>
+    <ans id="2" value="0" means="Чили"/>
+    <ans id="3" value="1" means="Перу"/>
+  </question>
+  <question number="6" name="Золотой мост Понте Веккио">
+    <ans id="1" value="1" means="Италия"/>
+    <ans id="2" value="0" means="Франция"/>
+    <ans id="3" value="0" means="Испания"/>
+  </question>
+  <question number="7" name="Бурдж Халифа - самое высокое сооружение в мире">
+    <ans id="1" value="1" means="ОАЭ"/>
+    <ans id="2" value="0" means="Турция"/>
+    <ans id="3" value="0" means="Индия"/>
+  </question>
+  <question number="8" name="Театр Глобус">
+    <ans id="1" value="0" means="Германия"/>
+    <ans id="2" value="0" means="Австрия"/>
+    <ans id="3" value="1" means="Великобритания"/>
+  </question>
+  <question number="9" name="Тадж Махал">
+    <ans id="1" value="0" means="Турция"/>
+    <ans id="2" value="1" means="Индия"/>
+    <ans id="3" value="0" means="Израиль"/>
+  </question>
+  <question number="10" name="Пизанская башня">
+    <ans id="1" value="0" means="Испания"/>
+    <ans id="2" value="1" means="Италия"/>
+    <ans id="3" value="0" means="Марокко"/>
+  </question>
+  <question number="11" name="Древний город Петра">
+    <ans id="1" value="0" means="Италия"/>
+    <ans id="2" value="1" means="Иордания"/>
+    <ans id="3" value="0" means="Израиль"/>
+  </question>
+  <question number="12" name="Екатерининский дворец">
+    <ans id="1" value="0" means="Украина"/>
+    <ans id="2" value="1" means="Россия"/>
+    <ans id="3" value="0" means="Беларусь"/>
+  </question>
+  <question number="13" name="Кносский дворец-лабиринт царя Миноса">
+    <ans id="1" value="0" means="Македония"/>
+    <ans id="2" value="0" means="Марокко"/>
+    <ans id="3" value="1" means="Греция"/>
+  </question>
+  <question number="14" name="Миккены">
+    <ans id="1" value="0" means="Египет"/>
+    <ans id="2" value="0" means="Болгария"/>
+    <ans id="3" value="1" means="Греция"/>
+  </question>
+  <question number="15" name="Абу-Менас">
+    <ans id="1" value="1" means="Египет"/>
+    <ans id="2" value="0" means="Турция"/>
+    <ans id="3" value="0" means="ОАЭ"/>
+  </question>
+  <question number="16" name="Собор Святого Семейства">
+    <ans id="1" value="0" means="Израиль"/>
+    <ans id="2" value="0" means="Австрия"/>
+    <ans id="3" value="1" means="Испания"/>
+  </question>
+
+
+  <end>
+    <result min="11" >Вы ответили правильно на большинство вопросов. Похоже, Вы отлично разбираетесь в архитектуре и истории.</result>
+    <result min="8" >Вы ответили правильно как минимум на половину вопросов, и это очень хороший результат.</result>
+    <result min="0" >К сожалению, с тестом Вы не справились. Хотите повторить еще раз?</result>
+  </end>
+</head>

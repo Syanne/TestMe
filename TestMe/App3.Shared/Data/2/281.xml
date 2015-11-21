@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="10" max="10" name="Рифмованные загадки">
+  <question number="1" name="То толстеет, &#10; То худеет,&#10;  На весь дом голосит.">
+    <ans id="1" value="0" means="Бабушка"/>
+    <ans id="2" value="1" means="Гармошка"/>
+    <ans id="3" value="0" means="Гудок велосипеда"/>
+  </question>
+  <question number="2" name="Смело в небе проплывает,&#10;  Обгоняя птиц полет. &#10;  Человек им управляет. &#10;  Что такое?">
+    <ans id="1" value="0" means="Воздушный шарик"/>
+    <ans id="2" value="0" means="Ракета"/>
+    <ans id="3" value="1" means="Самолет"/>
+  </question>
+  <question number="3" name="Кто на свете ходит&#10;  В каменной рубахе? &#10;  В каменной рубахе&#10;  Ходят...">
+    <ans id="1" value="0" means="носороги"/>
+    <ans id="2" value="1" means="черепахи"/>
+    <ans id="3" value="0" means="жуки"/>
+  </question>
+  <question number="4" name="Самое холодное местечко&#10;  В нашем доме – ">
+    <ans id="1" value="0" means="это печка"/>
+    <ans id="2" value="1" means="холодильник, а не печка"/>
+    <ans id="3" value="0" means="кондиционер, конечно"/>
+  </question>
+  <question number="5" name="Пусть крыша течёт&#10;  И сломалась калитка,&#10;  Свой дом ни за что&#10;  Не покинет">
+    <ans id="1" value="1" means="улитка"/>
+    <ans id="2" value="0" means="домосед"/>
+    <ans id="3" value="0" means="мой дед"/>
+  </question>
+  <question number="6" name="По реке плывет бревно —&#10;  Ох и злющее оно!&#10;  Тем, кто в реку угодил,&#10;  Нос откусит">
+    <ans id="1" value="1" means="крокодил"/>
+    <ans id="2" value="0" means="водяной"/>
+    <ans id="3" value="0" means="ламантин"/>
+  </question>
+  <question number="7" name="Утирает Санька слёзы:&#10;  Больно щиплются...">
+    <ans id="1" value="0" means="розы"/>
+    <ans id="2" value="0" means="мимозы"/>
+    <ans id="3" value="1" means="морозы"/>
+  </question>
+  <question number="8" name="На коньках мы мчимся быстро.&#10;  Мы – спортсмены,">
+    <ans id="1" value="0" means="футболисты"/>
+    <ans id="2" value="1" means="хоккеисты"/>
+    <ans id="3" value="0" means="культуристы"/>
+  </question>
+  <question number="9" name="Он большой, &#10;  Как мяч футбольный!&#10;  Если спелый — все довольны! &#10;   Так приятен он на вкус!&#10;  Это что? ...">
+    <ans id="1" value="0" means="лангуст"/>
+    <ans id="2" value="1" means="арбуз"/>
+    <ans id="3" value="0" means="перекус"/>
+  </question>
+  <question number="10" name="Носят их дети,&#10;  Носят старички,&#10;  Чтобы лучше видеть! &#10;  Что это?...">
+    <ans id="1" value="0" means="Линзы"/>
+    <ans id="2" value="1" means="Очки"/>
+    <ans id="3" value="0" means="Бинокль"/>
+  </question>
+
+
+  <end>
+    <result min="7" >Потрясающий результат! Вы отлично подбираете рифмы, да и вообще - отгадываете загадки! Если хотите больше таких тестов, напишите в отзыве к приложению!</result>
+    <result min="4" >Где-то неправильно подобрали рифму, наверное? Со всеми случается! Хотите попробовать еще раз?</result>
+    <result min="0" >Никуда не годится... Может, заново пройдем?</result>
+  </end>
+</head>
+

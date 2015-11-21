@@ -1,0 +1,215 @@
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\App.xbf
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\1.MainPage-WP.xbf
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\2.1.TestPage-WP.xbf
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\3.Result.xbf
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\4.GroupDetailPage.xbf
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\App3.WindowsPhone.xr.xml
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\App3.WindowsPhone.exe
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\App3.WindowsPhone.pdb
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\resources.pri
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\AppxManifest.xml
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\Test Me WP.build.appxrecipe
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\AdDuplex.Universal.Controls.WinPhone.XAML.winmd
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\AdDuplex.Universal.WinPhone.WinRT.winmd
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.dll
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\WinRTXamlToolkit.dll
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\AdDuplex.Universal.Controls.WinPhone.XAML.pri
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\AdDuplex.Universal.WinPhone.WinRT.pri
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\WinRTXamlToolkit.pri
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\App.g.i.cs
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\App.g.cs
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\1.MainPage-WP.g.i.cs
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\1.MainPage-WP.g.cs
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\2.1.TestPage-WP.g.i.cs
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\2.1.TestPage-WP.g.cs
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\3.Result.g.i.cs
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\3.Result.g.cs
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\4.GroupDetailPage.g.i.cs
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\4.GroupDetailPage.g.cs
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\App.xaml
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\1.MainPage-WP.xaml
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\2.1.TestPage-WP.xaml
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\3.Result.xaml
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\4.GroupDetailPage.xaml
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\App.xbf
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\1.MainPage-WP.xbf
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\2.1.TestPage-WP.xbf
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\3.Result.xbf
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\4.GroupDetailPage.xbf
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\App3.WindowsPhone.exe
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\App3.WindowsPhone.pdb
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\en-US\WinRTXamlToolkit.Controls.DataVisualization.Properties.Resources.resw
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\Test Me WP.csproj.GenerateResource.Cache
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles.intermediate
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles.intermediate
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles.intermediate
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml.intermediate
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\qualifiers.txt
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\priconfig.xml
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\layout.resfiles
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\resources.resfiles
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\pri.resfiles
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\qualifiers.txt
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\AdDuplex.Universal.Controls.WinPhone.XAML.pri.xml
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\AdDuplex.Universal.WinPhone.WinRT.pri.xml
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.pri.xml
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri.xml
+E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\Test Me WP.csprojResolveAssemblyReference.cache
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\App.g.i.cs
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\App.g.cs
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\1.MainPage-WP.g.i.cs
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\1.MainPage-WP.g.cs
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\2.1.TestPage-WP.g.i.cs
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\2.1.TestPage-WP.g.cs
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\3.Result.g.i.cs
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\3.Result.g.cs
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\4.GroupDetailPage.g.i.cs
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\4.GroupDetailPage.g.cs
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\App.xaml
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\1.MainPage-WP.xaml
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\2.1.TestPage-WP.xaml
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\3.Result.xaml
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\4.GroupDetailPage.xaml
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\App.xbf
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\1.MainPage-WP.xbf
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\2.1.TestPage-WP.xbf
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\3.Result.xbf
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\4.GroupDetailPage.xbf
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\App3.WindowsPhone.exe
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\App3.WindowsPhone.pdb
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\App.xbf
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\1.MainPage-WP.xbf
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\2.1.TestPage-WP.xbf
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\3.Result.xbf
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\4.GroupDetailPage.xbf
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\App3.WindowsPhone.xr.xml
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\App3.WindowsPhone.exe
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\App3.WindowsPhone.pdb
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\resources.pri
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\AppxManifest.xml
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\Test Me WP.build.appxrecipe
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\AdDuplex.Universal.Controls.WinPhone.XAML.winmd
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\AdDuplex.Universal.WinPhone.WinRT.winmd
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.dll
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\WinRTXamlToolkit.dll
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\AdDuplex.Universal.Controls.WinPhone.XAML.pri
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\AdDuplex.Universal.WinPhone.WinRT.pri
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\WinRTXamlToolkit.pri
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\en-US\WinRTXamlToolkit.Controls.DataVisualization.Properties.Resources.resw
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\Test Me WP.csproj.GenerateResource.Cache
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles.intermediate
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles.intermediate
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles.intermediate
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml.intermediate
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\qualifiers.txt
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\priconfig.xml
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\layout.resfiles
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\resources.resfiles
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\pri.resfiles
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\qualifiers.txt
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\AdDuplex.Universal.Controls.WinPhone.XAML.pri.xml
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\AdDuplex.Universal.WinPhone.WinRT.pri.xml
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.pri.xml
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri.xml
+E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\App.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\1.MainPage-WP.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\2.1.TestPage-WP.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\3.Result.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\4.GroupDetailPage.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\App3.WindowsPhone.xr.xml
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\App3.WindowsPhone.exe
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\App3.WindowsPhone.pdb
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\resources.pri
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\AppxManifest.xml
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\Test Me WP.build.appxrecipe
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\AdDuplex.Universal.Controls.WinPhone.XAML.winmd
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\AdDuplex.Universal.WinPhone.WinRT.winmd
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.dll
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\WinRTXamlToolkit.dll
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\AdDuplex.Universal.Controls.WinPhone.XAML.pri
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\AdDuplex.Universal.WinPhone.WinRT.pri
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\WinRTXamlToolkit.pri
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\Test Me WP.csprojResolveAssemblyReference.cache
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\App.g.i.cs
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\App.g.cs
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\1.MainPage-WP.g.i.cs
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\1.MainPage-WP.g.cs
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\2.1.TestPage-WP.g.i.cs
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\2.1.TestPage-WP.g.cs
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\3.Result.g.i.cs
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\3.Result.g.cs
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\4.GroupDetailPage.g.i.cs
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\4.GroupDetailPage.g.cs
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\App.xaml
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\1.MainPage-WP.xaml
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\2.1.TestPage-WP.xaml
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\3.Result.xaml
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\4.GroupDetailPage.xaml
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\App.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\1.MainPage-WP.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\2.1.TestPage-WP.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\3.Result.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\4.GroupDetailPage.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\App3.WindowsPhone.exe
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\App3.WindowsPhone.pdb
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\en-US\WinRTXamlToolkit.Controls.DataVisualization.Properties.Resources.resw
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\Test Me WP.csproj.GenerateResource.Cache
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\qualifiers.txt
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\priconfig.xml
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\layout.resfiles
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\resources.resfiles
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\pri.resfiles
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\qualifiers.txt
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\AdDuplex.Universal.Controls.WinPhone.XAML.pri.xml
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\AdDuplex.Universal.WinPhone.WinRT.pri.xml
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.pri.xml
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri.xml
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml
+E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.WindowsPhone\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml.intermediate

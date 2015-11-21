@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="25" max="25" name="Это слово - омоним?">
+  <question number="1" name="Три">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="2" name="Козел">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="3" name="Омлет">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="4" name="Мука">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="5" name="Наперсток">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="6" name="Кубок">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="7" name="Клуб">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="8" name="Мазь">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="9" name="Наряд">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="10" name="Тик">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="11" name="Плие">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="12" name="Ласка">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="13" name="Определение">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="14" name="Ветка">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="15" name="Рой">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="16" name="Следствие">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="17" name="Крен">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="18" name="Кромка">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="19" name="Верхи">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="20" name="Рок">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="21" name="Вор">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="22" name="Порка">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="23" name="Папка">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="24" name="Период">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="25" name="Галочка">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+
+
+  <end>
+    <result min="20" >Можете собой гордиться - Вы прекрасно знаете омонимы.</result>
+    <result min="13" >На большую часть вопросов Вы ответили верно. Хотите попробовать еще раз?</result>
+    <result min="0" >К сожалению, Вы ответили верно на меньшую половину вопросов.</result>
+  </end>
+</head>

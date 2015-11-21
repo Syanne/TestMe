@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="20" max="20" name="Правда или Ложь? Часть 1">
+  <question number="1" name="В мире значительно больше темноглазых людей, чем людей со светлыми глазами">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="2" name="Первый летательный аппарат был создан в 17 веке">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="3" name="Гавайский алфавит состоит из 200 букв">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="4" name="Амбидекстры — люди, в одинаковой степени, владеющие обеими руками">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="5" name="Все планеты Солнечной системы названы в честь греческих богов и богинь">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="6" name="Губы человека в сотни раз чувствительнее, чем кончики пальцев">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="7" name="Самым популярным цветом в мире является синий">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="8" name="В мире кур больше, чем людей">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="9" name="90% людей целуются с закрытыми глазами">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="10" name="Основатели Голливуда хотели, чтобы он стал религиозной общиной">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="11" name="Самые высокие люди - испанцы">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="12" name="В среднем у мужчин IQ ниже, чем у женщин">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="13" name="Лжецы никогда не смотрят в глаза">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="14" name="Большинство долгожителей - мужчины">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="15" name="Летом дети растут быстрее, чем в другие времена года">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="16" name="Московское метро - самое быстрое в мире">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="17" name="Если человек выпьет за сутки 3 литра воды, он может умереть">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="18" name="Акула, может учуять маленькую каплю крови в 100 литрах воды">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="19" name="Кошка за свою жизнь может иметь не больше 100 котят">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="20" name="Нос растет в течении всей жизни человека">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+
+  <end>
+    <result min="16" >Вы правильно ответили на большинство вопросов.</result>
+    <result min="11" >Вы хорошо постарались, и на многие вопросы ответили верно. Хотите попробовать еще раз?</result>
+    <result min="0" >Может, не повезло? Попробуйте еще раз! </result>
+  </end>
+</head>

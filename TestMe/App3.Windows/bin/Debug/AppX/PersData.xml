@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head count="1">
+  <test id="1" name="К сожалению, Вы пока не прошли ни один тест. Нажмите на этот текст, чтобы увидеть пример диаграммы" max="20" result="15" desc=""/>
+  <test id="2" name="" max="" result="" desc=""/>
+  <test id="3" name="" max="" result="" desc=""/>
+  <test id="4" name="" max="" result="" desc=""/>
+  <test id="5" name="" max="" result="" desc=""/>
+  <test id="6" name="" max="" result="" desc=""/>
+  <test id="7" name="" max="" result="" desc=""/>
+  <test id="8" name="" max="" result="" desc=""/>
+</head>

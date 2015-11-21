@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="20" max="40" name="Хорошее ли у Вас воображение?">
+  <question number="1" name="Я не помню себя в раннем детстве (до 2х лет)">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="2" name="В детстве я мог(ла) вообразить, что летаю, с такой ясностью, что начинал(а) верить в реальность этого акта.">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="3" name="В детстве я просто наслаждался(ась) сказками.">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="4" name="Повзрослев, я по-прежнему обожаю сказки.">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="5" name="Когда в детстве я играл(а) в сказки и нередко сам верил(а), что я сказочный герой">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="6" name="Повзрослев, я время от времени вживаюсь в какую-то роль.">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="7" name="Мне бы хотелось оказаться под гипнозом (я получаю удовольствие, находясь под гипнозом).">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="8" name="Я легко вспоминаю свои сны.">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="9" name="По своему желанию я обычно могу проснуться или даже изменить сновидение.">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="10" name="Перед тем, как заснуть, меня посещают отчетливые видения.">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="11" name="Вспоминая какие-то значительные события, я могу пережить их заново: услышать звуки, голоса, почувствовать волнение.">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="12" name="Мне легко вызвать в своем воображении образ друга.">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="13" name="Обычно я вспоминаю свои сны со всеми картинами и подробностями, а не только их фрагменты.">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="14" name="В детстве у меня был воображаемый друг">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="15" name="Я испытываю большое наслаждение от дневного сна.">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="16" name="Я отчетливо помню любимые сцены из фильмов">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="17" name="Если закрытю глаза и представлю, что держу в руках ребенка или кота, легко могу почувствовать вес и теплоту этого тела.">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="18" name="Я очень быстро теряюсь, когда совершаю физические действия (танцую, бегу и т.д.).">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="19" name="Во время чтения книги я могу легко соотнести себя с ее персонажем и почувствовать, что он переживает.">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+  <question number="20" name="Мне нравятся широко раскрытые окна.">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="не могу сказать определенно"/>
+    <ans id="3" value="0" means="нет"/>
+  </question>
+
+
+  <end>
+    <result min="27" >Вы живете в фантастическом мире, исключительно богатом деталями. "Спускаясь на землю", Вы оказываетесь на чужой территории.</result>
+    <result min="13" >У Вас случаются отдельные вспышки интуиции. Но Ваша фантазия находится в зависимости от настроения.</result>
+    <result min="0" >Ваши отличительные черты -"приземленность" и прагматичность. Опираясь на твердую почву, Вы не можете от нее оторваться, а потому почти лишены дара предвидения.</result>
+  </end>
+</head>

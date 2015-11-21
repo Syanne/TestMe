@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="15" max="15" name="Правда или Ложь? Лондон">
+  <question number="1" name="Автомобили в Лондоне ездят по левой стороне улицы, причем коренные лондонцы твердо убеждены в том, что эта сторона дороги – самая правильная">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="2" name="Колесо обозрения London Eye — это первое по величине колесо обозрения в мире.">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="3" name="Самый крупный пожар в Лондоне произошел в 666 году">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="4" name="Всемирно известная достопримечательность Лондона Биг Бен на самом деле носит название не часов или башни, а 13-тонного колокола, который расположен внутри часов">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="5" name="В Лондоне всего 10 театров">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="6" name="В среднем около половины людей на центральных улицах столицы Великобритании - туристы">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="7" name="Лондон - самый интернациональный город мира">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="8" name="На Трафальгарской площади находится памятник Адмиралу Хофману">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="9" name="Хитроу – один из 5 международных аэропортов Лондона, а так же самый посещаемый аэропорт мира.">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="10" name="Лондонский метрополитен — самый старый в мире, его открытие приходится на 1863 год">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="11" name="Виндзорский замок является крупнейшим и старейшим замком Лондона.">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="12" name="Чтобы стать таксистом в Лондоне, достаточно иметь права и свою машину">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="13" name="Въезд в центр города платный, что помогает избежать пробок в центре столицы.">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="14" name="1706,8 км кВ. – площадь столицы Великобритании.">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="15" name="Нулевой меридиан, названый в честь района города – Гринвич, проходит через столицу страны.">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+
+
+  <end>
+    <result min="10" >Отличный результат! Это значит, что Вы посчитали большинство ответов правдой. Так оно и есть.</result>
+    <result min="5" >А может, еще потренируетесь? Это не плохой результат, просто Вам, кажется, не повезло...</result>
+    <result min="0" >Ой, кажется, Вы ошиблись... Причем, примерно 10 раз. Давайте еще разок пройдем этот тест?</result>
+  </end>
+</head>

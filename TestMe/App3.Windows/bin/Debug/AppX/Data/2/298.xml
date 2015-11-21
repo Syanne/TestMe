@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="15" max="15" name="Интересные факты из истории">
+  <question number="1" name="Самая короткая война длилась...">
+    <ans id="1" value="0" means="2 месяца"/>
+    <ans id="2" value="0" means="5 дней"/>
+    <ans id="3" value="1" means="38 минут"/>
+  </question>
+  <question number="2" name="Юлий Цезарь был не только великим полководцем, но и...">
+    <ans id="1" value="1" means="Поэтом"/>
+    <ans id="2" value="0" means="Певцом"/>
+    <ans id="3" value="0" means="Композитором"/>
+  </question>
+  <question number="3" name="Орден Тамплиеров изначально назывался">
+    <ans id="1" value="1" means="Орден бедных рыцарей Христовых"/>
+    <ans id="2" value="0" means="Орден честных рыцарей Христовых"/>
+    <ans id="3" value="0" means="Орден последних рыцарей Христовых"/>
+  </question>
+  <question number="4" name="Какой вид казни сменил казнь через повешенье в США?">
+    <ans id="1" value="0" means="Пожизненный срок"/>
+    <ans id="2" value="1" means="Казнь через электрический стул"/>
+    <ans id="3" value="0" means="Казнь через щекотку"/>
+  </question>
+  <question number="5" name="Это правда, что Европу в 1518 году поразила болезнь, боль от которой облегчало громкое пение?">
+    <ans id="1" value="0" means="Да, конечно было"/>
+    <ans id="2" value="1" means="Нет, а вот танцевальная чума была"/>
+    <ans id="3" value="0" means="Да, только пели не чтобы облегчить боль. Это был один из симптомов"/>
+  </question>
+  <question number="6" name="А правда, что один великий визирь Персии в 10 веке всюду возил за собой свою библиотеку?">
+    <ans id="1" value="1" means="Бедные верблюды..."/>
+    <ans id="2" value="0" means="Быть такого не может!"/>
+  </question>
+  <question number="7" name="Когда-то лондонские светила медицины рекомендовали курить чтобы...">
+    <ans id="1" value="0" means="Отгонять комаров"/>
+    <ans id="2" value="1" means="Убить микробов"/>
+    <ans id="3" value="0" means="Вылечить кариес"/>
+  </question>
+  <question number="8" name="Опиум для народа, по словам Маркса, это...">
+    <ans id="1" value="0" means="Царская власть"/>
+    <ans id="2" value="1" means="Церковь"/>
+    <ans id="3" value="0" means="Свобода слова"/>
+  </question>
+  <question number="9" name="Робин Гуд - это прототип реального человека, жившего на в XII веке в Британии ">
+    <ans id="1" value="1" means="Правда"/>
+    <ans id="2" value="0" means="Ложь"/>
+  </question>
+  <question number="10" name="В V веке римляне откупили от осады варваров целый город за полторы тонны...">
+    <ans id="1" value="0" means="Соли"/>
+    <ans id="2" value="0" means="Сахара"/>
+    <ans id="3" value="1" means="Перца"/>
+  </question>
+  <question number="11" name="А правда, что во время Второй Мировой войны СССР использовал тракторы?">
+    <ans id="1" value="1" means="Да, вместо танков"/>
+    <ans id="2" value="0" means="Нет, не было такого"/>
+  </question>
+  <question number="12" name="Во время первой мировой войны британские танки делили на...">
+    <ans id="1" value="0" means="Железные и картонные"/>
+    <ans id="2" value="0" means="Большие и маленькие"/>
+    <ans id="3" value="1" means="Самцов и самок"/>
+  </question>
+  <question number="13" name="Григорий Потескин был фаворитом">
+    <ans id="1" value="0" means="Екатерины I"/>
+    <ans id="2" value="0" means="Елизаветы I Петровны"/>
+    <ans id="3" value="1" means="Екатерины II"/>
+  </question>
+  <question number="14" name="Самая древняя известная ученым карта найдена на территории современной...">
+    <ans id="1" value="0" means="России"/>
+    <ans id="2" value="1" means="Украины"/>
+    <ans id="3" value="0" means="Греции"/>
+  </question>
+  <question number="15" name="И на последок: восстание декабристов произошло в">
+    <ans id="1" value="0" means="1826 году"/>
+    <ans id="2" value="1" means="1825 году"/>
+    <ans id="3" value="0" means="1926 году"/>
+  </question>
+
+
+  <end>
+    <result min="11" >Похоже, Вы отлично знаете историю. </result>
+    <result min="6" >Вы неплохо знаете историю. </result>
+    <result min="0" >Может, история - не ваш конек? </result>
+  </end>
+</head>

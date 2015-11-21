@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="25" max="75" name="Насколько правилен ваш образ жизни?">
+  <question number="1" name="Умеете ли Вы отдыхать и расслабляться?">
+    <ans id="1" value="5" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="2" name="Употребляете ли Вы алкоголь?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+  </question>
+  <question number="3" name="Вы курите?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="6" means="нет"/>
+  </question>
+  <question number="4" name="Если курите, то больше одной пачки в день?">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="5" name="Есть ли у вас любимый человек?">
+    <ans id="1" value="4" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="6" name="Есть ли у вас друг, которому Вы полностью доверяете?">
+    <ans id="1" value="3" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="7" name="Часто ли вас охватывает беспокойство?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="5" means="нет"/>
+  </question>
+  <question number="8" name="Вы предпочитаете активный отдых?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="9" name="Регулярно ли Вы делаете зарядку?">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="10" name="Довольны ли Вы своей работой?">
+    <ans id="1" value="4" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="11" name="Есть ли у вас хобби, развлечение?">
+    <ans id="1" value="4" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="12" name="Достаточно ли в вашем рационе витаминов?">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="13" name="Ограничиваете ли Вы себя в употреблении животных жиров?">
+    <ans id="1" value="5" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="14" name="Регулярно ли Вы едите свежие овощи и фрукты?">
+    <ans id="1" value="3" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="15" name="Ограничиваете ли Вы себя в употреблении сахара?">
+    <ans id="1" value="3" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="16" name="Часто ли вам приходится покупать лекарства?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+  </question>
+  <question number="17" name="Проверяете ли Вы хоть иногда свое артериальное давление?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="18" name="Вы весите больше нормы?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="5" means="нет"/>
+  </question>
+  <question number="19" name="Часто ли Вы тоскуете?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+  </question>
+  <question number="20" name="Страдаете ли Вы бессонницей?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="21" name="Часто ли Вы прибегаете к помощи снотворного?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="22" name="Считаете ли Вы себя недостаточно ответственным человеком?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+  </question>
+  <question number="23" name="Вы считаете, что должны брать на себя меньше обязательств?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+  </question>
+  <question number="24" name="Бывают ли у вас болезненные симптомы, но при этом Вы не обращаетесь к врачу?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="5" means="нет"/>
+  </question>
+  <question number="25" name="Занимаетесь ли Вы экстремальными видами спорта?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="3" means="нет"/>
+  </question>
+
+
+  <end>
+    <result min="50" >Вы ведете здоровый образ жизни, следовательно, ваше здоровье опасений пока не вызывает. Не расслабляйтесь, продолжайте поддерживать его.</result>
+    <result min="25" >Ваш организм страдает от отсутствия режима, диет и физических упражнений. Обратите на это внимание, ведь от этого зависит ваше здоровье!</result>
+    <result min="0" >Задумайтесь над тем, какой образ жизни Вы ведете. Следите за собой, составьте распорядок дня, откажитесь от вредных привычек и, главное, уделяйте особое внимание рациону питания.</result>
+  </end>
+</head>

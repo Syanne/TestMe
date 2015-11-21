@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="12" max="12" name="Тест на эрудицию">
+  <question number="1" name="Ровно в полночь на город обрушился ливень. Можно ли надеяться, что через 96 часов выглянет солнышко?">
+    <ans id="1" value="0" means="Да"/>
+    <ans id="2" value="1" means="Нет"/>
+  </question>
+  <question number="2" name="Вы опередили лыжника, который находился на второй позиции. Какое месте теперь Вы занимаете?">
+    <ans id="1" value="0" means="На первом"/>
+    <ans id="2" value="1" means="На втором"/>
+    <ans id="3" value="0" means="Ни на каком. Вы спите)"/>
+  </question>
+  <question number="3" name="Завязать можно, а развязать нельзя">
+    <ans id="1" value="1" means="Разговор"/>
+    <ans id="2" value="0" means="Морской узел"/>
+    <ans id="3" value="0" means="Пакет с печеньем"/>
+  </question>
+  <question number="4" name="Шли муж с женой, брат с сестрой да муж с шурином. Сколько всего человек?">
+    <ans id="1" value="0" means="6"/>
+    <ans id="2" value="0" means="4"/>
+    <ans id="3" value="1" means="3"/>
+  </question>
+  <question number="5" name="На столе лежит 100 листов бумаги. За каждые 10 секунд можно посчитать 10 листов. Сколько секунд понадобится, чтобы посчитать 80 листов?">
+    <ans id="1" value="0" means="80"/>
+    <ans id="2" value="0" means="40"/>
+    <ans id="3" value="1" means="20"/>
+  </question>
+  <question number="6" name="В 12-этажном доме есть лифт. На первом этаже живет 2 человека, а от этажак этажу количество жильцов цвеличивается. Какую кнопку в лифте нажимают чаще всего?">
+    <ans id="1" value="1" means="1"/>
+    <ans id="2" value="0" means="8"/>
+    <ans id="3" value="0" means="12"/>
+  </question>
+  <question number="7" name="Стоит дом, в котором 4 стены. Каждая стена выходит на юг. У одного из окон гуляет медведь. Какого он цвета?">
+    <ans id="1" value="0" means="Черного"/>
+    <ans id="2" value="0" means="Коричневого"/>
+    <ans id="3" value="1" means="Белого"/>
+  </question>
+  <question number="8" name="Чем кнопки на телефоне отличаются от кнопок на калькуляторе? ">
+    <ans id="1" value="0" means="Формой"/>
+    <ans id="2" value="1" means="Расположением"/>
+    <ans id="3" value="0" means="Наличием"/>
+  </question>
+  <question number="9" name="Разделите 30 на 1/2, добавьте 10. Сколько получилось?">
+    <ans id="1" value="0" means="15"/>
+    <ans id="2" value="0" means="25"/>
+    <ans id="3" value="1" means="70"/>
+  </question>
+  <question number="10" name="Один кирпич весит 1 кг и еще полкирпича. Сколько весит один кирпич?">
+    <ans id="1" value="0" means="1.5 кг"/>
+    <ans id="2" value="1" means="2 кг"/>
+    <ans id="3" value="0" means="Полтора кирпича"/>
+  </question>
+  <question number="11" name="Что не может увеличить лупа в треугольнике?">
+    <ans id="1" value="0" means="Все может увеличить"/>
+    <ans id="2" value="0" means="Стороны"/>
+    <ans id="3" value="1" means="Углы"/>
+  </question>
+  <question number="12" name="Что не врет никогда?">
+    <ans id="1" value="1" means="Свет мой, зеркальце!"/>
+    <ans id="2" value="0" means="Доктор Хаус"/>
+    <ans id="3" value="0" means="Память"/>
+  </question>
+
+  <end>
+    <result min="9" >Потрясающий результат! Вы - настоящий эрудит.</result>
+    <result min="5" >Хороший результат. Хотите еще раз попробовать? </result>
+    <result min="0" >Не самый сильный результат. Попробуйте пройти тест заново через некоторое время.</result>
+  </end>
+</head>

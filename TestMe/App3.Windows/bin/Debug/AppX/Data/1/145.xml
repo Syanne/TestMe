@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="8" max="8" name="Какой у Вас характер?">
+  <question number="1" name="Уважаете ли Вы дружбу?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="2" name="Привлекает ли Вас все новое?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="3" name="Предпочитаете ли Вы старую одежду новой?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="4" name="Часто ли Вы притворяетесь, что всем довольны, даже если чувствуете обратное?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="5" name="В детстве Вы часто (более 3 раз) меняли мнение о будущей профессии?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="6" name="Лишаетесь ли Вы уверенности в себе, когда предстоит решить трудное задание? ">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="7" name="Коллекционируете ли Вы что-либо?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="8" name="Часто ли Вы меняете свои планы в последний момент?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+
+
+  <end>
+    <result min="6" >Вы уравновшенный человек, и редко создаете хлопоты окружающим. Им приятно с Вами общаться.</result>
+    <result min="3" >У Вас изменчивое настроение и характер. Не забывайте, что проявляя постоянство и настойчивость, Вы будете преуспевать в жизни.</result>
+    <result min="0" >Почему Вы не верите в свои силы? Нужно больше доверять своим близким и поискать себе друзей. Будьте смелее и увереннее в себе!</result>
+  </end>
+</head>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="12" max="12" name="Благоразумны ли вы?">
+  <question number="1" name="Вы можете выйти из себя по самому незначительному поводу?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="2" name="Боитесь ли Вы вывести человека из себя, зная, что он физически сильнее Вас?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="3" name="Вы можете начать скандал только для того, чтобы на Вас обратили внимание?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="4" name="Вам нравится ездить на большой скорости, даже если это рисковано?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="5" name="Когда Вы болеете, не слишком ли увлекаетесь лекарствами?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="6" name="Пойдете ли Вы на все для тго, чтобы получить желаемое?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="7" name="Собака - Ваше любимое животное">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="8" name="Любите ли Вы часами сидеть на солнце?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="9" name="Уверены ли вы, что когда-нибудь станете знаменитостью?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="10" name="Умеете ли Вы вовремя &quot;выйти из игры&quot;, если чувствуете, что начинаете прогрывать?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="11" name="Есть ли у Вас привычка кушать много, даже если не голодны?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="12" name="Предпочитаете ли Вы заранее знать, что Вам подарят?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+
+
+  <end>
+    <result min="8" >Вы чрезвычайно разумны, Ваши потребности умеренны. вым не стоит бояться разочарований. Но, быть может, Ваша жизнь слишком однообразна? Попробуйте что-то необычное, разнообразьте свою жизнь новыми впечатлениями!</result>
+    <result min="4" >Можно сказать, что Вы попали в &quot;золотую середину&quot;. У Вас прекрасное чувство меры. Вы точно знаете свои возможности и четко ставите цели. И хотя у Вас есть немного сумасбродства, это лишь придает очарования.</result>
+    <result min="0" >Вы абсолютно безрассудны. Вам всего и всегда мало, постоянно нужен риск и новые ощущения. Попробуйте радоваться приятным пустяками, которых не так мало.</result>
+  </end>
+</head>

@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="25" max="100" name="Рискнете ли вы..?">
+  
+  <question number="1" name="Превысили бы Вы установленную скорость, чтобы быстрее оказать необходимую медицинскую помощь больному человеку?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="2" name="Согласились бы Вы ради хорошего заработка участвовать в опасной и длительной экспедиции?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="3" name="Стали бы Вы на пути убегающего опасного преступника?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+  
+  <question number="4" name="Могли бы Вы ехать на подножке товарного вагона при скорости более 100 км/ч?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="5" name="Можете ли Вы на другой день после бессонной ночи нормально работать?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="6" name="Стали бы Вы первым переходить холодную реку?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="7" name="Одолжили бы Вы другу большую сумму денег, будучи не совсем уверенным, что он сможет Вам вернуть ее?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="8" name="Могли бы Вы отправиться в далекую поездку на автомобиле, если бы за рулем должен был сидеть Ваш знакомый, совсем недавно побывавший в тяжелом дорожном происшествии?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="9" name="Вошли бы Вы вместе с укротителем в клетку со львами при его заверении, что это безопасно?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+  
+  <question number="10" name="Могли бы Вы под руководством опытного наставника залезть на высокую фабричную трубу?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="11" name="Могли бы Вы без тренировки взяться за управление парусной лодкой?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="12" name="Рискнули бы Вы схватить за уздечку бегущую лошадь?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="13" name="Могли бы вы, выпив пару литров пива, ехать на велосипеде?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="14" name="Могли бы Вы совершить прыжок с парашютом?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="15" name="Могли бы Вы при необходимости проехать без билета от Петербурга до Мурманска?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+  
+  <question number="16" name="Могли бы Вы прыгнуть с 10-метровой высоты на тент пожарной команды?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="17" name="Могли бы вы, чтобы избавиться от затяжной болезни с постельным режимом, пойти на опасную для жизни операцию?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="18" name="Могли бы Вы спрыгнуть с подножки вагона при скорости движения 60 км/ч?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="19" name="Могли бы Вы в виде исключения вместе с шестью другими людьми подняться на лифте, рассчитанном только на 5 человек?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="20" name="Могли бы Вы за большое денежное вознаграждение перейти с завязанными глазами оживленный уличный перекресток?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="21" name="Взялись бы Вы за опасную для жизни работу, если бы за нее хорошо платили?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="22" name="Могли бы Вы после 10 рюмок водки вычислять проценты?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="23" name="Могли бы Вы по указанию Вашего начальника взяться за высоковольтный провод, если бы он заверил Вас, что провод обесточен?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="24" name="Могли бы Вы после некоторых предварительных объяснений управлять вертолетом?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+
+  <question number="25" name="Могли бы вы, имея билеты, но без денег и продуктов, доехать из Москвы до Хабаровска?">
+    <ans id="1" value="4" means="Да, согласен, это точно обо мне!"/>
+    <ans id="2" value="3" means="Наверное, да"/>
+    <ans id="3" value="2" means="Даже не знаю..."/>
+    <ans id="4" value="1" means="Скорее нет"/>
+    <ans id="5" value="0" means="Точно нет"/>
+  </question>
+  
+  <end>
+    <result min="70" >А Вы рисковый человек! У того, кто рискует, должна быть очень интересная жизнь.</result>
+    <result min="50" >У Вас средний результат. А это значит, что Вы в меру осторожный человек.</result>
+    <result min="0" >Вы слишком осторожны. Попробуйте хоть изредка совершать что-то необычное и выходить из зоны комфорта.</result>
+  </end>
+</head>

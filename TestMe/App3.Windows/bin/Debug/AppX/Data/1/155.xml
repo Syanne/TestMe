@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="10" max="300" name="Бережливы ли вы?">
+  <question number="1" name="Пользуетесь ли Вы услугами банка?">
+    <ans id="1" value="25" means="оплачиваю коммунальные услуги"/>
+    <ans id="2" value="30" means="да, оплачиваю счета, делаю покупки с карты"/>
+    <ans id="3" value="10" means="никогда не знал(а) о том, что можно так делать!"/>
+    <ans id="4" value="0" means="не интересует, доверяю больше наличным"/>
+  </question>
+  <question number="2" name="Зимой окна Вашей квартиры">
+    <ans id="1" value="30" means="хорошо утеплены или пластиковые"/>
+    <ans id="2" value="5" means="не придаю особого значения"/>
+    <ans id="3" value="0" means="и зачем это делать?"/>
+    <ans id="4" value="0" means="это излишне"/>
+  </question>
+  <question number="3" name="Готовя пищу, пользуете скороваркой?">
+    <ans id="1" value="30" means="да"/>
+    <ans id="2" value="5" means="она у меня есть, но пользуюсь редко"/>
+    <ans id="3" value="0" means="не пользуюсь"/>
+  </question>
+  <question number="4" name="Посуду...">
+    <ans id="1" value="30" means="мою как следует, потом полоскаю"/>
+    <ans id="2" value="5" means="мою не особенно тщательно"/>
+    <ans id="3" value="10" means="мою, когда накопится побольше"/>
+  </question>
+  <question number="5" name="В холодное время года...">
+    <ans id="1" value="0" means="сплю при открытой форточке или окне"/>
+    <ans id="2" value="30" means="при закрытой форточке, но перед сном проветриваю"/>
+    <ans id="3" value="0" means="редко проветриваю"/>
+  </question>
+  <question number="6" name="Макулатуру...">
+    <ans id="1" value="0" means="Выбрасываю"/>
+    <ans id="2" value="30" means="собираю и сдаю в приемный пункт"/>
+    <ans id="3" value="10" means="коплю"/>
+  </question>
+  <question number="7" name="Излишки хлеба...">
+    <ans id="1" value="10" means="оставляю для питомцев"/>
+    <ans id="2" value="0" means="Выбрасываю с мусором"/>
+    <ans id="3" value="10" means="складываю в бак для пищевых отходов"/>
+    <ans id="4" value="30" means="у меня не бывает излишков"/>
+  </question>
+  <question number="8" name="Моетесь вы">
+    <ans id="1" value="0" means="в ванной"/>
+    <ans id="2" value="30" means="только под душем"/>
+    <ans id="3" value="10" means="люблю купаться в ванной, хотя и знаю, что трачу много воды"/>
+  </question>
+  <question number="9" name="Готовя пищу...">
+    <ans id="1" value="30" means="пользуюсь в основном полуфабрикатами"/>
+    <ans id="2" value="10" means="не люблю полуфабрикаты, готовлю самостоятельно"/>
+    <ans id="3" value="10" means="готовлю изредка"/>
+  </question>
+  <question number="10" name="Ваши дети (вы)">
+    <ans id="1" value="0" means="не донашивают дети за братьями или сестрами"/>
+    <ans id="2" value="10" means="не делаю так, потому что не за кем"/>
+    <ans id="3" value="30" means="донашивают дети за братьями или сестрами"/>
+  </question>
+
+  <end>
+    <result min="250" >Вы крайне бережливы и это очень сильно влияет на Вашу семью. </result>
+    <result min="200" > Вы очень рационально ведете хозяйство, хотя иногда позволяете большие и неоправданные траты.</result>
+    <result min="0" >Вы очень расточительны. </result>
+  </end>
+</head>

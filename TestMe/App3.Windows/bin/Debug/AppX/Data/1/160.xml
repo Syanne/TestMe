@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="36" max="36" name="Сопереживание">
+  <question number="1" name="Мне больше нравятся книги о путешествиях, чем книги из серии &quot;Жизнь замечательных людей&quot;">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="2" name="Взрослых детей раздражает забота родителей.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="3" name="Мне нравится размышлять о причинах успехов и неудачах других людей.">
+    <ans id="1" value="1" means="нет, никогда"/>
+    <ans id="2" value="2" means="иногда"/>
+    <ans id="3" value="3" means="часто"/>
+    <ans id="4" value="4" means="почти всегда"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="4" name="Среди всех музыкальных передач предпочитаю передачи о современной музыке.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="5" name="Чрезмерную раздражительность и несправедливые упреки больного надо терпеть, даже если они продолжаются годами.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="6" name="Больному человеку можно помочь даже словом.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="7" name="Посторонним людям не следует вмешиваться в конфликт между двумя лицами.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="8" name="Старые люди, как правило, обидчивы без причин.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="9" name="Когда в детстве слушал грустную историю, на мои глаза сами по себе наворачивались слезы.">
+    <ans id="1" value="1" means="нет, никогда"/>
+    <ans id="2" value="2" means="иногда"/>
+    <ans id="3" value="3" means="часто"/>
+    <ans id="4" value="4" means="почти всегда"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="10" name="Раздраженное состояние моих родителей влияет на мое настроение.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="11" name="Я равнодушен к критике в мой адрес">
+    <ans id="1" value="1" means="нет, никогда"/>
+    <ans id="2" value="2" means="иногда"/>
+    <ans id="3" value="3" means="часто"/>
+    <ans id="4" value="4" means="почти всегда"/>
+  </question>
+  <question number="12" name="Мне больше нравится рассматривать  портреты,  чем картины с пейзажами.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="13" name="Я всегда прощал все родителям, даже если они были неправы.">
+    <ans id="1" value="1" means="нет, никогда"/>
+    <ans id="2" value="2" means="иногда"/>
+    <ans id="3" value="3" means="часто"/>
+    <ans id="4" value="4" means="почти всегда"/>
+  </question>
+  <question number="14" name="Если лошадь плохо тянет, ее нужно хлестать">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="15" name="Когда я читаю о драматических событиях в жизни людей, то чувствую, словно это происходит со мной.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="4" value="4" means="почти всегда"/>
+  </question>
+  <question number="16" name="Родители относятся к своим детям справедливо.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="17" name="Видя ссорящихся подростков или взрослых, я вмешиваюсь.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="18" name="Я не обращаю внимание на плохое настроение моих родителей.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="19" name="Я подолгу наблюдаю за поведением животных, откладывая другие дела.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="20" name="Фильмы и книги могут вызвать слезы только у несерьезных людей.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="21" name="Мне нравится наблюдать за выражением лиц и поведением незнакомых людей.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="22" name="В детстве я приводил домой кошек и собак.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="23" name="Все люди необоснованно озлобленны.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="24" name="Глядя на постороннего человека, мне хочется угадать, как сложится его жизнь.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="25" name="В детстве младшие по возрасту ходили за мной по пятам.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="26" name="При виде покалеченного животного я стараюсь ему чем-то помочь.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="27" name="Человеку станет легче, если внимательно слушать его жалобы.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="4" value="4" means="почти всегда"/>
+  </question>
+  <question number="28" name="Увидев уличное происшествие, я стараюсь не попадать в число свидетелей.">
+    <ans id="1" value="1" means="нет, никогда"/>
+    <ans id="2" value="2" means="иногда"/>
+    <ans id="3" value="3" means="часто"/>
+    <ans id="4" value="4" means="почти всегда"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="29" name="Младшим нравится, когда я предлагаю им свою идею, дело или развлечение.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="30" name="Люди преувеличивают способность животных чувствовать настроение своих хозяев.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="31" name="Из затруднительной конфликтной ситуации человек должен выходить самостоятельно.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="32" name="Если ребенок плачет, на то есть свои причины.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="33" name="Молодежь должна удовлетворять любые просьбы и чудачества стариков.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="34" name="Мне хотелось разобраться, почему некоторые мои одноклассники иногда были задумчивы.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="35" name="Беспризорных домашних животных следует отлавливать и уничтожать.">
+    <ans id="1" value="0" means="не знаю"/>
+    <ans id="2" value="1" means="нет, никогда"/>
+    <ans id="3" value="2" means="иногда"/>
+    <ans id="4" value="3" means="часто"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+  <question number="36" name="Если мои друзья начинают обсуждать со мной свои личные проблемы, я стараюсь перевести разговор на другую тему.">
+    <ans id="1" value="1" means="нет, никогда"/>
+    <ans id="2" value="2" means="иногда"/>
+    <ans id="3" value="3" means="часто"/>
+    <ans id="4" value="4" means="почти всегда"/>
+    <ans id="5" value="5" means="да"/>
+  </question>
+
+
+  <end>
+    <result min="82" >У Вас болезненно развито сопереживание. В общении, как барометр, тонко реагируете на настроение собеседника, еще не успевшего сказать ни слова. Вам трудно от того, что окружающие используют Вас в качестве громоотвода, обрушивая на Вас свое эмоциональное состояние. Нередко испытываете комплекс вины, опасаясь причинить людям хлопоты. В то же время сами очень ранимы. При таком отношении к жизни Вы близки к невротическим срывам. Побеспокойтесь о психическом здоровье.</result>
+    <result min="63" >Вы чувствительны к нуждам и проблемам окружающих, великодушны, склонны многое им прощать. С неподдельным интересом относитесь к людям. Вы стараетесь не допускать конфликты и находить компромиссные решения. Хорошо переносите критику в свой адрес. В оценке событий больше доверяете своим чувствам и интуиции, чем аналитическим выводам.</result>
+    <result min="37" >Нормальный уровень эмпатийности, присущий подавляющему большинству людей. В межличностных отношениях судить о других более склонны по их поступкам, чем доверять своим личным впечатлениям. В общении внимательны, стараетесь понять больше, чем сказано словами. Предпочитаете деликатно не высказывать свою точку зрения, не будучи уверенным, что она будет принята. У Вас нет раскованности чувств, и это мешает вашему полноценному восприятию людей.</result>
+    <result min="12" >Низкий уровень эмпатийности. Вы испытываете затруднения в установлении контактов с людьми, неуютно чувствуете себя в большой компании. Эмоциональные проявления в поступках окружающих подчас кажутся Вам непонятными и лишенными смысла. Вы – сторонник точных формулировок и рациональных решений. Вероятно, у Вас мало друзей, а из тех, кто есть, цените больше за деловые качества и ясный ум, чем за чуткость и отзывчивость. Люди платят Вам тем же.</result>
+    <result min="0" >Эмпатийные тенденции личности не развиты. Затрудняетесь первым начать разговор, держитесь особняком среди сослуживцев. Особенно трудны контакты с детьми и лицами, которые намного старше вас. Во многом не находите взаимопонимания с окружающими. Любите острые ощущения, спортивные состязания предпочитаете искусству. Вы можете быть очень продуктивны в индивидуальной работе, во взаимодействии же с другими не всегда выглядите в лучшем свете. Болезненно переносите критику в свой адрес. </result>
+  </end>
+</head>

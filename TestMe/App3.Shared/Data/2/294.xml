@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="9" max="9" name="Что Вы знаете о настольных играх?">
+  <question number="1" name="В чем заключается суть игры Маджонг?">
+    <ans id="1" value="1" means="Убать все фишки с поля попарно"></ans>
+    <ans id="2" value="0" means="Собрать наиболее ценную комбинацию из заданного количества костей"></ans>
+    <ans id="3" value="0" means="Набрать как можно большее количество очков за раунд"></ans>
+  </question>
+  <question number="2" name="Почему игра кости так называется?">
+    <ans id="1" value="0" means="В древности в игре использовались кости бывших соперников"> </ans>
+    <ans id="2" value="0" means="Проигравшему ломают любую кость на выбор">  </ans>
+    <ans id="3" value="1" means="В древности в игре использовались кости животных"> </ans>
+  </question>
+  <question number="3" name="Игра в нарды родилась на... ">
+    <ans id="1" value="0" means="Западе">  </ans>
+    <ans id="2" value="1" means="Востоке"> </ans>
+    <ans id="3" value="0" means="Севере"> </ans>
+  </question>
+  <question number="4" name="Сколько игроков могут играть в шашки Го?">
+    <ans id="1" value="0" means="1"></ans>
+    <ans id="2" value="1" means="2"></ans>
+    <ans id="3" value="0" means="3"></ans>
+  </question>
+  <question number="5" name="Какая из этих карточных игр является официально признанной спортивной игрой?">
+    <ans id="1" value="0" means="Покер"></ans>
+    <ans id="2" value="1" means="Бридж"></ans>
+    <ans id="3" value="0" means="Дурак"></ans>
+  </question>
+  <question number="6" name="Сколько косточек в домино?">
+    <ans id="1" value="1" means="28"></ans>
+    <ans id="2" value="0" means="26"></ans>
+    <ans id="3" value="0" means="24"></ans>
+  </question>
+  <question number="7" name="Древнейшая настольная игра - это...">
+    <ans id="1" value="0" means="Домино"></ans>
+    <ans id="2" value="0" means="Чатуранга"></ans>
+    <ans id="3" value="1" means="Сенет"></ans>
+  </question>
+  <question number="8" name="Салонная психологическая игра с детективным сюжетом">
+    <ans id="1" value="0" means="Дурак"></ans>
+    <ans id="2" value="1" means="Мафия"></ans>
+    <ans id="3" value="0" means="Шахматы"></ans>
+  </question>
+  <question number="9" name="Минимальное количество игроков в пасьянс">
+    <ans id="1" value="1" means="1"></ans>
+    <ans id="2" value="0" means="2"></ans>
+    <ans id="3" value="0" means="3"></ans>
+  </question>
+
+  <end>
+    <result min="7" >Потрясающий результат!</result>
+    <result min="4" >Ваш результат куда выше среднего, прекрасно!</result>
+    <result min="0" >Неплохой результат, но стоит попробовать еще раз.</result>
+  </end>
+  
+</head>

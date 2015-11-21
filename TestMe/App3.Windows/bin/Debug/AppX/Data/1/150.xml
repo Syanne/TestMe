@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="14" max="28" name="Тест на обидчивость">
+  <question number="1" name="Мне легко испортить настроение">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+    <ans id="3" value="1" means="иногда"/>
+  </question>
+  <question number="2" name="Если меня кто-то обидел, я долго потом помню этот случай">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+    <ans id="3" value="1" means="иногда"/>
+  </question>
+  <question number="3" name="Я долго переживаю из-за мелких неприятностей (опоздание на автобус, разбитая чашка)">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+    <ans id="3" value="1" means="иногда"/>
+  </question>
+  <question number="4" name="Я могу в течение продолжительного времени находиться в состоянии, когда не хочется никого видеть и ни с кем разговаривать">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+    <ans id="3" value="1" means="иногда"/>
+  </question>
+  <question number="5" name="Посторонние разговоры и шумы очень меня отвлекают">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+    <ans id="3" value="1" means="иногда"/>
+  </question>
+  <question number="6" name="Я могу в течение длительного времени анализировать свои переживания, чувства, поступки">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+    <ans id="3" value="1" means="иногда"/>
+  </question>
+  <question number="7" name="Мои действия направляются сиюминутным порывом">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+    <ans id="3" value="1" means="иногда"/>
+  </question>
+  <question number="8" name="Мне часто снятся кошмары">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+    <ans id="3" value="1" means="иногда"/>
+  </question>
+  <question number="9" name="Меня тревожит мысль, что я чем то хуже других">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+    <ans id="3" value="1" means="иногда"/>
+  </question>
+  <question number="10" name="У меня очень часто меняется настроение">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+    <ans id="3" value="1" means="иногда"/>
+  </question>
+  <question number="11" name="В моем голосе во время спора начинают звучать низкие или высокие тона, которые обычно мне несвойствены">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+    <ans id="3" value="1" means="иногда"/>
+  </question>
+  <question number="12" name="Мне ничего не стоит выйти из себя">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+    <ans id="3" value="1" means="иногда"/>
+  </question>
+  <question number="13" name="Если у меня плохое настроение, даже вкусная еда не сможет мне его поднять">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+    <ans id="3" value="1" means="иногда"/>
+  </question>
+  <question number="14" name="Если меня не понимают, меня это очень раздражает">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+    <ans id="3" value="1" means="иногда"/>
+  </question>
+
+
+  <end>
+    <result min="23" >Вы необидчивый человек. Небольшие разногласия не способны вывести Вас из состояния душевного равновесия. Возможно, некоторые даже сочтут Вас равнодушным. Не обращайте внимания, скорее всего Вам просто завидуют.</result>
+    <result min="17" >Вы обидчивы, и это создает немало проблем, причем не только Вам, но и окружающим. Вы легко выходите из себя, что нередко заканчивается конфликтом с близкими или коллегами. Не стоит так заводиться из-за пустяков, поберегите нервы (и свои, и чужие).</result>
+    <result min="0" >Вы обидчивы, мстительны, болезненно реагируете на то, как по отношению к Вам ведут себя окружающие. Ваше настроение меняется ежеминутно. Расслабьтесь и перестаньте обижаться на облака за то, что они плывут слишком медленно. Мир создан вовсе не для того, чтобы досаждать Вам.</result>
+  </end>
+</head>

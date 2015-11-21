@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="25" max="25" name="Фразы из фильмов">
+  <question number="1" name="Бог сидит с лупой на муравейнике, а я – муравей. Он мог устроить мою жизнь за 5 минут, а вместо этого он подпаливает мне усики.">
+    <ans id="1" value="0" means="Пока не сыграл в ящик"/>
+    <ans id="2" value="1" means="Брюс Всемогущий"/>
+    <ans id="3" value="0" means="Вечное сияние чистого разума"/>
+  </question>
+  <question number="2" name="Да прибудет с тобой Сила!">
+    <ans id="1" value="0" means="Назад, в будущее"/>
+    <ans id="2" value="0" means="Терминатор"/>
+    <ans id="3" value="1" means="Звездные войны"/>
+  </question>
+  <question number="3" name="Переписчик однажды попытался опросить меня. Я съел его печень с бобами и хорошим кьянти">
+    <ans id="1" value="0" means="Инопланетянин"/>
+    <ans id="2" value="1" means="Молчание ягнят"/>
+    <ans id="3" value="0" means="Крестный Отец"/>
+  </question>
+  <question number="4" name="Дитям - мороженое, бабе - цветы. Гляди, не перепутай, Кутузов!">
+    <ans id="1" value="0" means="Иван Васильевич меняет профессию"/>
+    <ans id="2" value="0" means="Ирония судьбы или &quot;С легким паром!&quot;"/>
+    <ans id="3" value="1" means="Бриллиантовая рука"/>
+  </question>
+  <question number="5" name="— Как тебя понимать? &#10;    — Понимать меня необязательно. Обязательно любить и кормить вовремя.">
+    <ans id="1" value="0" means="Гарфилд"/>
+    <ans id="2" value="1" means="Алиса в Стране Чудес"/>
+    <ans id="3" value="0" means="Симпсоны в кино"/>
+  </question>
+  <question number="6" name="Стреляешь так же плохо, как и готовишь">
+    <ans id="1" value="0" means="12 друзей Оушена"/>
+    <ans id="2" value="0" means="Поймай меня, если сможешь"/>
+    <ans id="3" value="1" means="Мистер и миссис Смит"/>
+  </question>
+  <question number="7" name="Всё, что мы теряем, обязательно к нам вернётся, только не всегда так, как мы ожидаем.">
+    <ans id="1" value="1" means="Гарри Поттер"/>
+    <ans id="2" value="0" means="Сумерки"/>
+    <ans id="3" value="0" means="Академия Вампиров"/>
+  </question>
+  <question number="8" name="Жизнь как коробка шоколадных конфет: никогда не знаешь, какая начинка тебе попадётся">
+    <ans id="1" value="1" means="Форрест Гамп"/>
+    <ans id="2" value="0" means="Психо"/>
+    <ans id="3" value="0" means="В джазе только девушки"/>
+  </question>
+  <question number="9" name="Нет лучше способа поделиться сокровенным, чем выложить это в интернете.">
+    <ans id="1" value="0" means="Шаг вперед"/>
+    <ans id="2" value="0" means="Мальчишник в Вегасе"/>
+    <ans id="3" value="1" means="Отличница легкого поведения"/>
+  </question>
+  <question number="10" name="В нашей жизни для женщины самое лучшее – быть хорошенькой дурочкой.">
+    <ans id="1" value="0" means="Дориан Грей"/>
+    <ans id="2" value="1" means="Великий Гэтсби"/>
+    <ans id="3" value="0" means="Рапунцель"/>
+  </question>
+  <question number="11" name="Я — король мира!">
+    <ans id="1" value="0" means="Брюс Всемогущий"/>
+    <ans id="2" value="1" means="Титаник"/>
+    <ans id="3" value="0" means="Кинг-Конг"/>
+  </question>
+  <question number="12" name="Украл, выпил — в тюрьму. Украл, выпил — в тюрьму. Романтика…">
+    <ans id="1" value="1" means="Джентельмены Удачи"/>
+    <ans id="2" value="0" means="Мимино"/>
+    <ans id="3" value="0" means="Бриллиантовая Рука"/>
+  </question>
+  <question number="13" name="Хьюстон, у нас проблема">
+    <ans id="1" value="0" means="Апокалипсис сегодня"/>
+    <ans id="2" value="1" means="Апполон-13"/>
+    <ans id="3" value="0" means="2012"/>
+  </question>
+  <question number="14" name="Люди охотнее верят в дьявола, чем в Бога и в добро. Не знаю, почему. Может быть, разгадка проста: творить зло гораздо легче.">
+    <ans id="1" value="0" means="Темный рыцарь"/>
+    <ans id="2" value="1" means="Интервью с вампиром"/>
+    <ans id="3" value="0" means="Ной"/>
+  </question>
+  <question number="15" name="Если толпу нельзя запугать, толпе надо во что-то верить.">
+    <ans id="1" value="0" means="Железный человек"/>
+    <ans id="2" value="1" means="Гололные Игры"/>
+    <ans id="3" value="0" means="Превосходство"/>
+  </question>
+  <question number="16" name="Если немножко подождать, все само упадет тебе в лапы.">
+    <ans id="1" value="1" means="Гарфилд"/>
+    <ans id="2" value="0" means="Шрек"/>
+    <ans id="3" value="0" means="Кошки против собак"/>
+  </question>
+  <question number="17" name="Комсомолка, спортсменка и просто красавица!">
+    <ans id="1" value="1" means="Кавказская пленница"/>
+    <ans id="2" value="0" means="Двенадцать стульев"/>
+    <ans id="3" value="0" means="Операция Ы и другие приключения Шурика"/>
+  </question>
+  <question number="18" name="Вы - самый жалкий из пиратов, о которых я слышал. &#10;    - Но Вы обо мне слышали...">
+    <ans id="1" value="1" means="Пираты Карибского моря"/>
+    <ans id="2" value="0" means="Питер Пэн"/>
+    <ans id="3" value="0" means="Остров сокровищ"/>
+  </question>
+  <question number="19" name="Красота убила Чудовище">
+    <ans id="1" value="1" means="Кинг-Конг"/>
+    <ans id="2" value="0" means="Джентельмены предпочитают блондинок"/>
+    <ans id="3" value="0" means="Красавица и чудовище"/>
+  </question>
+  <question number="20" name="Путешествия во времени - слишком опасное занятие. Лучше посвящу себя изучению другой великой загадке Вселенной - женщинам!">
+    <ans id="1" value="1" means="Назад в будущее"/>
+    <ans id="2" value="0" means="Люди в черном 3"/>
+    <ans id="3" value="0" means="Грань будущего"/>
+  </question>
+  <question number="21" name="Вы правда так думаете или Вам сказали так думать?">
+    <ans id="1" value="0" means="Пятый элемент"/>
+    <ans id="2" value="0" means="Трансформеры"/>
+    <ans id="3" value="1" means="V Значит Вендетта"/>
+  </question>
+  <question number="22" name="Не совершай классическую ошибку всех умников: не думай, что нет людей умнее тебя.">
+    <ans id="1" value="1" means="Области тьмы"/>
+    <ans id="2" value="0" means="Бойцовский клуб"/>
+    <ans id="3" value="0" means="Такси"/>
+  </question>
+  <question number="23" name="В детстве время тянется, а потом - БАЦ! - и тебе уже пятьдесят.">
+    <ans id="1" value="0" means="Эффект Бабочки"/>
+    <ans id="2" value="0" means="Джейн Остин"/>
+    <ans id="3" value="1" means="Амели"/>
+  </question>
+  <question number="24" name="Чем больше ты вкалываешь, тем больше они от тебя требуют.">
+    <ans id="1" value="0" means="Волк с Уолл-стрит"/>
+    <ans id="2" value="1" means="Легенда №17"/>
+    <ans id="3" value="0" means="Чёрная молния"/>
+  </question>
+  <question number="25" name="Страх делает тебя пленником. Надежда дает тебе свободу.">
+    <ans id="1" value="0" means="Зеленая Миля"/>
+    <ans id="2" value="1" means="Побег из Шоушенка"/>
+    <ans id="3" value="0" means="300 Спатранцев"/>
+  </question>
+
+
+  <end>
+    <result min="19" >Вы - настоящий киноман! Или кинопират?</result>
+    <result min="13" >Очень хороший результат! Вы ответили на большую половину вопросов</result>
+    <result min="0" >К сожалению, результат довольно низкий. Наверное, кино - это не ваш конек. Но в программе есть и другие тесты, которые могут Вам понравится!</result>
+  </end>
+</head>

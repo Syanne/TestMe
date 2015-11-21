@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="18" max="18" name="Логические задачи на количественное отношение">
+  <question number="1" name="А больше Б в 9 раз, Б меньше В в 4 раза. В ? А">
+    <ans id="1" value="1" means=" B &lt; A"></ans>
+    <ans id="2" value="0" means=" B &gt; A"></ans>
+    <ans id="3" value="0" means=" B = A"></ans>
+  </question>
+
+  <question number="2" name="А меньше Б в 10 раз, Б больше В в 6 раз. A ? B">
+    <ans id="1" value="1" means=" A &lt; B"></ans>
+    <ans id="2" value="0" means=" A &gt; B"></ans>
+    <ans id="3" value="0" means=" A = B"></ans>
+  </question>
+
+  <question number="3" name="А больше Б в 3 раза, Б меньше В в 6 раз. В ? А">
+    <ans id="1" value="0" means=" B &lt; A"></ans>
+    <ans id="2" value="1" means=" B &gt; A"></ans>
+    <ans id="3" value="0" means=" B = A"></ans>
+  </question>
+
+  <question number="4" name="А больше Б в 4 раза, Б меньше В в 3 раза. В ? А">
+    <ans id="1" value="1" means=" B &lt; A"></ans>
+    <ans id="2" value="0" means=" B &gt; A"></ans>
+    <ans id="3" value="0" means=" B = A"></ans>
+  </question>
+
+  <question number="5" name="А меньше Б в 3 раза, Б больше В в 7 раз. A ? B">
+    <ans id="1" value="0" means=" A &lt; B"></ans>
+    <ans id="2" value="1" means=" A &gt; B"></ans>
+    <ans id="3" value="0" means=" A = B"></ans>
+  </question>
+
+  <question number="6" name="А больше Б в 9 раз, Б меньше В в 12 раз. В ? А">
+    <ans id="1" value="0" means=" B &lt; A"></ans>
+    <ans id="2" value="1" means=" B &gt; A"></ans>
+    <ans id="3" value="0" means=" B = A"></ans>
+  </question>
+
+  <question number="7" name="А больше Б в 9 раз, Б меньше В в 12 раз. A ? B">
+    <ans id="1" value="1" means=" A &lt; B"></ans>
+    <ans id="2" value="0" means=" A &gt; B"></ans>
+    <ans id="3" value="0" means=" A = B"></ans>
+  </question>
+
+  <question number="8" name=" А меньше Б в 3 раза, Б больше В в 5 раз. В ? А">
+    <ans id="1" value="1" means=" B &lt; A"></ans>
+    <ans id="2" value="0" means=" B &gt; A"></ans>
+    <ans id="3" value="0" means=" B = A"></ans>
+  </question>
+
+  <question number="9" name="А меньше Б в 10 раз, Б больше В в 3 раза. В ? А">
+    <ans id="1" value="0" means=" B &lt; A"></ans>
+    <ans id="2" value="1" means=" B &gt; A"></ans>
+    <ans id="3" value="0" means=" B = A"></ans>
+  </question>
+
+  <question number="10" name="А меньше Б в 2 раза, Б больше В в 8 раз. A ? B">
+    <ans id="1" value="0" means=" A &lt; B"></ans>
+    <ans id="2" value="1" means=" A &gt; B"></ans>
+    <ans id="3" value="0" means=" A = B"></ans>
+  </question>
+
+  <question number="11" name="А меньше Б в 3 раза, Б больше В в 4 раза. В ? А">
+    <ans id="1" value="1" means=" B &lt; A"></ans>
+    <ans id="2" value="0" means=" B &gt; A"></ans>
+    <ans id="3" value="0" means=" B = A"></ans>
+  </question>
+
+  <question number="12" name="А больше Б в 2 раза, Б меньше В в 5 раз. A ? B">
+    <ans id="1" value="1" means=" A &lt; B"></ans>
+    <ans id="2" value="0" means=" A &gt; B"></ans>
+    <ans id="3" value="0" means=" A = B"></ans>
+  </question>
+
+  <question number="13" name="А меньше Б в 5 раз, Б больше В в 6 раз. B ? A">
+    <ans id="1" value="1" means=" B &lt; A"></ans>
+    <ans id="2" value="0" means=" B &gt; A"></ans>
+    <ans id="3" value="0" means=" B = A"></ans>
+  </question>
+
+  <question number="14" name="А меньше Б в 5 раз, Б больше В в 2 раза. A ? B">
+    <ans id="1" value="1" means=" A &lt; B"></ans>
+    <ans id="2" value="0" means=" A &gt; B"></ans>
+    <ans id="3" value="0" means=" A = B"></ans>
+  </question>
+
+  <question number="15" name="А больше Б в 4 раза, Б меньше В в 3 раза. B ? A">
+    <ans id="1" value="1" means=" B &lt; A"></ans>
+    <ans id="2" value="0" means=" B &gt; A"></ans>
+    <ans id="3" value="0" means=" B = A"></ans>
+  </question>
+
+  <question number="16" name="А меньше Б в 3 раза, Б больше В в 3 раза. A ? B">
+    <ans id="1" value="1" means=" A &lt; B"></ans>
+    <ans id="2" value="0" means=" A &gt; B"></ans>
+    <ans id="3" value="0" means=" A = B"></ans>
+  </question>
+
+  <question number="17" name="А больше Б в 4 раза, Б меньше В в 7 раз. B ? A">
+    <ans id="1" value="0" means=" B &lt; A"></ans>
+    <ans id="2" value="1" means=" B &gt; A"></ans>
+    <ans id="3" value="0" means=" B = A"></ans>
+  </question>
+
+  <question number="18" name="А больше Б в 3 раза, Б меньше В в 5 раз. A ? B">
+    <ans id="1" value="0" means=" A &lt; B"></ans>
+    <ans id="2" value="1" means=" A &gt; B"></ans>
+    <ans id="3" value="0" means=" A = B"></ans>
+  </question>
+
+  <end>
+    <result min="14" >Это замечательный результат! Логическое мышление у Вас на высоком уровне. Но в программе еще много интересных и сложных задач :)</result>
+    <result min="8" >У Вас хорошо развито логическое мышление. </result>
+    <result min="0" >Вам стоит потренировать логическое мышление. И в этом вам помогут Логические задачи (3-й раздел в Главном меню). </result>
+  </end>
+</head>

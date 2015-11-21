@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="AdDuplex.Universal.Controls.Win.XAML" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="AdDuplex.Universal.Controls.Win.XAML">
+				<NamedResource name="AdDuplex.Universal.Controls.Win.XAML.xr.xml" uri="ms-resource://AdDuplex.Universal.Controls.Win.XAML/Files/AdDuplex.Universal.Controls.Win.XAML/AdDuplex.Universal.Controls.Win.XAML.xr.xml">
+					<Candidate type="Path">
+						<Value>AdDuplex.Universal.Controls.Win.XAML\AdDuplex.Universal.Controls.Win.XAML.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://AdDuplex.Universal.Controls.Win.XAML/Files/AdDuplex.Universal.Controls.Win.XAML/Themes/Generic.xbf">
+						<Candidate type="Path">
+							<Value>AdDuplex.Universal.Controls.Win.XAML\Themes\Generic.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

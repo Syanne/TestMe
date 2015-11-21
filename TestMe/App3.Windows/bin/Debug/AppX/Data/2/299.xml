@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="10" max="10" name="Профессиональные праздники">
+  <question number="1" name="Этот тест писался в День Программиста. Когда он?">
+    <ans id="1" value="0" means="11 сентября"/>
+    <ans id="2" value="0" means="14 сентября"/>
+    <ans id="3" value="1" means="Это 256 день в году"/>
+  </question>
+  <question number="2" name="Есть ли такой праздник - День РНК?">
+    <ans id="1" value="0" means="Есть"/>
+    <ans id="2" value="1" means="Нет, зато есть день ДНК"/>
+    <ans id="3" value="0" means="Есть, отмечается 25 апреля"/>
+  </question>
+  <question number="3" name="Международный день кино празднуют">
+    <ans id="1" value="0" means="22 декабря"/>
+    <ans id="2" value="1" means="28 декабря"/>
+    <ans id="3" value="0" means="Нет такого праздника"/>
+  </question>
+  <question number="4" name="В Украине и России День Юриста празднуют в один и тот же день?">
+    <ans id="1" value="0" means="Да"/>
+    <ans id="2" value="1" means="Нет"/>
+  </question>
+  <question number="5" name="Международный день телекоммуникаций отмечается до сих пор?">
+    <ans id="1" value="0" means="Конечно да"/>
+    <ans id="2" value="1" means="Да, только его переименовали во Всемирный день информационного общества."/>
+    <ans id="3" value="0" means="Нет"/>
+  </question>
+  <question number="6" name="Существует ли Международый день караванщика?">
+    <ans id="1" value="0" means="Нет, конечно"/>
+    <ans id="2" value="1" means="Да, в 24 сентября"/>
+    <ans id="3" value="0" means="Да, в начале мая"/>
+  </question>
+  <question number="7" name="Международный день переводчика отмечают">
+    <ans id="1" value="1" means="Еще один сентябрьский праздник"/>
+    <ans id="2" value="0" means="В октябре"/>
+    <ans id="3" value="0" means="В ноябре"/>
+  </question>
+  <question number="8" name="День изобретателя и рационализатора отмечают одновременно в...">
+    <ans id="1" value="1" means="России и Белоруссии"/>
+    <ans id="2" value="0" means="России и Украине"/>
+    <ans id="3" value="0" means="Белоруссии и Украине"/>
+  </question>
+  <question number="9" name="Международный день чая празднуют только в странах-производителях чая">
+    <ans id="1" value="1" means="Правда"/>
+    <ans id="2" value="0" means="Ложь"/>
+    <ans id="3" value="1" means="Я каждый день его праздную"/>
+  </question>
+  <question number="10" name="И закончим мы тоже Днем программиста. В невысокосный год его празднуют...">
+    <ans id="1" value="0" means="12 сентября"/>
+    <ans id="2" value="1" means="13 сентября"/>
+    <ans id="3" value="0" means="14 сентября"/>
+  </question>
+
+
+  <end>
+    <result min="8" >Отличный результат!</result>
+    <result min="4" >Мммм, а Вы непплохо постарались!</result>
+    <result min="0" >Слабовато... Но во всем виноват тот, кто придумал этот тест.</result>
+  </end>
+</head>

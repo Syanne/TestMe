@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>IMMORTAL</Machine>
+    <WindowsUser>Anna</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>36856Syanne.TestMe</PackageIdentityName>
+    <IntermediateOutputPath>E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\App3.Windows.exe">
+      <PackagePath>App3.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\AdDuplexWin81.9.0.0.5\lib\portable-win81+wpa81\AdDuplex.Universal.Controls.Win.XAML.winmd">
+      <PackagePath>AdDuplex.Universal.Controls.Win.XAML.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\AdDuplexWin81.9.0.0.5\lib\portable-win81+wpa81\AdDuplex.Universal.Win.WinRT.winmd">
+      <PackagePath>AdDuplex.Universal.Win.WinRT.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\LiveSDK.5.6\WindowsXAML\Microsoft.Live.dll">
+      <PackagePath>Microsoft.Live.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization.dll">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit.dll">
+      <PackagePath>WinRTXamlToolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\Fonts\LiveSymbol.ttf">
+      <PackagePath>Fonts\LiveSymbol.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\Assets\logo50.scale-100.png">
+      <PackagePath>Assets\logo50.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\1.png">
+      <PackagePath>Assets\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\2.png">
+      <PackagePath>Assets\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\3.png">
+      <PackagePath>Assets\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\calendar.png">
+      <PackagePath>Assets\calendar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\l1.png">
+      <PackagePath>Assets\l1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\l2.png">
+      <PackagePath>Assets\l2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\l3.png">
+      <PackagePath>Assets\l3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\logo150.scale-100.png">
+      <PackagePath>Assets\logo150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\Logo24.scale-100.png">
+      <PackagePath>Assets\Logo24.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\logo30.scale-100.png">
+      <PackagePath>Assets\logo30.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\logo300.scale-100.png">
+      <PackagePath>Assets\logo300.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\logo44.scale-100.png">
+      <PackagePath>Assets\logo44.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\Logo620.scale-100.png">
+      <PackagePath>Assets\Logo620.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\logo70.scale-100.png">
+      <PackagePath>Assets\logo70.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\logoWide.scale-100.png">
+      <PackagePath>Assets\logoWide.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\more.png">
+      <PackagePath>Assets\more.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\p1.png">
+      <PackagePath>Assets\p1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\p2.png">
+      <PackagePath>Assets\p2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\p3.png">
+      <PackagePath>Assets\p3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\t1.png">
+      <PackagePath>Assets\t1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\t2.png">
+      <PackagePath>Assets\t2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\t3.png">
+      <PackagePath>Assets\t3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\145.xml">
+      <PackagePath>Data\1\145.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\146.xml">
+      <PackagePath>Data\1\146.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\148.xml">
+      <PackagePath>Data\1\148.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\149.xml">
+      <PackagePath>Data\1\149.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\150.xml">
+      <PackagePath>Data\1\150.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\151.xml">
+      <PackagePath>Data\1\151.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\156.xml">
+      <PackagePath>Data\1\156.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\153.xml">
+      <PackagePath>Data\1\153.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\154.xml">
+      <PackagePath>Data\1\154.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\155.xml">
+      <PackagePath>Data\1\155.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\152.xml">
+      <PackagePath>Data\1\152.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\157.xml">
+      <PackagePath>Data\1\157.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\158.xml">
+      <PackagePath>Data\1\158.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\159.xml">
+      <PackagePath>Data\1\159.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\160.xml">
+      <PackagePath>Data\1\160.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\161.xml">
+      <PackagePath>Data\1\161.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\162.xml">
+      <PackagePath>Data\1\162.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\163.xml">
+      <PackagePath>Data\1\163.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\164.xml">
+      <PackagePath>Data\1\164.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\165.xml">
+      <PackagePath>Data\1\165.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\175.xml">
+      <PackagePath>Data\1\175.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\176.xml">
+      <PackagePath>Data\1\176.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\177.xml">
+      <PackagePath>Data\1\177.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\178.xml">
+      <PackagePath>Data\1\178.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\179.xml">
+      <PackagePath>Data\1\179.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\180.xml">
+      <PackagePath>Data\1\180.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\181.xml">
+      <PackagePath>Data\1\181.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\182.xml">
+      <PackagePath>Data\1\182.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\183.xml">
+      <PackagePath>Data\1\183.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\184.xml">
+      <PackagePath>Data\1\184.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\185.xml">
+      <PackagePath>Data\1\185.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\186.xml">
+      <PackagePath>Data\1\186.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\187.xml">
+      <PackagePath>Data\1\187.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\188.xml">
+      <PackagePath>Data\1\188.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\189.xml">
+      <PackagePath>Data\1\189.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\190.xml">
+      <PackagePath>Data\1\190.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\191.xml">
+      <PackagePath>Data\1\191.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\192.xml">
+      <PackagePath>Data\1\192.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\193.xml">
+      <PackagePath>Data\1\193.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\194.xml">
+      <PackagePath>Data\1\194.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\195.xml">
+      <PackagePath>Data\1\195.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\196.xml">
+      <PackagePath>Data\1\196.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\197.xml">
+      <PackagePath>Data\1\197.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\198.xml">
+      <PackagePath>Data\1\198.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\199.xml">
+      <PackagePath>Data\1\199.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\174.xml">
+      <PackagePath>Data\1\174.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\173.xml">
+      <PackagePath>Data\1\173.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\172.xml">
+      <PackagePath>Data\1\172.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\171.xml">
+      <PackagePath>Data\1\171.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\170.xml">
+      <PackagePath>Data\1\170.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\169.xml">
+      <PackagePath>Data\1\169.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\168.xml">
+      <PackagePath>Data\1\168.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\167.xml">
+      <PackagePath>Data\1\167.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\166.xml">
+      <PackagePath>Data\1\166.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\1\147.xml">
+      <PackagePath>Data\1\147.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\281.xml">
+      <PackagePath>Data\2\281.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\282.xml">
+      <PackagePath>Data\2\282.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\283.xml">
+      <PackagePath>Data\2\283.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\287.xml">
+      <PackagePath>Data\2\287.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\285.xml">
+      <PackagePath>Data\2\285.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\286.xml">
+      <PackagePath>Data\2\286.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\284.xml">
+      <PackagePath>Data\2\284.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\288.xml">
+      <PackagePath>Data\2\288.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\289.xml">
+      <PackagePath>Data\2\289.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\290.xml">
+      <PackagePath>Data\2\290.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\291.xml">
+      <PackagePath>Data\2\291.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\292.xml">
+      <PackagePath>Data\2\292.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\293.xml">
+      <PackagePath>Data\2\293.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\294.xml">
+      <PackagePath>Data\2\294.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\295.xml">
+      <PackagePath>Data\2\295.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\296.xml">
+      <PackagePath>Data\2\296.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\297.xml">
+      <PackagePath>Data\2\297.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\298.xml">
+      <PackagePath>Data\2\298.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\2\299.xml">
+      <PackagePath>Data\2\299.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\3\384.xml">
+      <PackagePath>Data\3\384.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\3\385.xml">
+      <PackagePath>Data\3\385.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\3\387.xml">
+      <PackagePath>Data\3\387.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\3\388.xml">
+      <PackagePath>Data\3\388.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\3\389.xml">
+      <PackagePath>Data\3\389.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\3\390.xml">
+      <PackagePath>Data\3\390.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\3\391.xml">
+      <PackagePath>Data\3\391.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\3\392.xml">
+      <PackagePath>Data\3\392.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\3\393.xml">
+      <PackagePath>Data\3\393.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\3\394.xml">
+      <PackagePath>Data\3\394.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\3\395.xml">
+      <PackagePath>Data\3\395.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\3\396.xml">
+      <PackagePath>Data\3\396.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\3\397.xml">
+      <PackagePath>Data\3\397.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\3\398.xml">
+      <PackagePath>Data\3\398.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\3\399.xml">
+      <PackagePath>Data\3\399.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\3\386.xml">
+      <PackagePath>Data\3\386.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\0-logic_psych_Example.xml">
+      <PackagePath>Data\0-logic_psych_Example.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\MainSource.xml">
+      <PackagePath>Data\MainSource.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\PersData.xml">
+      <PackagePath>Data\PersData.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\Data\0-task_Example.xml">
+      <PackagePath>Data\0-task_Example.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Shared\PersData.xml">
+      <PackagePath>PersData.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\1.MainPage.xbf">
+      <PackagePath>1.MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\2.1.TestPage.xbf">
+      <PackagePath>2.1.TestPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\3.GraphPage.xbf">
+      <PackagePath>3.GraphPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\4.Statistics.xbf">
+      <PackagePath>4.Statistics.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\App3.Windows.xr.xml">
+      <PackagePath>App3.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\AdDuplexWin81.9.0.0.5\lib\portable-win81+wpa81\AdDuplex.Universal.Controls.Win.XAML\AdDuplex.Universal.Controls.Win.XAML.xr.xml">
+      <PackagePath>AdDuplex.Universal.Controls.Win.XAML\AdDuplex.Universal.Controls.Win.XAML.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\AdDuplexWin81.9.0.0.5\lib\portable-win81+wpa81\AdDuplex.Universal.Controls.Win.XAML\Themes\Generic.xbf">
+      <PackagePath>AdDuplex.Universal.Controls.Win.XAML\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\ImageButton\ImageButton.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageButton\ImageButton.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\InputDialog\InputDialog.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\InputDialog\InputDialog.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\TreeView\TreeView.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeView.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Themes\Generic.xaml">
+      <PackagePath>WinRTXamlToolkit\Themes\Generic.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\AxisLabel.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\AxisLabel.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DateTimeAxisLabel.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DateTimeAxisLabel.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DisplayAxis.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DisplayAxis.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\NumericAxisLabel.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\NumericAxisLabel.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\RangeAxis.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\RangeAxis.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Chart\Chart.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Chart\Chart.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\AreaDataPoint.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\AreaDataPoint.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BarDataPoint.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BarDataPoint.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BubbleDataPoint.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BubbleDataPoint.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ColumnDataPoint.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ColumnDataPoint.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\LineDataPoint.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\LineDataPoint.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\PieDataPoint.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\PieDataPoint.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ScatterDataPoint.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ScatterDataPoint.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Primitives\DelegatingListBox.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Primitives\DelegatingListBox.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\AreaSeries.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\AreaSeries.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DataPointSeries.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DataPointSeries.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DefinitionSeries.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DefinitionSeries.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LegendItem.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LegendItem.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LineSeries.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LineSeries.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\PieSeries.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\PieSeries.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Legend\Legend.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Legend\Legend.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Themes\Generic.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Themes\Generic.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

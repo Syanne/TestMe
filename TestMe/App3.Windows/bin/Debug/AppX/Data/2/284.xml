@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="40" max="40" name="Большой и страшный тест IQ (40 вопросов)">
+  <question number="1" name="Какое слово лишнее?">
+    <ans id="1" value="0" means="Лисица"/>
+    <ans id="2" value="0" means="Лукавство"/>
+    <ans id="3" value="0" means="Систричка"/>
+    <ans id="4" value="1" means="Красная шапочка"/>
+    <ans id="5" value="0" means="Воротник"/>
+  </question>
+  <question number="2" name="Рихтер для сейсмологии как Моос для...">
+    <ans id="1" value="0" means="музыки"/>
+    <ans id="2" value="0" means="истории"/>
+    <ans id="3" value="1" means="минералогии"/>
+    <ans id="3" value="0" means="геологии"/>
+  </question>
+  <question number="3" name="Число 64521 относится к 41256 как 28297 к...">
+    <ans id="1" value="0" means="89732"/>
+    <ans id="2" value="0" means="29873"/>
+    <ans id="3" value="0" means="92837"/>
+    <ans id="4" value="1" means="87923"/>
+    <ans id="5" value="0" means="87932"/>
+  </question>
+  <question number="4" name="Боязнь заболеть - это...">
+    <ans id="1" value="0" means="ангрофобия"/>
+    <ans id="2" value="0" means="гедонофобия"/>
+    <ans id="3" value="0" means="герпетофобия"/>
+    <ans id="4" value="0" means="криофобия"/>
+    <ans id="5" value="1" means="патофобия"/>
+  </question>
+  <question number="5" name="Анестезирующий - это">
+    <ans id="1" value="0" means="одурманивающий"/>
+    <ans id="2" value="0" means="раздражающий"/>
+    <ans id="3" value="0" means="благоухающий"/>
+    <ans id="4" value="1" means="обезболивающий"/>
+  </question>
+  <question number="6" name="&quot;Рекреация&quot; относится к отдыху как &quot;аудитория&quot; к...">
+    <ans id="1" value="1" means="учебе"/>
+    <ans id="2" value="0" means="обеду"/>
+    <ans id="3" value="0" means="встречам"/>
+    <ans id="4" value="0" means="молитве"/>
+    <ans id="5" value="0" means="общению"/>
+  </question>
+  <question number="7" name="Какое число должно быть следующим в последовательности: 1, 3, 11, 47, ...">
+    <ans id="1" value="1" means="239"/>
+    <ans id="2" value="0" means="154"/>
+    <ans id="3" value="0" means="200"/>
+    <ans id="4" value="0" means="78"/>
+    <ans id="5" value="0" means="96"/>
+  </question>
+  <question number="8" name="Какое слово лишнее?">
+    <ans id="1" value="0" means="мусс"/>
+    <ans id="2" value="1" means="тмин"/>
+    <ans id="3" value="0" means="гуляш"/>
+    <ans id="4" value="0" means="клецки"/>
+    <ans id="5" value="0" means="форшмак"/>
+  </question>
+  <question number="9" name="Синоним слова &quot;обман&quot;">
+    <ans id="1" value="0" means="неблагоразумие"/>
+    <ans id="2" value="1" means="надувательство"/>
+    <ans id="3" value="0" means="заблуждение"/>
+    <ans id="4" value="0" means="простодушие"/>
+  </question>
+  <question number="10" name="&quot;Гедонизм&quot; относится к удовлетворению как &quot;эстетика&quot; к">
+    <ans id="1" value="0" means="морали"/>
+    <ans id="2" value="1" means="прекрасному"/>
+    <ans id="3" value="0" means="воображению"/>
+    <ans id="4" value="0" means="восприятию"/>
+    <ans id="5" value="0" means="реальности"/>
+  </question>
+  <question number="11" name="Астероиды - это малые тела Солнечной системы, а астроиды - это...">
+    <ans id="1" value="0" means="аэроионы"/>
+    <ans id="2" value="0" means="автомобили"/>
+    <ans id="3" value="1" means="алгебраические кривые"/>
+    <ans id="4" value="0" means="заболевание ЦНС"/>
+  </question>
+  <question number="12" name="Какое слово лишнее?">
+    <ans id="1" value="0" means="успокаивать"/>
+    <ans id="2" value="0" means="ослабить"/>
+    <ans id="3" value="1" means="черстветь"/>
+    <ans id="4" value="0" means="разминать"/>
+  </question>
+  <question number="13" name="Какое из следующих словосочетаний не является анаграммой здания?">
+    <ans id="1" value="0" means="гость липа"/>
+    <ans id="2" value="0" means="цинга сито"/>
+    <ans id="3" value="0" means="абак риф"/>
+    <ans id="4" value="1" means="дар с клена"/>
+    <ans id="5" value="0" means="тон и сад"/>
+  </question>
+  <question number="14" name="Найти пропущенное число: 4;  250;  ?;  50;  16;  10;   32;  2;  64">
+    <ans id="1" value="0" means="100"/>
+    <ans id="2" value="0" means="6"/>
+    <ans id="3" value="1" means="8"/>
+  </question>
+  <question number="15" name="Какое из следующих словосочетаний не является анаграммой цветка?">
+    <ans id="1" value="0" means="рог и ген"/>
+    <ans id="2" value="0" means="цикл мена"/>
+    <ans id="3" value="0" means="сами ралли"/>
+    <ans id="4" value="1" means="бал мака"/>
+    <ans id="5" value="0" means="долги алсу"/>
+  </question>
+  <question number="16" name="Какое слово лишнее?">
+    <ans id="1" value="0" means="феска"/>
+    <ans id="2" value="0" means="тулья"/>
+    <ans id="3" value="0" means="капор"/>
+    <ans id="4" value="0" means="сомбреро"/>
+    <ans id="5" value="1" means="сабо"/>
+  </question>
+  <question number="17" name="Продолжите числовой ряд: 15 13 16 12 17 11...">
+    <ans id="1" value="0" means="12"/>
+    <ans id="2" value="1" means="18"/>
+    <ans id="3" value="0" means="10"/>
+    <ans id="4" value="0" means="19"/>
+  </question>
+  <question number="18" name="В ухе барабанная...">
+    <ans id="1" value="0" means="перегородка"/>
+    <ans id="2" value="0" means="косточка"/>
+    <ans id="3" value="1" means="перепонка"/>
+    <ans id="4" value="0" means="дробь"/>
+  </question>
+  <question number="19" name="Какое слово означает то же, что и &quot;клевета&quot;?">
+    <ans id="1" value="0" means="приговор"/>
+    <ans id="2" value="0" means="позор"/>
+    <ans id="3" value="0" means="протест"/>
+    <ans id="4" value="1" means="наговор"/>
+    <ans id="5" value="0" means="приговор"/>
+  </question>
+  <question number="20" name="Продолжите ряд: 9 1 7 1 5 1...">
+    <ans id="1" value="0" means="8"/>
+    <ans id="2" value="0" means="11"/>
+    <ans id="3" value="0" means="4"/>
+    <ans id="4" value="0" means="13"/>
+    <ans id="5" value="1" means="3"/>
+  </question>
+  <question number="21" name="Что не является анаграммой фрукта?">
+    <ans id="1" value="0" means="ааннб"/>
+    <ans id="2" value="0" means="сннааа"/>
+    <ans id="3" value="0" means="яншви"/>
+    <ans id="4" value="0" means="яааппй"/>
+    <ans id="5" value="1" means="уааппс"/>
+  </question>
+  <question number="22" name="Прожект - это...">
+    <ans id="1" value="1" means="план на будущее"/>
+    <ans id="2" value="0" means="размышление"/>
+    <ans id="3" value="0" means="химера"/>
+    <ans id="4" value="0" means="светильник"/>
+  </question>
+  <question number="23" name="Продолжите ряд: 10 12 9 11 8 10...">
+    <ans id="1" value="1" means="7"/>
+    <ans id="2" value="0" means="6"/>
+    <ans id="3" value="0" means="12"/>
+  </question>
+  <question number="24" name="Джейран - это...">
+    <ans id="1" value="0" means="заболевание"/>
+    <ans id="2" value="0" means="утка из Малайзии"/>
+    <ans id="3" value="1" means="газель"/>
+    <ans id="4" value="0" means="японский кукольный театр"/>
+  </question>
+  <question number="25" name="Най­ди­те зна­че­ние вы­ра­же­ния: (1,6*0,01)(2*0,001)">
+    <ans id="1" value="0" means="3200000"/>
+    <ans id="2" value="0" means="0,00032"/>
+    <ans id="3" value="1" means="0,000032"/>
+    <ans id="4" value="0" means="0,0000032"/>
+  </question>
+  <question number="26" name="Что такое антидот?">
+    <ans id="1" value="0" means="военно-защитное сооружение"/>
+    <ans id="2" value="0" means="сын царя Эдипа"/>
+    <ans id="3" value="0" means="гормон"/>
+    <ans id="4" value="1" means="противоядие"/>
+  </question>
+  <question number="27" name="Най­дут­ся ли хотя бы три де­ся­ти­знач­ных числа, де­ля­щи­е­ся на 11, в за­пи­си каж­до­го из ко­то­рых ис­поль­зо­ва­ны все цифры от 0 до 9?">
+    <ans id="1" value="1" means="найдутся"/>
+    <ans id="2" value="0" means="не найдутся"/>
+  </question>
+  <question number="28" name="Всякая бесконечная непериодическая десятичная дробь является … числом.">
+    <ans id="1" value="0" means="рациональным"/>
+    <ans id="2" value="0" means="целым"/>
+    <ans id="3" value="1" means="иррациональным"/>
+    <ans id="4" value="0" means="натуральным"/>
+    <ans id="5" value="0" means="отрицательным"/>
+  </question>
+  <question number="29" name="Продолжите числовой ряд: 1 2 6 16 31 56 ...">
+    <ans id="1" value="0" means="79"/>
+    <ans id="2" value="1" means="92"/>
+    <ans id="3" value="0" means="81"/>
+    <ans id="4" value="0" means="71"/>
+  </question>
+  <question number="30" name="Встсавьте пропущенное число: 1  9 2 ? 3 7">
+    <ans id="1" value="0" means="5"/>
+    <ans id="2" value="1" means="8"/>
+    <ans id="3" value="0" means="6"/>
+    <ans id="4" value="0" means="4"/>
+  </question>
+  <question number="31" name="Множество действительных чисел R состоит из всех …">
+    <ans id="1" value="0" means="положительных и отрицательных чисел"/>
+    <ans id="2" value="1" means="рациональных и иррациональных чисел"/>
+    <ans id="3" value="0" means="целых и дробных чисел"/>
+    <ans id="4" value="0" means="натуральных и иррациональных чисел"/>
+    <ans id="5" value="0" means="целых и иррациональных чисел"/>
+  </question>
+  <question number="32" name="Продолжите числовой ряд: 54 19 18 14 6 9 ...">
+    <ans id="1" value="0" means="5"/>
+    <ans id="2" value="0" means="6"/>
+    <ans id="3" value="1" means="2"/>
+    <ans id="4" value="0" means="4"/>
+    <ans id="5" value="0" means="1"/>
+  </question>
+  <question number="33" name="Какое из этих слов имеет то же значение, что и слово &quot;апатичный&quot;?">
+    <ans id="1" value="0" means="ясный"/>
+    <ans id="2" value="0" means="нерадивый"/>
+    <ans id="3" value="0" means="податливый"/>
+    <ans id="4" value="1" means="вялый"/>
+  </question>
+  <question number="34" name="Сосуд для причастия - это...">
+    <ans id="1" value="1" means="потир"/>
+    <ans id="2" value="0" means="ритон"/>
+    <ans id="3" value="0" means="сион"/>
+    <ans id="4" value="0" means="фиал"/>
+  </question>
+  <question number="35" name="Вставьте число: 2 5  5  7  8  9  11 ...">
+    <ans id="1" value="0" means="14"/>
+    <ans id="2" value="0" means="10"/>
+    <ans id="3" value="1" means="11"/>
+  </question>
+  <question number="36" name="Только одна последовательность букв из приведенных ниже может быть преобразована в слово из 5 букв. Найдите слово:">
+    <ans id="1" value="0" means="книме"/>
+    <ans id="2" value="0" means="рутоп"/>
+    <ans id="3" value="0" means="арлку"/>
+    <ans id="4" value="1" means="вуарк"/>
+    <ans id="5" value="0" means="дебоп"/>
+  </question>
+  <question number="37" name="Смушка - это...">
+    <ans id="1" value="0" means="родинка"/>
+    <ans id="2" value="0" means="вид мух"/>
+    <ans id="3" value="0" means="человек, сеющий панику"/>
+    <ans id="4" value="1" means="шкура ягненка"/>
+    <ans id="5" value="0" means="мутная жидкость"/>
+  </question>
+  <question number="38" name="Продолжите числовой ряд: 301 294 49 44 11 8...">
+    <ans id="1" value="0" means="7"/>
+    <ans id="2" value="0" means="1"/>
+    <ans id="3" value="0" means="5"/>
+    <ans id="4" value="1" means="4"/>
+    <ans id="5" value="0" means="2"/>
+  </question>
+  <question number="39" name="Абстинеция - это...">
+    <ans id="1" value="0" means="вид пластмассы"/>
+    <ans id="2" value="0" means="болезнь"/>
+    <ans id="3" value="1" means="полное воздержание от чего-либо"/>
+    <ans id="4" value="0" means="вид искусства"/>
+    <ans id="5" value="0" means="специфический труд"/>
+  </question>
+  <question number="40" name="Какое из слов ближе всего по значению к слову &quot;ухищрение&quot;?">
+    <ans id="1" value="0" means="показательность"/>
+    <ans id="2" value="0" means="превосходство"/>
+    <ans id="3" value="1" means="маневр"/>
+    <ans id="4" value="0" means="возможность"/>
+    <ans id="5" value="0" means="искусство"/>
+  </question>
+
+  <end>
+    <result min="34" >Очень высокий результат. Вы потрясающе хорошо справились с заданиями!</result>
+    <result min="25" >Отличный результат, Вы верно ответили на большинство вопросов!</result>
+    <result min="15" >Средний результат, к сожалению. Попробуйте пройти тест заново. Только чур не подглядывать в энциклопедии!</result>
+    <result min="0" >Может, просто не повезло? Хотите попробовать еще раз?</result>
+  </end>
+</head>

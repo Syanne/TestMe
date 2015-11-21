@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
+  <!--
+    ЭТОТ ФАЙЛ МАНИФЕСТА ПАКЕТА СОЗДАН ПРОЦЕССОМ СБОРКИ.
+
+    Изменения этого файла будут потеряны при его повторном создании. Чтобы исправить ошибки в этом файле, измените исходный файл .appxmanifest.
+
+ Дополнительные сведения о файлах манифестов приложений см. по адресу http://go.microsoft.com/fwlink/?LinkID=241727
+  -->
+  <Identity Name="36856Syanne.TestMe" Publisher="CN=5000CAD8-2080-4E79-B7DE-8E8CE6E3F9B3" Version="4.2.2.23" ProcessorArchitecture="neutral" />
+  <Properties>
+    <DisplayName>Test Me</DisplayName>
+    <PublisherDisplayName>Syanne</PublisherDisplayName>
+    <Logo>Assets\logo50.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="RU-RU" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="App3.Windows.exe" EntryPoint="App3.Windows.App">
+      <m2:VisualElements DisplayName="Test Me" Square150x150Logo="Assets\logo150.png" Square30x30Logo="Assets\logo30.png" Description="Test Me" ForegroundText="light" BackgroundColor="#1FBFBA" ToastCapable="false">
+        <m2:DefaultTile Wide310x150Logo="Assets\logoWide.png" Square70x70Logo="Assets\logo70.png" ShortName="Тесты">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+            <m2:ShowOn Tile="wide310x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\Logo620.png" BackgroundColor="#1FBFBA" />
+        <m2:InitialRotationPreference>
+          <m2:Rotation Preference="landscape" />
+          <m2:Rotation Preference="landscapeFlipped" />
+        </m2:InitialRotationPreference>
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>CLRHost.dll</Path>
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Controls.Win.XAML.Tracking.AdDuplexTrackingSDK" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Controls.Win.XAML.AdDuplex_Universal_Controls_Win_XAML_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Controls.Win.XAML.AdControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.AdClickEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.ControlSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.NoAdEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.AdInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.CachedAd" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.ImageLoadedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.AdLoadingErrorEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InterstitialInstallationInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InterstitialImageLoadedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InterstitialAdClickEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InterstitialAdInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InterstitialCachedAd" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InterstitialAdLoadingErrorEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.AdLoadedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InterstitialAdLoadedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InstallationInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InterstitialControlSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.AdCoveredEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.SettingsManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.AdSizeToSizeConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.InterstitialNetworkManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.ActionManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.DialogHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.ScreenHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.AdCacher" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.InterstitialAdCacher" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.NetworkManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.InterstitialSettingsManager" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="SharedGUID" Value="d965e37c-9ad6-43e4-a4be-be2abb69445e" />
+    <build:Item Name="CodeSharingProject" Value="248F659F-DAC5-46E8-AC09-60EC9FC95053" />
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v4.5.1" />
+    <build:Item Name="VisualStudio" Version="12.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Professional 2013" />
+    <build:Item Name="OperatingSystem" Version="10.0.10240.16384 (th1.150709-1700)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.40629.0" />
+    <build:Item Name="ProjectGUID" Value="{3A0DDEE4-27BF-4512-86AA-D0742C6FD387}" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="12.0.30501.0" />
+    <build:Item Name="MakePri.exe" Version="6.3.9600.17336 (winblue.150226-1500)" />
+  </build:Metadata>
+</Package>

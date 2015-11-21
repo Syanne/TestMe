@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="13" max="13" name="Музыкальный тест">
+  <question number="1" name="Какой из этих предметов является инструментом симфонического оркестра?">
+    <ans id="1" value="0" means="Ножи"/>
+    <ans id="2" value="0" means="Вилки"/>
+    <ans id="3" value="1" means="Тарелки"/>
+    <ans id="4" value="0" means="Стаканы"/>
+  </question>
+  <question number="2" name="Какого из этих музыкальных стилей не существует?">
+    <ans id="1" value="0" means="Дум"/>
+    <ans id="2" value="0" means="Блэк"/>
+    <ans id="3" value="1" means="Пилон"/>
+    <ans id="4" value="0" means="Джангл"/>
+  </question>
+  <question number="3" name="Прием игры на гитаре, при которо палец одновременно зажимает все струны?">
+    <ans id="1" value="0" means="Диез"/>
+    <ans id="2" value="0" means="Бемоль"/>
+    <ans id="3" value="0" means="Мажор"/>
+    <ans id="4" value="1" means="Баррэ"/>
+  </question>
+  <question number="4" name="Какой из этих инструментов не является смычковым?">
+    <ans id="1" value="0" means="Альт"/>
+    <ans id="2" value="1" means="Набат"/>
+    <ans id="3" value="0" means="Жига"/>
+    <ans id="4" value="0" means="Кобыз"/>
+  </question>
+  <question number="5" name="Какой из этих темпов в музыке - самый быстрый?">
+    <ans id="1" value="0" means="Аллегро"/>
+    <ans id="2" value="1" means="Престо"/>
+    <ans id="3" value="0" means="Виво"/>
+    <ans id="4" value="0" means="Анимато"/>
+  </question>
+  <question number="6" name="Как называется музыкальный ансамбль, состоящий из 5 исполнителей?">
+    <ans id="1" value="0" means="Квартет"/>
+    <ans id="2" value="1" means="Квинтет"/>
+    <ans id="3" value="0" means="Октет"/>
+    <ans id="4" value="0" means="Септет"/>
+  </question>
+  <question number="7" name="Больше всего струн у...">
+    <ans id="1" value="0" means="Классической гитары"/>
+    <ans id="2" value="1" means="Мандолины"/>
+    <ans id="3" value="0" means="Виолончели"/>
+    <ans id="4" value="0" means="Домры"/>
+  </question>
+  <question number="8" name="Бард - это...">
+    <ans id="1" value="0" means="Автор балета"/>
+    <ans id="2" value="1" means="Автор и исполнитель собственных песен"/>
+    <ans id="3" value="0" means="Автор стихотворных композиций"/>
+  </question>
+  <question number="9" name="Высокий женский голос - это...">
+    <ans id="1" value="0" means="Альт"/>
+    <ans id="2" value="0" means="Тенор"/>
+    <ans id="3" value="1" means="Сопрано"/>
+    <ans id="4" value="0" means="Контральто"/>
+  </question>
+  <question number="10" name="Чем обычно открывается опера?">
+    <ans id="1" value="0" means="Интродукция"/>
+    <ans id="2" value="0" means="Пролог"/>
+    <ans id="3" value="1" means="Увертюра"/>
+  </question>
+  <question number="11" name="Ритм - это...">
+    <ans id="1" value="0" means="Высота звука, голоса"/>
+    <ans id="2" value="0" means="Окраска голоса, звука"/>
+    <ans id="3" value="1" means="Чередование коротких и длинных звуков"/>
+    <ans id="4" value="0" means="Скорость движения в музыке"/>
+  </question>
+  <question number="12" name="Аккорд - это...">
+    <ans id="1" value="1" means="Созвучие трех и более нот"/>
+    <ans id="2" value="0" means="Музыкальный жанр"/>
+    <ans id="3" value="0" means="Музыкальный инструмент"/>
+  </question>
+  <question number="13" name="Название последней части симфонии">
+    <ans id="1" value="1" means="Финал"/>
+    <ans id="2" value="0" means="Адажио"/>
+    <ans id="3" value="0" means="Аллегро"/>
+  </question>
+
+
+  <end>
+    <result min="11" >Блестяще! Специально для Вас создана викторина о музыкальных инструментах из третьего блока тестов! Попробуйте ответить на более сложные вопросы.</result>
+    <result min="6" >Хороший результат, но пока не стоит переходить к музыкальному тесту из третьего блока программы.</result>
+    <result min="0" >Вы никогда не учились в музыкальной грамоте, не правда ли? Если это так, никогда не поздно начать!</result>
+  </end>
+</head>

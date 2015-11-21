@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="14" max="14" name="Что означает ваша хандра?">
+  <question number="1" name="Меня часто мучает бессонница и головная боль.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="2" name="Я смотрю на мир, как сквозь тусклое стекло.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="3" name="Вся моя жизнь кажется бессмысленной.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="4" name="Меня все раздражает.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="5" name="Я ни на что не годен.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="6" name="Меня никто не понимает.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="7" name="Я хуже других.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="8" name="С друзьями мне тоскливо, а без них – одиноко.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="9" name="Я выгляжу отвратительно.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="10" name="Меня никто не любит.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="11" name="Я не могу ни на чем сосредоточиться.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="12" name="Я постоянно чувствую усталость.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="13" name="Мне трудно заставить себя что-либо сделать.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="14" name="Время тянется бесконечно медленно.">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+
+
+  <end>
+    <result min="11" >У вас состояние глубокой депрессии. Самостоятельно вам будет тяжело выйти из него. Воспользуйтесь помощью специалиста.</result>
+    <result min="7" >У вас депрессивное состояние. Вам срочно нужно что-то предпринять. Возьмите отпуск, поменяйте обстановку и больше общайтесь с друзьями.</result>
+    <result min="4" >Вы находитесь в стрессовом состоянии. Устройте себе отдых или хотя бы прогулки каждый день. Займитесь спортом.</result>
+    <result min="0" >Вам грустно, и от этого Вы видите все в мрачных тонах. Сделайте для себя что-нибудь приятное. Хорошее настроение к вам вернется.</result>
+  </end>
+</head>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="36856Syanne.TestMe" Publisher="CN=5000CAD8-2080-4E79-B7DE-8E8CE6E3F9B3" Version="4.2.2.23" />
+  <Properties>
+    <DisplayName>Test Me</DisplayName>
+    <PublisherDisplayName>Syanne</PublisherDisplayName>
+    <Logo>Assets\logo50.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="App3.Windows.App">
+      <m2:VisualElements DisplayName="Test Me" Square150x150Logo="Assets\logo150.png" Square30x30Logo="Assets\logo30.png" Description="Test Me" ForegroundText="light" BackgroundColor="#1FBFBA" ToastCapable="false">
+        <m2:DefaultTile Wide310x150Logo="Assets\logoWide.png" Square70x70Logo="Assets\logo70.png" ShortName="Тесты">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+            <m2:ShowOn Tile="wide310x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\Logo620.png" BackgroundColor="#1FBFBA" />
+        <m2:InitialRotationPreference>
+          <m2:Rotation Preference="landscape" />
+          <m2:Rotation Preference="landscapeFlipped" />
+        </m2:InitialRotationPreference>
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

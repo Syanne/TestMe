@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="16" max="17" name="Социопат ли вы?">
+  <question number="1" name="Вы красивы и умны?">
+    <ans id="1" value="1" means="да, часто слышу об этом от окружающих"/>
+    <ans id="2" value="2" means="да"/>
+    <ans id="3" value="0" means="нет, сомневаюсь, что это так"/>
+    <ans id="3" value="0" means="нет, но у меня много положительных качеств"/>
+  </question>
+  <question number="2" name=" У вас бывают приступы бреда или иррационального поведения?">
+    <ans id="1" value="0" means="ой да..."/>
+    <ans id="2" value="1" means="нет, я - абсолютно рациональный человек"/>
+  </question>
+  <question number="3" name="Часто нервничаете или испытываете беспокойство?">
+    <ans id="1" value="0" means="да, все время на эмоциях"/>
+    <ans id="2" value="0" means="не то чтобы часто, но иногда бывает"/>
+    <ans id="3" value="1" means="нет, это не обо мне"/>
+  </question>
+  <question number="4" name="Вы заслуживаете доверия?">
+    <ans id="1" value="0" means="да, я человек исполнительный"/>
+    <ans id="2" value="1" means="нет, не люблю ответственность"/>
+  </question>
+  <question number="5" name="Часто ли Вы врёте или притворяетесь?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="6" name="Испытываете ли Вы хоть иногда чувство раскаяния или стыда?">
+    <ans id="1" value="0" means="да, по любой мелочи"/>
+    <ans id="2" value="0" means="если повод серьезный"/>
+    <ans id="3" value="1" means="нет"/>
+  </question>
+  <question number="7" name="Замечали ли Вы за собой беспричинное антиобщественное поведение?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="8" name="Можете ли Вы назвать себя недальновидным, считаете, что жизнь вас ничему не учит?">
+    <ans id="1" value="0" means="да, к сожалению"/>
+    <ans id="2" value="0" means="иногда случается"/>
+    <ans id="3" value="1" means="нет, люблю все продумывать на несколько шагов вперед"/>
+  </question>
+  <question number="9" name="Вы патологически эгоцентричны?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="10" name="Замечаете, что реагируете на всё практически без эмоций?">
+    <ans id="1" value="1" means="да, бывает"/>
+    <ans id="2" value="0" means="нет, я человек очень эмоциональный"/>
+    <ans id="3" value="0" means="адекватно воспринимаю почти любую ситуацию, но иногда могу расчувствоваться или разгневаться"/>
+  </question>
+  <question number="11" name="Вы считаете, что Вас никто не понимает?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+    <ans id="3" value="1" means="никогда не задумывался(лась)"/>
+  </question>
+  <question number="12" name="Вы отзывчивы?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="13" name="На вечеринках Вы ведёте себя неприглядно?">
+    <ans id="1" value="0" means="да, не очень люблю вечеринки"/>
+    <ans id="2" value="1" means="нет"/>
+    <ans id="3" value="0" means="зависит от настроения"/>
+  </question>
+  <question number="14" name="Были ли у Вас демонстративные ложные попытки самоубийства?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="15" name="Ваша личная жизнь скучна и неполноценна?">
+    <ans id="1" value="1" means="да, к сожалению"/>
+    <ans id="2" value="0" means="нет, это не так"/>
+  </question>
+  <question number="16" name="Жизнь и карьера развиваются не так, как задумано?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+
+
+  <end>
+    <result min="10" >Вы набрали высокий балл. Похоже, Вы социопат, да-да.</result>
+    <result min="0" >Можете не беспокоиться, Вы точно не социопат.</result>
+  </end>
+</head>

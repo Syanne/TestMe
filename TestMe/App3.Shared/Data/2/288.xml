@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="15" max="15" name="Эрудиция +1">
+  <question number="1" name="Единственная птица, у которой есть ушные раковины">
+    <ans id="1" value="0" means="Орел"/>
+    <ans id="2" value="0" means="Коллибри"/>
+    <ans id="3" value="1" means="Сова"/>
+  </question>
+  <question number="2" name="Какая трава самая высокая?">
+    <ans id="1" value="0" means="Папоротник"/>
+    <ans id="2" value="1" means="Бамбук"/>
+    <ans id="3" value="0" means="Одуванчик"/>
+  </question>
+  <question number="3" name="Первые оранжереи появились во Франции. Как Вы думаете, для чего?">
+    <ans id="1" value="0" means="Нужны были цветы для изготовления духов"/>
+    <ans id="2" value="1" means="Для выращивания апельсинов"/>
+    <ans id="3" value="0" means="Для разведения орангутангов"/>
+  </question>
+  <question number="4" name="Как мы привыкли называть китайское яблоко по-французски?">
+    <ans id="1" value="0" means="Помидор"/>
+    <ans id="2" value="1" means="Апельсин"/>
+    <ans id="3" value="0" means="Яблоко - оно и в Китае, и во Франции яблоко"/>
+  </question>
+  <question number="5" name="Какой цветок считался символом королевской власти? ">
+    <ans id="1" value="1" means="Лилия"/>
+    <ans id="2" value="0" means="Роза"/>
+    <ans id="3" value="0" means="Чайная роза"/>
+  </question>
+  <question number="6" name="Как раньше в России называли философа?">
+    <ans id="1" value="0" means="Алконавт"/>
+    <ans id="2" value="0" means="Мудрослов"/>
+    <ans id="3" value="1" means="Любомудр"/>
+  </question>
+  <question number="7" name="По-гречески неделимый - атом. А как по-гречески - разделяющий на части?">
+    <ans id="1" value="1" means="Анатом"/>
+    <ans id="2" value="0" means="Дивидент"/>
+  </question>
+  <question number="8" name="В течение дня бегемот находится в воде, а ночью выходит на сушу. Зачем он это делает? Потому что:">
+    <ans id="1" value="1" means="Питается травой"/>
+    <ans id="2" value="0" means="Питается мелкими водяными животными"/>
+    <ans id="3" value="0" means="Питается наземными животными"/>
+  </question>
+  <question number="9" name="Киви - фрукт, но существует животное с таким же названием. Кто это?">
+    <ans id="1" value="0" means="Бабочка"/>
+    <ans id="2" value="1" means="Птица"/>
+    <ans id="3" value="0" means="Рыба"/>
+  </question>
+  <question number="10" name="На каком континенте никогда не проводились Олимпийские игры?">
+    <ans id="1" value="0" means="Африка"/>
+    <ans id="2" value="1" means="Южная Америка"/>
+    <ans id="3" value="0" means="Австралия"/>
+    <ans id="3" value="0" means="Евразия"/>
+  </question>
+  <question number="11" name="Какая разменная монета Египта?">
+    <ans id="1" value="0" means="Дукат"/>
+    <ans id="2" value="1" means="Пиастр"/>
+    <ans id="3" value="0" means="Реал"/>
+  </question>
+  <question number="12" name="Как по-итальянски &quot;марионетка&quot;? ">
+    <ans id="1" value="0" means="Марионетти"/>
+    <ans id="2" value="1" means="Буратино"/>
+    <ans id="3" value="0" means="Пиноккио"/>
+  </question>
+  <question number="13" name="Кровать, кран, нож с вилкой, телефонная трубка. Что это все означает?">
+    <ans id="1" value="0" means="Я пришел домой"/>
+    <ans id="2" value="1" means="Дорожные знаки"/>
+    <ans id="3" value="0" means="Вывески-указатели в супермаркете"/>
+  </question>
+  <question number="14" name="Вы находитесь в комнате, на 100% заполненной газом метаном. Что будет, если Вы зажжете спичку?">
+    <ans id="1" value="1" means="Ничего"/>
+    <ans id="2" value="0" means="Взрыв"/>
+    <ans id="3" value="0" means="Будет гореть сильнее, чем в обычных условиях"/>
+  </question>
+  <question number="15" name="В переводе с датского &quot;Оле Лукойе&quot; означает...">
+    <ans id="1" value="0" means="Мастер Сновидений"/>
+    <ans id="2" value="0" means="Сказочник"/>
+    <ans id="3" value="0" means="Старик"/>
+    <ans id="3" value="1" means="Закрой глаза"/>
+  </question>
+
+
+  <end>
+    <result min="11" >Потрясающий результат! Должно быть, Вы прошли все тесты на эрудицию и логику, какие есть в программе. Если это так, черкните отзыв - и их станет больше!</result>
+    <result min="7" >Хороший результат. А может повторим? </result>
+    <result min="0" >Здесь еще много тестов на эрудицию, тренируйтесь! Логика - вещь полезная</result>
+  </end>
+</head>

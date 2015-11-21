@@ -1,0 +1,221 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Test_me_alfa.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Test_me_alfa"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ad="using:AdDuplex.Universal.Controls.Win.XAML"
+    mc:Ignorable="d" RequestedTheme="Dark"
+                        
+                             
+    RenderTransformOrigin="0.5,0.5" 
+    CompositeMode="SourceOver"
+    NavigationCacheMode="Required"    
+    >
+
+    <Page.Resources>
+        <CollectionViewSource x:Name="cvsMain" IsSourceGrouped="true" ItemsPath="group"/>
+        <SolidColorBrush x:Name="SelectedColor" x:Key="SelectedColor">#FF1FBFBA</SolidColorBrush>
+        <SolidColorBrush x:Name="BasicColor" x:Key="BasicColor">#A7A7A7</SolidColorBrush>
+        <local:SizeCorrection x:Key="SizeResource"/>
+    </Page.Resources>
+
+
+    <Page.TopAppBar>
+        <AppBar IsSticky="True" IsOpen="True" Background="Transparent" BorderThickness="0" Height="130" Width="auto"
+                HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="60, 5, 0, 5" BorderBrush="Transparent">
+            <GridView FontFamily="Minion Pro" BorderThickness="0" BorderBrush="Transparent" 
+                      VerticalAlignment="Bottom" SelectionMode="None" IsItemClickEnabled="True">
+
+                <GridView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <ItemsWrapGrid Orientation="Horizontal"></ItemsWrapGrid>
+                    </ItemsPanelTemplate>
+                </GridView.ItemsPanel>
+
+                <GridViewItem x:ConnectionId='2'                      Name="Psych" Tag="0" FontSize="36" Foreground="#a7a7a7">Психологические</GridViewItem>
+                <GridViewItem x:ConnectionId='3'                      Name="Logic" Tag="1" FontSize="36" Foreground="#a7a7a7">Логика и IQ</GridViewItem>
+                <GridViewItem x:ConnectionId='4'                      Name="Task" Tag="2" FontSize="36" Foreground="#a7a7a7">Задачи и загадки</GridViewItem>
+            </GridView>
+        </AppBar>
+    </Page.TopAppBar>
+
+    <Page.BottomAppBar>
+        <AppBar Background="#FF1FBFBA" BorderBrush="{x:Null}" Height="90" IsSticky="True" IsOpen="True">
+            <GridView HorizontalAlignment="Center" Height="90">
+
+                <AppBarButton x:ConnectionId='5' HorizontalAlignment="Center" 
+					VerticalAlignment="Center" 
+					Label="Оценить"
+					                           
+					RequestedTheme="Dark" 
+					Margin="5, 0"
+					Foreground="#FFEEEEEE" 
+					ToolTipService.ToolTip="Оставить отзыв и поставить оценку" Height="85" Icon="Like"/>
+                <AppBarButton x:ConnectionId='6' Label="Результат" x:Name="Result" 
+                              HorizontalAlignment="Center" VerticalAlignment="Center" 
+                              Margin="0" RequestedTheme="Dark"                              
+                              ToolTipService.ToolTip="Посмотреть результаты предыдуших тестов" Height="85">
+                    <AppBarButton.Icon>
+                        <SymbolIcon HorizontalAlignment="Center" Symbol="ShowResults" VerticalAlignment="Center" Height="25"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <Image Source="Assets/logo150.png" Stretch="Fill" VerticalAlignment="Center" HorizontalAlignment="Center" Width="75" Height="75" Margin="0"/>
+                <AppBarButton x:ConnectionId='7' HorizontalAlignment="Center" VerticalAlignment="Center" 
+                              Label="О программе"                              
+                              RequestedTheme="Dark" Margin="0" Foreground="#FFEEEEEE" 
+                              ToolTipService.ToolTip="Информация о программе и обновлениях" Height="85">
+
+                    <AppBarButton.Icon>
+                        <SymbolIcon Symbol="More" Width="40"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton x:ConnectionId='8' Label="Выход" x:Name="Exit" 
+                              HorizontalAlignment="Center" VerticalAlignment="Center" 
+                              Margin="0" Width="100" Height="85" 
+                              RequestedTheme="Dark"                              
+                              ToolTipService.ToolTip="Закрыть приложение">
+                    <AppBarButton.Icon>
+                        <SymbolIcon HorizontalAlignment="Center" Symbol="Cancel" VerticalAlignment="Center" Height="25"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+            </GridView>
+        </AppBar>
+    </Page.BottomAppBar>
+
+    <Grid x:Name="myGrid" Background="#FFF3F3F3" RequestedTheme="Light" >
+
+        <FlipView Name="flipStatic"
+                  HorizontalAlignment="Left"
+                  Background="#FFE9E9E9"
+                  Width="{Binding Source={StaticResource SizeResource}, Path=FlipWidth}"
+                  Height="{Binding Source={StaticResource SizeResource}, Path=FlipHeight}"
+                  Margin="50, 150, 100, 50"
+                  VerticalAlignment="Center"
+                  >
+            <FlipView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel x:ConnectionId='13' Name="staticFlip"                            Tag="{Binding Path}" >
+                        <Grid HorizontalAlignment="Left" x:Name="gt" Width="auto">
+
+                            <Image Source="{Binding ImageSrc}" Stretch="Fill"/>
+
+                            <StackPanel VerticalAlignment="Bottom" Background="#BB303030" Tag="{Binding Path}">
+                                <TextBlock Text="{Binding Name}" 
+                                       Foreground="White" FontFamily="Minion Pro" 
+                                       TextWrapping="WrapWholeWords"
+                                       FontSize="{Binding Source={StaticResource SizeResource}, Path=ItemFontSize}"
+                                       Margin="15" >
+                                </TextBlock>
+                            </StackPanel>
+                        </Grid>
+                        
+                        <TextBlock Text="{Binding Description}" 
+                                       Foreground="#BB303030" FontFamily="Minion Pro" 
+                                       TextWrapping="WrapWholeWords"                                       
+                                       FontSize="{Binding Source={StaticResource SizeResource}, Path=FlipFontSize}"
+                                       Margin="15"/>
+                    </StackPanel>
+                </DataTemplate>
+            </FlipView.ItemTemplate>
+        </FlipView>
+
+        <GridView Name="dataGrid" 
+                  SelectionMode="None"
+                  Width="auto" Height="auto" 
+                  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" 
+                  Margin="{Binding Source={StaticResource SizeResource}, Path=GridMargin}" 
+                  >
+
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <Grid x:ConnectionId='12' HorizontalAlignment="Left" x:Name="gt" Background="#AA303030"
+                          Height="{Binding Source={StaticResource SizeResource}, Path=ItemHeight}" 
+                          Width="auto" 
+                          Margin="10"      
+                                            
+                          Tag="{Binding UniqueId}"
+                          >
+                        <Image Source="{Binding ImageSrc}" Stretch="Fill" Margin="2"/>
+
+                        <StackPanel VerticalAlignment="Bottom" Background="#BB303030" Tag="{Binding Path}">
+                            <TextBlock Text="{Binding Name}" 
+                                       Foreground="White" FontFamily="Minion Pro" 
+                                       TextWrapping="WrapWholeWords"
+                                       FontSize="{Binding Source={StaticResource SizeResource}, Path=ItemFontSize}"
+                                       Margin="15"
+                                       >
+                            </TextBlock>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+
+
+            
+        </GridView>
+
+
+        <Grid Name="hiddenGrid" Background="#EE303030" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+              Margin="0, 120, 0, 90" Visibility="Collapsed">
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Center"
+                  Width="{Binding Source={StaticResource SizeResource}, Path=FlipWidth}"
+                  Height="{Binding Source={StaticResource SizeResource}, Path=FlyoutGridHeight}"
+                  Background="#FFE9E9E9" Margin="0, 0, 0, 100">
+
+                <FlipView Name="flyingFlip"
+                  Background="#FFE9E9E9"
+                  Width="auto"
+                  VerticalAlignment="Top" HorizontalAlignment="Center">
+                    
+                    <FlipView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel x:ConnectionId='11' Name="staticFlip"                            Tag="{Binding Path}" >
+                                <Grid HorizontalAlignment="Left" x:Name="gt" Width="auto">
+
+                                    <Image Source="{Binding ImageSrc}" Stretch="Fill" 
+                                           Width="{Binding Source={StaticResource SizeResource}, Path=FlipWidth}"/>
+
+                                </Grid>
+
+                                <TextBlock Text="{Binding Name}" 
+                                                   Foreground="#303030" FontFamily="Minion Pro" 
+                                                   TextWrapping="WrapWholeWords"
+                                                   FontSize="{Binding Source={StaticResource SizeResource}, Path=FlipFontSize}"
+                                                   Margin="15" >
+                                </TextBlock>
+                                <TextBlock Text="{Binding Description}" 
+                                       Foreground="#BB303030" FontFamily="Minion Pro" 
+                                       TextWrapping="WrapWholeWords"                                       
+                                       FontSize="{Binding Source={StaticResource SizeResource}, Path=FlipFontSize}"
+                                       Margin="15"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </FlipView.ItemTemplate>
+                </FlipView>
+                <Button x:ConnectionId='9' x:Name="btnStart" Width="150" Height="60" FontSize="18" 
+                Content="Начать" HorizontalAlignment="Center" Grid.Row="2" 
+                VerticalAlignment="Bottom"                       
+                RequestedTheme="Light" Margin="0,0,160,10" 
+                IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+                
+                <Button x:ConnectionId='10' x:Name="btnBack" Width="150" Height="60" FontSize="18" 
+                Content="Назад" HorizontalAlignment="Center" Grid.Row="2" 
+                VerticalAlignment="Bottom"                      
+                RequestedTheme="Light" Margin="160,-150,0,10" 
+                IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+            </Grid>
+        </Grid>
+        <!--<ad:AdControl x:Name="adDuplexAd"
+                AppId="128767"
+                Size="728x90"
+                      VerticalAlignment="Bottom"
+                      Margin="0, 0, 0, 85"
+                      Grid.Row="1"
+                />-->
+
+
+    </Grid>
+</Page>
+

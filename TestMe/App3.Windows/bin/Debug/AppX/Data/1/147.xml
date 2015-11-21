@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="23" max="23" name="Насколько сильно Ваше сексуальное влечение?">
+  <question number="1" name="Вы занимаетесь любовью хотя бы раз в день?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="2" name="Могли бы Вы вполне счастливо жить, вообще не занимаясь любовью?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="3" name="Вы занимаетесь любовью только в том случае, когда этого хочет Ваш партнер?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="4" name="Вам нравиться надевать красивое нижнее белье?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="5" name="Вы стремитесь специально возбуждать своего партнера прежде, чем заниматься любовью?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="6" name="Нравиться ли Вам эксперементировать и использовать новые сексуальные позы?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="7" name="Вас привлекают порнографические журналы?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="8" name="Смотрите ли Вы порнографические фильмы?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="9" name="Согласились бы Вы пойти на оргию, если бы Вас пригласили?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="10" name="Занимались ли Вы когда-нибудь любовью с человеком, с которым только что познакомились?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="11" name="Вас возбуждат желание иметь разных сексуальных партнеров каждую ночь?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="12" name="Является ли секс самым большим удовольствием в Вашей жизни?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="13" name="Вас беспокоит, что Вы слишком много думаете о сексе?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="14" name="Думаете ли Вы о сексе хотя бы раз в день? ">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="15" name="Вам трудно сохранять платонические отношения с представителем противоположного пола?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="16" name="Ваши сны обычно о сексе?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="17" name="Выбирая одежду, Вы думаете о том, что бы привлечь внимание представителей противоположного пола? ">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="18" name="Вы много флиртуете?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="19" name="Вам когда-нибудь приходилось воображать, что Вы занимаетесь любовью с друзьями или знакомыми?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="20" name="Вы мечтаете о том, что бы Вашими сексуальными партнерами были знаменитые люди?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="21" name="Считаете ли Вы, что секс без любви не имеет смысла?">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="22" name="Вам приходилось бороться с собой, что бы заглушить мысли о сексе?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+  <question number="23" name="Хотели бы Вы посмотреть, как Ваш партнер занимается любовью с кем-нибудь другим?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+
+  <end>
+    <result min="23" >Вы полнокровный, беззастенчивый сексуальный маньяк.</result>
+    <result min="15" >У Вас очень сильное сексуальное влечение. Только немногие вещи имеют для Вас столь же большое значение, как секс. А другие стороны жизни - работа, хобби, семья - играют, как правило, второстепенную роль.</result>
+    <result min="5" >Ваше сексуальное влечение немного выше нормального уровня, но Вы его неплохо контролируете.</result>
+    <result min="0" >Вам удается держать сексуальные влечения и инстинкты под определенным контролем. В Вашей жизни есть более важные вещи, чем просто секс.</result>
+  </end>
+</head>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="15" max="15" minute="2" name="Сложные синонимы">
+  <question id="1" name="Атомарный"
+            ans="Неделимый"
+            exp=""/>
+  <question id="2" name="Обмен веществ"
+            ans="Метаболизм"
+            exp=""/>
+  <question id="3" name="Меценат"
+            ans="Спонсор"
+            exp=""/>
+  <question id="4" name="Совершенство"
+            ans="Идеал"
+            exp=""/>
+  <question id="5" name="Обитель, пристанище"
+            ans="Жилище"
+            exp=""/>
+  <question id="6" name="Шалить, забавляться"
+            ans="Играть"
+            exp=""/>
+  <question id="7" name="Предательство, неверность"
+            ans="Измена"
+            exp=""/>
+  <question id="8" name="Наемник, трудяга"
+            ans="Работник"
+            exp=""/>
+  <question id="9" name="Супруга"
+            ans="Жена"
+            exp=""/>
+  <question id="10" name="Глумиться, насмехаться"
+            ans="Издеваться"
+            exp=""/>
+  <question id="11" name="Просить"
+            ans="Клянчить"
+            exp=""/>
+  <question id="12" name="Дань, оброк, платеж"
+            ans="Налог"
+            exp=""/>
+  <question id="13" name="Спор, ссора"
+            ans="Раздор"
+            exp=""/>
+  <question id="14" name="Присяга, обет"
+            ans="Клятва"
+            exp=""/>
+  <question id="15" name="Ребенок, плод"
+            ans="Чадо"
+            exp=""/>
+
+  <end>
+    <result min="10" >Вы отлично знаете русский язык.</result>
+    <result min="6" >Нелохой результат, </result>
+    <result min="0" >К сожалению, результат низковат. Возможно, при написании Вы допустили крошечную ошибку?</result>
+  </end>
+</head>
+

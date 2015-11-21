@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="20" max="40" name="Тест Юнга">
+  
+  <question number="1" name="Что Вы предпочитаете?">
+    <ans id="1" value="1" means="немного близких друзей"/>
+    <ans id="2" value="2" means="большую товарищескую компанию"/>
+  </question>
+  <question number="2" name="Какие книги Вы предпочитаете читать?">
+    <ans id="1" value="2" means="с занимательным сюжетом"/>
+    <ans id="2" value="1" means="с описанием переживаний героев"/>
+  </question>
+  <question number="3" name="Что Вы скорее можете допустить в разговоре?">
+    <ans id="1" value="1" means="опоздание"/>
+    <ans id="2" value="2" means="ошибки"/>
+  </question>
+  <question number="4" name="Если Вы совершаете дурной поступок, то...">
+    <ans id="1" value="1" means="остро переживаете"/>
+    <ans id="2" value="2" means="острых переживаний нет"/>
+  </question>
+  <question number="5" name="Как Вы сходитесь с людьми?">
+    <ans id="1" value="2" means="быстро, легко"/>
+    <ans id="2" value="1" means="медленно, осторожно"/>
+  </question>
+  <question number="6" name="Считаете ли Вы себя обидчивым?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+  </question>
+  <question number="7" name="Склонны ли Вы хохотать, смеяться от души?">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="8" name="Вы себя считаете...">
+    <ans id="1" value="1" means="молчаливым"/>
+    <ans id="2" value="2" means="разговорчивым"/>
+  </question>
+  <question number="9" name="Откровенны Вы или скрытны?">
+    <ans id="1" value="2" means="откровенен"/>
+    <ans id="2" value="1" means="скрытен"/>
+  </question>
+  <question number="10" name="Любите ли Вы анализировать свои переживания?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+  </question>
+  <question number="11" name="Находясь в обществе Вы предпочитаете...">
+    <ans id="1" value="2" means="говорить"/>
+    <ans id="2" value="1" means="слушать"/>
+  </question>
+  <question number="12" name="Часто ли Вы недовольны собой?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+  </question>
+  <question number="13" name="Любите ли Вы организовывать что-либо?">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="14" name="Вы ведете ли Вы личный дневник? А если нет, то хотели бы?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+  </question>
+  <question number="15" name="Быстро ли Вы переходите от решения к исполнению?">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="16" name="У Вас часто меняется настроение?">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="17" name="Любите ли Вы убеждать других, навязывать свои взгляды?">
+    <ans id="1" value="2" means="да"/>
+    <ans id="2" value="1" means="нет"/>
+  </question>
+  <question number="18" name="Ваши движения:">
+    <ans id="1" value="2" means="быстры"/>
+    <ans id="2" value="1" means="замедлены"/>
+  </question>
+  <question number="19" name="Вы часто беспокоитесь о возможных неприятностях?">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="2" means="нет"/>
+  </question>
+  <question number="20" name="В затруднительных ситуациях:">
+    <ans id="1" value="2" means="обращаетесь за помощью"/>
+    <ans id="2" value="1" means="делаете все самостоятельно, даже если не все понимаете"/>
+  </question>
+
+  <end>
+    <result min="25" >Вы - экстраверт. Легки в общении, у Вас высокий уровень агрессивности, имеете тенденцию к лидерству, любите быть в центре внимания, легко завязываете знакомства, импульсивны, открыты и общительны, среди Ваших знакомых могут быть очень полезные люди. Судите о людях «по внешности», редко заглядывая внутрь. По темпераменту - холерик или сангвиник.</result>
+    <result min="17" >Вы - амбоверт. Это значит, что Вы в меру общительный человек. По темпераменту - сангвиник или меланхолик.</result>
+    <result min="0" >Вы - интроверт. Сосредоточены на собственных переживаниях, малоконтактны, молчаливы, с трудом заводите новые знакомства. Не любите рисковать, тяжело переживаете разрыв старых связей, высокий уровень тревожности и регидности. По темпераменту - флегматик или меланхолик.</result>
+  </end>
+</head>
