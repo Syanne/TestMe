@@ -4,6 +4,8 @@
     <RootPropertyPathName Name="group" />
     <RootPropertyPathName Name="FlipWidth" />
     <RootPropertyPathName Name="FlyoutGridHeight" />
+    <RootPropertyPathName Name="ButtonWidth" />
+    <RootPropertyPathName Name="ButtonHeight" />
     <RootPropertyPathName Name="Path" />
     <RootPropertyPathName Name="Description" />
     <RootPropertyPathName Name="FlipFontSize" />

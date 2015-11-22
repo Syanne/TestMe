@@ -276,3 +276,68 @@ E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\Ad
 E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.pri.xml
 E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri.xml
 E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\ProjectArchitectures.txt
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\1.MainPage.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\2.1.TestPage.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\3.GraphPage.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\4.Statistics.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.xr.xml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.exe
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.pdb
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\resources.pri
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AppxManifest.xml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\Test Me.build.appxrecipe
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.winmd
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.winmd
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\Microsoft.Live.dll
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.dll
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.dll
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.pri
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.pri
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.pri
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\Test Me.csprojResolveAssemblyReference.cache
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\App.g.i.cs
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\App.g.cs
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\1.MainPage.g.i.cs
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\1.MainPage.g.cs
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\2.1.TestPage.g.i.cs
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\2.1.TestPage.g.cs
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\3.GraphPage.g.i.cs
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\3.GraphPage.g.cs
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\4.Statistics.g.i.cs
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\4.Statistics.g.cs
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\XamlTypeInfo.g.cs
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\App.xaml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\1.MainPage.xaml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\2.1.TestPage.xaml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\3.GraphPage.xaml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\4.Statistics.xaml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\App.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\1.MainPage.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\2.1.TestPage.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\3.GraphPage.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\4.Statistics.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\XamlSaveStateFile.xml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\App3.Windows.exe
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\App3.Windows.pdb
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\en-US\WinRTXamlToolkit.Controls.DataVisualization.Properties.Resources.resw
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\Test Me.csproj.GenerateResource.Cache
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\qualifiers.txt
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\priconfig.xml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\priconfig.xml.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\layout.resfiles
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\layout.resfiles.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\resources.resfiles
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\resources.resfiles.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\pri.resfiles
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\pri.resfiles.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\qualifiers.txt
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\qualifiers.txt.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\AdDuplex.Universal.Controls.Win.XAML.pri.xml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\AdDuplex.Universal.Win.WinRT.pri.xml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.pri.xml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri.xml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\ProjectArchitectures.txt

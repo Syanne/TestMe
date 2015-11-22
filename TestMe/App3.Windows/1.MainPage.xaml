@@ -194,17 +194,23 @@
                         </DataTemplate>
                     </FlipView.ItemTemplate>
                 </FlipView>
-                <Button x:Name="btnStart" Width="150" Height="60" FontSize="18" 
-                Content="Начать" HorizontalAlignment="Center" Grid.Row="2" 
-                VerticalAlignment="Bottom" Click="btnStart_Click"
-                RequestedTheme="Light" Margin="0,0,160,10" 
-                IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
-                
-                <Button x:Name="btnBack" Width="150" Height="60" FontSize="18" 
-                Content="Назад" HorizontalAlignment="Center" Grid.Row="2" 
-                VerticalAlignment="Bottom" Click="btnBack_Click"
-                RequestedTheme="Light" Margin="160,-150,0,10" 
-                IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+                <Button x:Name="btnStart"
+                        Width="{Binding Source={StaticResource SizeResource}, Path=ButtonWidth}"
+                        Height="{Binding Source={StaticResource SizeResource}, Path=ButtonHeight}" 
+                        FontSize="18" 
+                        Content="Начать" HorizontalAlignment="Center" Grid.Row="2" 
+                        VerticalAlignment="Bottom" Click="btnStart_Click"
+                        RequestedTheme="Light" Margin="0,0,160,10" 
+                        IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+
+                <Button x:Name="btnBack" 
+                        Width="{Binding Source={StaticResource SizeResource}, Path=ButtonWidth}"
+                        Height="{Binding Source={StaticResource SizeResource}, Path=ButtonHeight}" 
+                        FontSize="18" 
+                        Content="Назад" HorizontalAlignment="Center" Grid.Row="2" 
+                        VerticalAlignment="Bottom" Click="btnBack_Click"
+                        RequestedTheme="Light" Margin="160,-150,0,10" 
+                        IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
             </Grid>
         </Grid>
         <!--<ad:AdControl x:Name="adDuplexAd"

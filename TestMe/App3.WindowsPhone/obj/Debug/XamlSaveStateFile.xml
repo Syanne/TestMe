@@ -1,9 +1,9 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="e:\sky\programming\personal\c#\testme main\testme\app3.windowsphone\obj\debug\intermediatexaml\app3.windowsphone.exe" HashGuid="4a335642-6abc-5dfb-89d5-c2564c927d1c" />
-    <ReferenceAssembly PathName="e:\onedrive\programming\personal\c#\testme main\packages\adduplexwinphone81.9.0.0.5\lib\portable-win81+wpa81\adduplex.universal.controls.winphone.xaml.winmd" HashGuid="008cbc5f-2cd6-f4d6-cccb-456e3283cdc9" />
-    <ReferenceAssembly PathName="e:\onedrive\programming\personal\c#\testme main\packages\adduplexwinphone81.9.0.0.5\lib\portable-win81+wpa81\adduplex.universal.winphone.winrt.winmd" HashGuid="583512d9-4c6a-e7ad-c421-2c9e2d0d4040" />
-    <ReferenceAssembly PathName="e:\onedrive\programming\personal\c#\testme main\packages\winrtxamltoolkit.controls.datavisualization.1.6.1.3\lib\netcore45\winrtxamltoolkit.controls.datavisualization.dll" HashGuid="848f1b1e-7398-00ab-3f61-291b87557e14" />
-    <ReferenceAssembly PathName="e:\onedrive\programming\personal\c#\testme main\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\winrtxamltoolkit.dll" HashGuid="f2a43d5d-312f-9500-8dd0-3a887084ca3b" />
+    <ReferenceAssembly PathName="e:\onedrive\programming\personal\c#\testme\packages\adduplexwinphone81.9.0.0.5\lib\portable-win81+wpa81\adduplex.universal.controls.winphone.xaml.winmd" HashGuid="008cbc5f-2cd6-f4d6-cccb-456e3283cdc9" />
+    <ReferenceAssembly PathName="e:\onedrive\programming\personal\c#\testme\packages\adduplexwinphone81.9.0.0.5\lib\portable-win81+wpa81\adduplex.universal.winphone.winrt.winmd" HashGuid="583512d9-4c6a-e7ad-c421-2c9e2d0d4040" />
+    <ReferenceAssembly PathName="e:\onedrive\programming\personal\c#\testme\packages\winrtxamltoolkit.controls.datavisualization.1.6.1.3\lib\netcore45\winrtxamltoolkit.controls.datavisualization.dll" HashGuid="848f1b1e-7398-00ab-3f61-291b87557e14" />
+    <ReferenceAssembly PathName="e:\onedrive\programming\personal\c#\testme\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\winrtxamltoolkit.dll" HashGuid="f2a43d5d-312f-9500-8dd0-3a887084ca3b" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

@@ -1,1 +1,1 @@
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\Test Me.csproj;neutral
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Test Me.csproj;neutral

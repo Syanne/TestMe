@@ -25,6 +25,9 @@ namespace Test_me_alfa
 
         public double FlyoutGridHeight { get; set; }
 
+        public double ButtonHeight { get; set; }
+        public double ButtonWidth { get; set; }
+
         public SizeCorrection()
         {
             ItemHeight = (Window.Current.Bounds.Height - 230) / 4;
@@ -35,19 +38,24 @@ namespace Test_me_alfa
                 ItemFontSize = 16;
                 FlipFontSize = 18;
                 FlipHeight = ItemHeight * 2;
+                ButtonHeight = 50;
+                ButtonWidth = 110;
+                FlyoutGridHeight = FlipHeight + 150;
             }
             else
             {
                 ItemFontSize = 20;
                 FlipFontSize = 22;
                 FlipHeight = ItemHeight * 3.5 / 2;
+                ButtonHeight = 50;
+                ButtonWidth = 150;
+                FlyoutGridHeight = FlipHeight * 3 / 2;
             }
 
             FlipWidth = ItemHeight * 2;
             
             GridMargin = new Thickness(FlipWidth + 70, 150, 50, 100);
 
-            FlyoutGridHeight = FlipHeight*3/2;
         }
     }
 }
