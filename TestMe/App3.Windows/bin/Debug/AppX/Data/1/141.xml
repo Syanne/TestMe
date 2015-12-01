@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="" max="" name="">
+  <question number="" name="">
+    <ans id="1" value="0" means=""/>
+    <ans id="2" value="0" means=""/>
+    <ans id="3" value="0" means=""/>
+  </question>
+
+
+  <end>
+    <result min="" > </result>
+    <result min="" > </result>
+    <result min="" > </result>
+  </end>
+</head>
