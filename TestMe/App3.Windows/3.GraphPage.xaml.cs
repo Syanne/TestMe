@@ -1,25 +1,13 @@
 ﻿using Test_me_alfa.Common;
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Xml;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.UI.Popups;
 using Windows.Storage;
 using System.Xml.Linq;
-using Windows.Data.Xml.Dom;
 using WinRTXamlToolkit.Controls.DataVisualization.Charting;
 
 // Документацию по шаблону элемента "Основная страница" см. по адресу http://go.microsoft.com/fwlink/?LinkId=234237
@@ -62,33 +50,32 @@ namespace Test_me_alfa
                 SizeCorrector(Window.Current.Bounds.Height, Window.Current.Bounds.Width);
         }           
 
-        private void CreateGraph(HelpStruct hs)
+        private void CreateGraph(TestInfo testInfo)
         {
             try
             {
-                XDocument document = XDocument.Load(hs.path.ToString());
                 //gets info from Tag and opens the file
                 List<Graph> gList = new List<Graph>();
 
-                gList.Add(new Graph() { Title = "Ваш результат", Result = Convert.ToInt32(hs.result) });
+                gList.Add(new Graph() { Title = "Ваш результат", Result = Convert.ToInt32(testInfo.result) });
 
                 string descXML = "";
-                string nameXML = document.Element("head").Attribute("name").Value;
-                string maxXML = document.Element("head").Attribute("max").Value;
+                string nameXML = testInfo.xDoc.Element("head").Attribute("name").Value;
+                string maxXML = testInfo.xDoc.Element("head").Attribute("max").Value;
 
                 gList.Add(new Graph()
                 {
                     Title = "Осталось",
-                    Result = Convert.ToInt32(maxXML) - Convert.ToInt32(hs.result)
+                    Result = Convert.ToInt32(maxXML) - Convert.ToInt32(testInfo.result)
                 });
 
-                var results = document.Root.Element("end").Elements();
+                var results = testInfo.xDoc.Root.Element("end").Elements();
                 foreach (XElement elem in results)
                 {
-                    if((int)hs.result >= Convert.ToInt32(elem.Attribute("min").Value))
+                    if((int)testInfo.result >= Convert.ToInt32(elem.Attribute("min").Value))
                     {
                         descXML = elem.Value;
-                        tbRes.Text = hs.result.ToString() + " балл(а, ов). \n\n" + descXML;
+                        tbRes.Text = testInfo.result.ToString() + " балл(а, ов). \n\n" + descXML;
                         break;
                     }
                 }
@@ -97,29 +84,30 @@ namespace Test_me_alfa
                 (Charty.Series[0] as PieSeries).ItemsSource = gList;
 
                 //info about result goes to the result-file
-                xmlRedactor(nameXML, maxXML, hs.result.ToString(), descXML);
-
+                xmlRedactor(nameXML, maxXML, testInfo.result.ToString(), descXML);
 
                 //2nd and 3rd groups
-                descBlock.Text += "ПРАВИЛЬНЫЕ ОТВЕТЫ: \n\n\n";
+                descBlock.Text += "ОТВЕТЫ: \n\n\n";
                 int i = 1; 
-                if (hs.path[7] == '3')
-                    foreach (var elem in document.Root.Elements("question"))
+                if (testInfo.path[7] == '3')
+                    foreach (var elem in testInfo.xDoc.Root.Elements("question"))
                     {
-                        descBlock.Text += String.Format("{0}) {1}\nОТВЕТ: {2}\n\n", i, elem.Attribute("name").Value, elem.Attribute("ans").Value);
+                        descBlock.Text += String.Format("{0}) {1}\nПРАВИЛЬНЫЙ ОТВЕТ: {2}\nВЫ ОТВЕТИЛИ: {3}\n\n",
+                            i, elem.Attribute("name").Value, elem.Attribute("ans").Value, testInfo.myAnswers[i - 1]);
                         i++;
                     }
-                else if (hs.path[7] == '2')
-                    foreach (var elem in document.Root.Elements("question"))
+                else if (testInfo.path[7] == '2')
+                    foreach (var elem in testInfo.xDoc.Root.Elements("question"))
                     {
-                        descBlock.Text += String.Format("{0}) {1}\nОТВЕТ: {2}\n\n", i, elem.Attribute("name").Value,
-                            elem.Elements().Where(el => el.Attribute("value").Value == "1").First().Attribute("means").Value);
+                        descBlock.Text += String.Format("{0}) {1}\nПРАВИЛЬНЫЙ ОТВЕТ: {2}\nВЫ ОТВЕТИЛИ: {3}\n\n", i, elem.Attribute("name").Value,
+                            elem.Elements().Where(el => el.Attribute("value").Value == "1").First().Attribute("means").Value, 
+                            testInfo.myAnswers[i - 1]);
                         i++;
                     }
                 else ChangeTextBtn.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
       
                 //if user wants to retry
-                Again.Tag = hs.path;
+                Again.Tag = testInfo.path;
             }
             catch (System.FormatException)
             {
@@ -162,7 +150,7 @@ namespace Test_me_alfa
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             navigationHelper.OnNavigatedTo(e);
-            HelpStruct hs = (HelpStruct)e.Parameter;
+            TestInfo hs = (TestInfo)e.Parameter;
 
             CreateGraph(hs);
         }

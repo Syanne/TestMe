@@ -22,3 +22,8 @@ E:\OneDrive\Programming\Personal\C#\TestMe Main\FindNulls\bin\Debug\FindNulls.pd
 E:\OneDrive\Programming\Personal\C#\TestMe Main\FindNulls\obj\Debug\FindNulls.csprojResolveAssemblyReference.cache
 E:\OneDrive\Programming\Personal\C#\TestMe Main\FindNulls\obj\Debug\FindNulls.exe
 E:\OneDrive\Programming\Personal\C#\TestMe Main\FindNulls\obj\Debug\FindNulls.pdb
+E:\OneDrive\Programming\Personal\C#\TestMe\FindNulls\bin\Debug\FindNulls.exe.config
+E:\OneDrive\Programming\Personal\C#\TestMe\FindNulls\bin\Debug\FindNulls.exe
+E:\OneDrive\Programming\Personal\C#\TestMe\FindNulls\bin\Debug\FindNulls.pdb
+E:\OneDrive\Programming\Personal\C#\TestMe\FindNulls\obj\Debug\FindNulls.exe
+E:\OneDrive\Programming\Personal\C#\TestMe\FindNulls\obj\Debug\FindNulls.pdb

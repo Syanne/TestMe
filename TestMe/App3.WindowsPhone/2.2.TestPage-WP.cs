@@ -37,7 +37,7 @@ namespace Test_me_alfa
                 {
                     if (xml.IsStartElement("head"))
                     {
-                        hs.numOfq = Convert.ToInt32(xml.GetAttribute("qcount"));
+                        hs.qCount = Convert.ToInt32(xml.GetAttribute("qcount"));
                         pageTitle.Text = xml.GetAttribute("name");
                         hs.minutes = Convert.ToByte(xml.GetAttribute("minute"));
                     }
@@ -68,10 +68,10 @@ namespace Test_me_alfa
         private void Test()
         {
             //if current = max
-            if (hs.position > hs.numOfq) ResultHandler();
+            if (hs.position > hs.qCount) ResultHandler();
 
             //current question
-            quesChamber.Text = String.Format("{0}/{1}", hs.position, hs.numOfq);
+            quesChamber.Text = String.Format("{0}/{1}", hs.position, hs.qCount);
             lv.Items.Clear();
 
             //read the question

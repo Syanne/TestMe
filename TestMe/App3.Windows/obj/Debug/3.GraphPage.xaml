@@ -22,7 +22,7 @@
 
 
     <Page.TopAppBar>
-        <AppBar Height="90" IsSticky="True" IsOpen="True" Background="Transparent" BorderThickness="0">
+        <AppBar Height="90" IsSticky="True" IsOpen="True" Background="Transparent" BorderThickness="0" BorderBrush="Transparent">
         </AppBar>
     </Page.TopAppBar>
 
@@ -80,6 +80,7 @@
                           Visibility="Collapsed"
                           Margin="10,10,10,200"
                           >
+             
             <TextBlock Name="descBlock" 
                        FontSize="20" HorizontalAlignment="Right" 
                        Visibility="Collapsed" 

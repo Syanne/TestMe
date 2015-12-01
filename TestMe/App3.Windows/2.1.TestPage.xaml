@@ -14,7 +14,7 @@
     Unloaded="pageRoot_Unloaded">
 
     <Page.TopAppBar>
-        <AppBar Height="90" IsSticky="True" IsOpen="True" Background="Transparent" BorderThickness="0">
+        <AppBar Height="90" IsSticky="True" IsOpen="True" Background="Transparent" BorderThickness="0" BorderBrush="Transparent">
             <Grid x:Name="topString">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="120"/>

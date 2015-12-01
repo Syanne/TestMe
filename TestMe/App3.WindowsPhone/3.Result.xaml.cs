@@ -106,7 +106,7 @@ namespace Test_me_alfa
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             navigationHelper.OnNavigatedTo(e);
-            HelpStruct hs = (HelpStruct)e.Parameter;
+            TestInfo hs = (TestInfo)e.Parameter;
 
             CreateGraph(hs);
         }
@@ -124,7 +124,7 @@ namespace Test_me_alfa
         /// It's taking some info from source into the List, then - to the Chart
         /// </summary>
         /// <param name="hs">Our source is Struct</param>
-        private void CreateGraph(HelpStruct hs)
+        private void CreateGraph(TestInfo hs)
         {
             try
             {

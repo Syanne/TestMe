@@ -20,13 +20,13 @@
     <AppXManifest Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-21T21:52:06.877</Modified>
+      <Modified>2015-11-30T23:08:56.796</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.exe">
       <PackagePath>App3.Windows.exe</PackagePath>
-      <Modified>2015-11-21T21:51:52.605</Modified>
+      <Modified>2015-12-01T07:42:23.231</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\AdDuplexWin81.9.0.0.5\lib\portable-win81+wpa81\AdDuplex.Universal.Controls.Win.XAML.winmd">
       <PackagePath>AdDuplex.Universal.Controls.Win.XAML.winmd</PackagePath>
@@ -424,7 +424,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\1\143.xml">
       <PackagePath>Data\1\143.xml</PackagePath>
-      <Modified>2015-11-21T20:26:26.156</Modified>
+      <Modified>2015-11-30T20:55:14.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\1\144.xml">
       <PackagePath>Data\1\144.xml</PackagePath>
@@ -680,7 +680,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\284.xml">
       <PackagePath>Data\2\284.xml</PackagePath>
-      <Modified>2015-01-13T20:15:10.000</Modified>
+      <Modified>2015-11-30T21:31:58.874</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\288.xml">
       <PackagePath>Data\2\288.xml</PackagePath>
@@ -816,27 +816,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-11-21T16:10:12.614</Modified>
+      <Modified>2015-11-30T22:59:34.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\1.MainPage.xbf">
       <PackagePath>1.MainPage.xbf</PackagePath>
-      <Modified>2015-11-21T21:50:17.880</Modified>
+      <Modified>2015-12-01T07:42:22.816</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\2.1.TestPage.xbf">
       <PackagePath>2.1.TestPage.xbf</PackagePath>
-      <Modified>2015-11-21T16:10:12.615</Modified>
+      <Modified>2015-11-30T22:59:34.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\3.GraphPage.xbf">
       <PackagePath>3.GraphPage.xbf</PackagePath>
-      <Modified>2015-11-21T16:10:12.615</Modified>
+      <Modified>2015-11-30T23:12:25.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\4.Statistics.xbf">
       <PackagePath>4.Statistics.xbf</PackagePath>
-      <Modified>2015-11-21T16:10:12.615</Modified>
+      <Modified>2015-11-30T22:59:34.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.xr.xml">
       <PackagePath>App3.Windows.xr.xml</PackagePath>
-      <Modified>2015-11-21T21:47:11.601</Modified>
+      <Modified>2015-11-30T23:08:42.763</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\AdDuplexWin81.9.0.0.5\lib\portable-win81+wpa81\AdDuplex.Universal.Controls.Win.XAML\AdDuplex.Universal.Controls.Win.XAML.xr.xml">
       <PackagePath>AdDuplex.Universal.Controls.Win.XAML\AdDuplex.Universal.Controls.Win.XAML.xr.xml</PackagePath>
@@ -1036,7 +1036,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-11-21T21:51:52.869</Modified>
+      <Modified>2015-12-01T07:41:05.813</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

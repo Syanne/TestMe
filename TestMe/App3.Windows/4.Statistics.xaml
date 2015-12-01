@@ -20,7 +20,7 @@
 
 
     <Page.TopAppBar>
-        <AppBar Height="90" IsSticky="True" IsOpen="True" Background="Transparent" BorderThickness="0">
+        <AppBar Height="90" IsSticky="True" IsOpen="True" Background="Transparent" BorderThickness="0" BorderBrush="Transparent">
             <Grid>
             <TextBlock x:Name="gName" Style="{StaticResource HeaderTextBlockStyle}" TextAlignment="Center"
                        TextWrapping="WrapWholeWords" VerticalAlignment="Center" Margin="100, 0, 50, 0" Foreground="Black" FontSize="36"/>

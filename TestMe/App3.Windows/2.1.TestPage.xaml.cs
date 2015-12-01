@@ -1,27 +1,10 @@
 ﻿using Test_me_alfa.Common;
 using System;
-using System.IO;
-using System.Xml;
-using System.Text;
-using System.Linq;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.UI;
 using Windows.UI.Xaml;
-using Windows.Foundation;
-using Windows.Foundation.Metadata;
-using Windows.Foundation.Collections;
-using Windows.System;
 using Windows.UI.Popups;
-using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
-using Windows.UI.ViewManagement;
-using Windows.UI.Xaml.Media.Animation;
-using Windows.UI.Xaml.Controls.Primitives;
 
 namespace Test_me_alfa
 {
@@ -32,7 +15,7 @@ namespace Test_me_alfa
     {
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
-        HelpStruct hs;
+        TestInfo testInfo;
 
         private double FontSizeOnPage
         {
@@ -62,18 +45,13 @@ namespace Test_me_alfa
         public TestPage()
         {
             this.InitializeComponent();
-            this.navigationHelper = new NavigationHelper(this);
-            this.navigationHelper.LoadState += navigationHelper_LoadState;
-            this.navigationHelper.SaveState += navigationHelper_SaveState;
-            
+            this.navigationHelper = new NavigationHelper(this);         
 
             if (Window.Current.Bounds.Width <= Window.Current.Bounds.Height)
                 SizeCorrector(Window.Current.Bounds.Width, Window.Current.Bounds.Width);
             else 
                 SizeCorrector(Window.Current.Bounds.Height, Window.Current.Bounds.Width);
 
-            hs = new HelpStruct();
-            hs.position = 1;
         }
 
         #region Регистрация NavigationHelper
@@ -90,7 +68,7 @@ namespace Test_me_alfa
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             navigationHelper.OnNavigatedTo(e);
-            iAmNavigted(e.Parameter.ToString());
+            IAmNavigted(e.Parameter.ToString());
         }
 
         protected override void OnNavigatedFrom(NavigationEventArgs e)
@@ -108,38 +86,45 @@ namespace Test_me_alfa
         /// <param name="e"></param>
         private void btnDone_Click(object sender, RoutedEventArgs e)
         {
-            if (hs.position < hs.numOfq)
+           // if (testInfo.position <= testInfo.qCount)
+           // {
+                //task
+            if (task.IsEnabled == true && task.Text != "")
             {
-                //logic and math
-                foreach (Control rb in lv.Items)
+                if (task.Text.ToLower() == task.Tag.ToString())
                 {
+                    testInfo.result += 1;
+                }
+
+                testInfo.myAnswers.Add(task.Text);
+                task.Text = "";
+
+                //move next
+                testInfo.position += 1;
+                if (testInfo.position <= testInfo.qCount)
+                    TestWithTimer();
+                else ResultHandler();
+            }
+            //logic and psycho
+            else
+            {
+                foreach (Control rb in lv.Items)
                     if (rb is RadioButton)
                     {
                         RadioButton check = rb as RadioButton;
                         if (check.IsChecked == true)
                         {
-                            hs.result += Convert.ToInt32(check.Tag);
-                            hs.position += 1;
-                            Test();
+                            testInfo.myAnswers.Add((check.Content as TextBlock).Text);
+                            testInfo.result += Convert.ToInt32(check.Tag);
+
+                            //move next
+                            testInfo.position += 1;
+                            if (testInfo.position <= testInfo.qCount)
+                                Test();
+                            else ResultHandler();
                         }
                     }
-                }
-                //task
-                if (task.IsEnabled == true && task.Text != "")
-                {
-                        if (task.Text.ToLower() == task.Tag.ToString())
-                        {
-                            hs.result += 1;
-                        }
-                        hs.position += 1;
-                        task.Text = "";
-
-                        TaskHandler();
-                }
             }
-            //fuckin' result
-            else ResultHandler();
-
         }
 
         /// <summary>

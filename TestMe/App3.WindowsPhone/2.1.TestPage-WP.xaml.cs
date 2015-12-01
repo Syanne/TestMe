@@ -33,7 +33,7 @@ namespace Test_me_alfa
     {
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
-        HelpStruct hs = new HelpStruct();
+        TestInfo hs = new TestInfo();
 
         /// <summary>
         /// Эту настройку можно изменить на модель строго типизированных представлений.
@@ -61,7 +61,7 @@ namespace Test_me_alfa
             this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Disabled;
 
             //have we initialize the main source?
-            hs = new HelpStruct();
+            hs = new TestInfo();
             hs.position = 1;
             hs.result = 0;
         }
@@ -177,7 +177,7 @@ namespace Test_me_alfa
 
         private void btnDone_Click(object sender, RoutedEventArgs e)
         {
-            if (hs.position < hs.numOfq)
+            if (hs.position < hs.qCount)
             {
                 //logic and math
                 foreach (Control rb in lv.Items)

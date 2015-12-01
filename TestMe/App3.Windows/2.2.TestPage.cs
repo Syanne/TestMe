@@ -1,22 +1,13 @@
-﻿using Test_me_alfa.Common;
-using System;
+﻿using System;
 using System.IO;
 using System.Xml;
-using System.Text;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Metadata;
-using Windows.Foundation.Collections;
+using System.Linq;
 using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Popups;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
+using System.Xml.Linq;
 
 namespace Test_me_alfa
 {
@@ -26,47 +17,23 @@ namespace Test_me_alfa
         /// The main method
         /// </summary>
         /// <param name="itemId">We take it from MainPage - it's file's name</param>
-        private void iAmNavigted(string path)
+        private void IAmNavigted(string filePath)
         {
-            try
+            if (filePath[7] == '3')
             {
-                //a path to the test-file 
-                hs.path = path;
-                XmlReader xml = XmlReader.Create(path);
+                testInfo = new TestInfo(filePath, true);
+                task.IsEnabled = true;
+                TestWithTimer();
+            }
+            else
+            {
+                testInfo = new TestInfo(filePath, false);
+                task.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                task.IsEnabled = false;
+                Test();
+            }
 
-                //read header
-                while (xml.Read())
-                {
-                    if (xml.IsStartElement("head"))
-                    {
-                        hs.numOfq = Convert.ToInt32(xml.GetAttribute("qcount"));
-                        pageTitle.Text = xml.GetAttribute("name");
-                        hs.minutes = Convert.ToByte(xml.GetAttribute("minute"));
-                    }
-                }
-                    hs.position = 1;
-                //then - chose method
-                if (path[7] == '3')
-                {
-                    task.IsEnabled = true;
-                    TaskHandler();
-                }
-                else
-                {
-                    task.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
-                    task.IsEnabled = false;
-                    timeChamber.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
-                    Test();
-                }
-            }
-            catch (IOException e)
-            {
-                ErrorMessage(e.Message);
-            }
-            catch (System.Exception e)
-            {
-                ErrorMessage(e.Message);
-            }
+            pageTitle.Text = testInfo.xDoc.Root.Attribute("name").Value;
         }
 
         #region Tests from folder 3
@@ -75,42 +42,27 @@ namespace Test_me_alfa
         /// Tests from folder 3 are handling here
         /// </summary>
         /// <param name="position"></param>
-        private void TaskHandler()
+        private void TestWithTimer()
         {
             //current question number
-            quesChamber.Text = String.Format("{0}/{1}", hs.position, hs.numOfq);
+            quesChamber.Text = String.Format("{0}/{1}", testInfo.position, testInfo.qCount);
 
             task.Focus(FocusState.Keyboard);
+
             //timer
-            hs.min = hs.minutes;
-            hs.sec = 0;
-            if (hs.position == 1) CreateTime();
-            hs.timer.Start();
+            testInfo.min = testInfo.minutes;
+            testInfo.sec = 0;
+            if (testInfo.position == 1) 
+                testInfo.timer.Tick += timer_Tick;
+            testInfo.timer.Start();
 
-            //load tasks from xml-file
-            XmlReader xml = XmlReader.Create(hs.path.ToString());
-            while (xml.Read())
-            {
-                if (Convert.ToInt32(xml.GetAttribute("id")) == hs.position)
-                {
-                    tbQuest.Text = hs.position.ToString() + ") " + xml.GetAttribute("name").ToString();
+            var element = testInfo.xDoc.Root.Elements("question").
+                ElementAt(testInfo.position - 1);
 
-                    task.Tag = xml.GetAttribute("ans").ToLower();
-                }
-            }
+            tbQuest.Text = testInfo.position.ToString() + ". " + element.Attribute("name").Value;
+            task.Tag = element.Attribute("ans").Value;
         }
-
-        /// <summary>
-        /// Create timer, if current test from the third group
-        /// </summary>
-        public void CreateTime()
-        {
-            hs.timer = new DispatcherTimer();
-
-            hs.timer.Interval = new TimeSpan(0, 0, 0, 1);
-            hs.timer.Tick += timer_Tick;
-        }
-
+        
         /// <summary>
         /// Event Handler for timer
         /// </summary>
@@ -118,20 +70,20 @@ namespace Test_me_alfa
         /// <param name="e"></param>
         private void timer_Tick(object sender, object e)
         {
-            if(hs.min == 0 && hs.sec <=30)
+            if (testInfo.min == 0 && testInfo.sec <= 30)
                 timeChamber.Foreground = new SolidColorBrush(Colors.Red);
             else timeChamber.Foreground = new SolidColorBrush(Colors.Black);
 
-            if (hs.min > 0 || hs.sec > 0)
+            if (testInfo.min > 0 || testInfo.sec > 0)
             {
-                if (hs.sec > 0)
-                    hs.sec--;
+                if (testInfo.sec > 0)
+                    testInfo.sec--;
                 else
                 {
-                    hs.min--;
-                    hs.sec = 59;
+                    testInfo.min--;
+                    testInfo.sec = 59;
                 }
-                timeChamber.Text = String.Format("{0:00}:{1:00}", hs.min, hs.sec);
+                timeChamber.Text = String.Format("{0:00}:{1:00}", testInfo.min, testInfo.sec);
             }
             else TimerHandler();
 
@@ -142,10 +94,10 @@ namespace Test_me_alfa
         /// </summary>
         public void TimerHandler()
         {
-                hs.position += 1;
-                if (hs.position < hs.numOfq)
+                testInfo.position += 1;
+                if (testInfo.position < testInfo.qCount)
                 {
-                    TaskHandler();
+                    TestWithTimer();
                 }
                 else ResultHandler();
         }
@@ -160,31 +112,19 @@ namespace Test_me_alfa
         private void Test()
         {
             //current question
-            quesChamber.Text = String.Format("{0}/{1}", hs.position, hs.numOfq);
+            quesChamber.Text = String.Format("{0}/{1}", testInfo.position, testInfo.qCount);
             lv.Items.Clear();
 
-            //read the question
-            XmlReader xml = XmlReader.Create(hs.path.ToString());
-            while (xml.Read())
+            //get a question
+            var element = testInfo.xDoc.Root.Elements("question").
+                ElementAt(testInfo.position - 1);
+
+            tbQuest.Text = testInfo.position.ToString() + ". " + element.Attribute("name").Value;
+            int i = 1;
+            foreach (var ans in element.Elements("ans"))
             {
-                //look for a question
-                if (Convert.ToInt32(xml.GetAttribute("number")) == hs.position)
-                {
-                    tbQuest.Text = hs.position.ToString() + ". " + xml.GetAttribute("name").ToString();
-
-                    //answers
-                    XmlReader inner = xml.ReadSubtree();
-                    int i = 1;
-
-                    while (inner.Read())
-                    {
-                        if (inner.IsStartElement("ans") == true)
-                        {
-                            CreateRB(i, inner.GetAttribute("means").ToString(), Convert.ToInt32(inner.GetAttribute("value")));
-                            i++;
-                        }
-                    }
-                }
+                CreateRB(i, ans.Attribute("means").Value, Convert.ToInt32(ans.Attribute("value").Value));
+                ++i;
             }
         }
 
@@ -210,7 +150,6 @@ namespace Test_me_alfa
 
             lv.Items.Add(rb);
             lv.IsSynchronizedWithCurrentItem.GetValueOrDefault(true);
-            if (number == 1) rb.IsChecked = true;
         }
 
         #endregion
@@ -234,10 +173,10 @@ namespace Test_me_alfa
             {
                 if (task.IsEnabled == true)
                 {
-                    hs.timer.Stop();
-                    hs.timer.Tick -= timer_Tick;
+                    testInfo.timer.Stop();
+                    testInfo.timer.Tick -= timer_Tick;
                 }
-                this.Frame.Navigate(typeof(GraphPage), hs);
+                this.Frame.Navigate(typeof(GraphPage), testInfo);
             }
             catch (System.FormatException)
             {

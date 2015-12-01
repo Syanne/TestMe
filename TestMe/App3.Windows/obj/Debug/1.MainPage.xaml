@@ -156,7 +156,6 @@
             
         </GridView>
 
-
         <Grid Name="hiddenGrid" Background="#EE303030" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
               Margin="0, 120, 0, 90" Visibility="Collapsed">
             <Grid HorizontalAlignment="Center" VerticalAlignment="Center"
@@ -178,18 +177,22 @@
                                            Width="{Binding Source={StaticResource SizeResource}, Path=FlipWidth}"/>
 
                                 </Grid>
-
                                 <TextBlock Text="{Binding Name}" 
                                                    Foreground="#303030" FontFamily="Minion Pro" 
                                                    TextWrapping="WrapWholeWords"
                                                    FontSize="{Binding Source={StaticResource SizeResource}, Path=FlipFontSize}"
                                                    Margin="15" >
                                 </TextBlock>
+                                <ScrollViewer Name="Scroller" 
+                                  VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Auto"
+                                  HorizontalAlignment="Center" 
+                                  Visibility="Visible"
+                                  Margin="15, 15, 15, 60">
                                 <TextBlock Text="{Binding Description}" 
                                        Foreground="#BB303030" FontFamily="Minion Pro" 
                                        TextWrapping="WrapWholeWords"                                       
-                                       FontSize="{Binding Source={StaticResource SizeResource}, Path=FlipFontSize}"
-                                       Margin="15"/>
+                                       FontSize="{Binding Source={StaticResource SizeResource}, Path=FlipFontSize}"/>
+                                </ScrollViewer>
                             </StackPanel>
                         </DataTemplate>
                     </FlipView.ItemTemplate>
@@ -220,8 +223,6 @@
                       Margin="0, 0, 0, 85"
                       Grid.Row="1"
                 />-->
-
-
     </Grid>
 </Page>
 

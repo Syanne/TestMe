@@ -8,20 +8,49 @@ using System.Collections.ObjectModel;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.Foundation.Metadata;
 using Windows.UI.Xaml;
+using System.Xml.Linq;
 
 namespace Test_me_alfa
 {
-    public struct HelpStruct
+    /// <summary>
+    /// Data for choosen test
+    /// </summary>
+    public class TestInfo
     {
         public string path;             //path to xml-file with test
+        public XDocument xDoc; 
 
         public int position;            //curent question
-        public int numOfq;              //number of questions in this test  
+        public int qCount;              //number of questions in this test  
         public double result;           //result
 
         public byte minutes;            //if timer enabled - number of minutes for each question if this test
         public DispatcherTimer timer;   //timer
         public byte min, sec;           //minutes and seconds left
+
+        public List<string> myAnswers;
+
+        public TestInfo(string filePath, bool time)
+        {
+            path = filePath;
+            xDoc = XDocument.Load(filePath);
+
+            position = 1;
+            qCount = Convert.ToInt32(xDoc.Root.Attribute("qcount").Value);
+            result = 0;
+
+            myAnswers = new List<string>();
+
+            if (time)
+            {
+                minutes = Convert.ToByte(xDoc.Root.Attribute("minute").Value);
+                min = minutes;
+                sec = 0;
+
+                timer = new DispatcherTimer();
+                timer.Interval = new TimeSpan(0, 0, 0, 1);
+            }
+        }
     }
 
     //Struct for chart

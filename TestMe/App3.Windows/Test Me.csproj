@@ -139,7 +139,6 @@
     </AppxManifest>
     <None Include="App3.Windows_StoreKey.pfx" />
     <None Include="App3.Windows_TemporaryKey.pfx" />
-    <None Include="Design\projectGuides.guides" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

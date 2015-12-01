@@ -7,18 +7,17 @@
     <ans id="4" value="1" means="Красная шапочка"/>
     <ans id="5" value="0" means="Воротник"/>
   </question>
-  <question number="2" name="Рихтер для сейсмологии как Моос для...">
-    <ans id="1" value="0" means="музыки"/>
-    <ans id="2" value="0" means="истории"/>
-    <ans id="3" value="1" means="минералогии"/>
-    <ans id="3" value="0" means="геологии"/>
+  <question number="2" name="Решите анаграммы и исключите лишнее слово">
+    <ans id="1" value="0" means="кохйек"/>
+    <ans id="2" value="0" means="снинет"/>
+    <ans id="3" value="1" means="оживт"/>
+    <ans id="3" value="0" means="луфобт"/>
   </question>
-  <question number="3" name="Число 64521 относится к 41256 как 28297 к...">
-    <ans id="1" value="0" means="89732"/>
-    <ans id="2" value="0" means="29873"/>
-    <ans id="3" value="0" means="92837"/>
-    <ans id="4" value="1" means="87923"/>
-    <ans id="5" value="0" means="87932"/>
+  <question number="3" name="Замените знак вопроса на цифру: 3;  81;  12;  27;  48;  ?;  192;  3">
+    <ans id="1" value="0" means="15"/>
+    <ans id="2" value="0" means="6"/>
+    <ans id="4" value="0" means="14"/>
+    <ans id="5" value="1" means="9"/>
   </question>
   <question number="4" name="Боязнь заболеть - это...">
     <ans id="1" value="0" means="ангрофобия"/>
@@ -67,11 +66,11 @@
     <ans id="4" value="0" means="восприятию"/>
     <ans id="5" value="0" means="реальности"/>
   </question>
-  <question number="11" name="Астероиды - это малые тела Солнечной системы, а астроиды - это...">
-    <ans id="1" value="0" means="аэроионы"/>
-    <ans id="2" value="0" means="автомобили"/>
-    <ans id="3" value="1" means="алгебраические кривые"/>
-    <ans id="4" value="0" means="заболевание ЦНС"/>
+  <question number="11" name="Исключите лишнее слово, решив анаграмму">
+    <ans id="1" value="0" means="лаинб"/>
+    <ans id="2" value="0" means="везарла"/>
+    <ans id="3" value="0" means="роввикок"/>
+    <ans id="4" value="1" means="нишкуп"/>
   </question>
   <question number="12" name="Какое слово лишнее?">
     <ans id="1" value="0" means="успокаивать"/>
@@ -228,11 +227,11 @@
     <ans id="4" value="1" means="вуарк"/>
     <ans id="5" value="0" means="дебоп"/>
   </question>
-  <question number="37" name="Смушка - это...">
+  <question number="37" name="Тремпель - это...">
     <ans id="1" value="0" means="родинка"/>
-    <ans id="2" value="0" means="вид мух"/>
-    <ans id="3" value="0" means="человек, сеющий панику"/>
-    <ans id="4" value="1" means="шкура ягненка"/>
+    <ans id="2" value="0" means="поводок для животного"/>
+    <ans id="3" value="0" means="человек, который всего боится"/>
+    <ans id="4" value="1" means="плечики"/>
     <ans id="5" value="0" means="мутная жидкость"/>
   </question>
   <question number="38" name="Продолжите числовой ряд: 301 294 49 44 11 8...">
