@@ -20,42 +20,59 @@
         <x:String x:Key="AppName">Тесты</x:String>
     </Page.Resources>
 
-    <Grid Background="#FFEEEEEE">
 
-        <Grid.ChildrenTransitions>
-            <TransitionCollection>
-                <EntranceThemeTransition/>
-            </TransitionCollection>
-        </Grid.ChildrenTransitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="140"/>
-            <RowDefinition Height="68*"/>
-            <RowDefinition Height="89*"/>
-        </Grid.RowDefinitions>
+    <Page.TopAppBar>
+        <AppBar Height="90" IsSticky="True" IsOpen="True" Background="Transparent" BorderThickness="0" BorderBrush="Transparent">
+        </AppBar>
+    </Page.TopAppBar>
 
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="120"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
-				TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,101,40" Foreground="Black"/>
-        </Grid>
+    <Page.BottomAppBar>
+        <AppBar Background="#FF1FBFBA" BorderBrush="{x:Null}" Height="90" IsSticky="True" IsOpen="True">
+            <Grid>
+                <AppBarButton x:ConnectionId='2' x:Name="Again" Label="Заново" 
+                                                           
+                              HorizontalAlignment="Center" VerticalAlignment="Bottom" 
+                              RequestedTheme="Dark" 
+                              Foreground="#FFEEEEEE" 
+                              Margin="0,0,250,0" Height="86" Grid.Row="2">
+
+                    <AppBarButton.Icon>
+                        <SymbolIcon Symbol="RepeatAll" Height="40" VerticalAlignment="Top"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton x:ConnectionId='3' x:Name="Menu" Label="В Меню" 
+                              HorizontalAlignment="Center" VerticalAlignment="Bottom" 
+                              Height="86" Margin="250,0,0,0" Grid.Row="2" 
+                              Foreground="#FFEEEEEE" 
+                              RequestedTheme="Dark" 
+                                                >
+
+                    <Image Source="Assets/logo50.png"></Image>
+
+                    <AppBarButton.Icon>
+                        <SymbolIcon Symbol="GoToStart" Height="40" VerticalAlignment="Top"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+
+    <Grid Background="#FFEEEEEE">        
 
         <Grid x:Name="main" Grid.Row="1" Grid.RowSpan="2">
-
             <TextBlock x:Name="tbRes" VerticalAlignment="Center" HorizontalAlignment="Left" TextWrapping="WrapWholeWords" 
                        Padding="30,0,0,0" Margin="10, 10, 10, 100"
-                       FontSize="18" FontFamily="Segoe UI" Foreground="#FF292929" />
-            <Charting:Chart x:Name="Charty" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0" >
+                       FontFamily="Segoe UI" Foreground="#FF292929" />
+            <Charting:Chart x:Name="Charty" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0, 100, 0, 100" >
                 <Charting:PieSeries Margin="0" IndependentValuePath="Title" DependentValuePath="Result"/>
             </Charting:Chart>
             <Button x:ConnectionId='4' Name="ChangeTextBtn" 
                     Content="Текст результата" 
                                           
                     VerticalAlignment="Bottom" HorizontalAlignment="Center" 
-                    Width="auto" Foreground="#FF131313" 
-                    RequestedTheme="Dark" Background="#FFE1E1E1" BorderBrush="#FFBCBCBC" BorderThickness="0" Height="50"/>
+                    MinWidth="150" Height="60" FontSize="20"
+                    Foreground="#FF131313" RequestedTheme="Dark" Background="#FFE1E1E1" 
+                    BorderBrush="#FFBCBCBC" BorderThickness="0" />
             
             <ScrollViewer Name="Scroller" 
                           VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Visible"
@@ -63,6 +80,7 @@
                           Visibility="Collapsed"
                           Margin="10,10,10,200"
                           >
+             
             <TextBlock Name="descBlock" 
                        FontSize="20" HorizontalAlignment="Right" 
                        Visibility="Collapsed" 
@@ -70,26 +88,7 @@
                        SelectionHighlightColor="{x:Null}"                  
                        />
             </ScrollViewer>
-        </Grid>
-        <Border BorderBrush="#1fbfba" BorderThickness="10,5,10,80" RenderTransformOrigin="0,1" CornerRadius="120" Grid.RowSpan="3">
-        	<Image Margin="0,0,0,-70" Source="Assets/logo50.scale-100.png" Stretch="Fill" Height="60" Width="60" VerticalAlignment="Bottom"/>
-        </Border>
-        <AppBarButton x:ConnectionId='2' x:Name="Again" HorizontalAlignment="Center" VerticalAlignment="Bottom" Label="Заново" Height="86"                              RequestedTheme="Dark" Foreground="#FFEEEEEE" Margin="0,0,250,0" Grid.Row="2">
-
-            <AppBarButton.Icon>
-                <SymbolIcon Symbol="RepeatAll" Height="40" VerticalAlignment="Top"/>
-            </AppBarButton.Icon>
-        </AppBarButton>
-        <AppBarButton x:ConnectionId='3' x:Name="Menu" HorizontalAlignment="Center" VerticalAlignment="Bottom" Label="В Меню" Height="86" RequestedTheme="Dark" Margin="250,0,0,0" Foreground="#FFEEEEEE" Grid.Row="2"                   >
-
-            <Image Source="Assets/logo50.png"></Image>
-            
-            <AppBarButton.Icon>
-                <SymbolIcon Symbol="GoToStart" Height="40" VerticalAlignment="Top"/>
-            </AppBarButton.Icon>
-        </AppBarButton>
-        
-
+        </Grid>   
     </Grid>
 </Page>
 

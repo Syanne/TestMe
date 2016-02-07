@@ -11,25 +11,62 @@
     mc:Ignorable="d" 
     RequestedTheme="Light"
                             
-                                
-    >
+                                >
 
-    <Page.Resources>
-        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
-        <x:String x:Key="AppName">Test Me</x:String>
-    </Page.Resources>
-    <Page.Background>
-        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-            <GradientStop Color="Black" Offset="0"/>
-            <GradientStop Color="White" Offset="1"/>
-        </LinearGradientBrush>
-    </Page.Background>
-    <!--
-        This grid acts as a root panel for the page that defines two rows:
-        * Row 0 contains the back button and page title
-        * Row 1 contains the rest of the page layout
-    -->
-    <Grid Name="mainGrd" Background="#FFEEEEEE">
+    <Page.TopAppBar>
+        <AppBar Height="90" IsSticky="True" IsOpen="True" Background="Transparent" BorderThickness="0" BorderBrush="Transparent">
+            <Grid x:Name="topString">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="120"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:ConnectionId='2' x:Name="backButton" Margin="52,0,0,0" 
+                    Style="{StaticResource NavigationBackButtonNormalStyle}"
+                    VerticalAlignment="Center"
+                    AutomationProperties.Name="Back"
+                    AutomationProperties.AutomationId="BackButton"
+                    IsTabStop="False"
+                    AutomationProperties.ItemType="Navigation Button" 
+                    Foreground="{ThemeResource ComboBoxHeaderForegroundThemeBrush}" 
+                    BorderBrush="{ThemeResource ButtonDisabledBackgroundThemeBrush}" 
+                                             
+                    Background="{x:Null}" 
+                    RequestedTheme="Light" IsHoldingEnabled="False" 
+                    IsRightTapEnabled="False" 
+                    Width="46" Height="46"/>
+
+                <TextBlock x:Name="pageTitle" FontSize="34" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" TextAlignment="Center" Padding="10"
+                       Margin="10,15,170,15" FontFamily="Segoe UI" Foreground="#FF575757" SelectionHighlightColor="#FF7D7C7E"/>
+                <TextBlock x:Name="quesChamber" TextAlignment="Center" Padding="5" 
+                           TextWrapping="Wrap" Margin="0,20,60,0" Foreground="#FF575757" 
+                           Width="100" Height="47" HorizontalAlignment="Right" VerticalAlignment="Top" FontSize="30" Grid.Column="1"/>
+            </Grid>
+        </AppBar>
+    </Page.TopAppBar>
+    
+    <Page.BottomAppBar>
+        <AppBar Background="#FF1FBFBA" BorderBrush="{x:Null}" Height="90" IsSticky="True" IsOpen="True">
+            <Grid HorizontalAlignment="Stretch">
+
+                <Button x:ConnectionId='3' x:Name="btnDone" Width="170" Height="70" FontSize="26" 
+                Content="Готово" HorizontalAlignment="Center" Grid.Row="2" 
+                VerticalAlignment="Bottom"                       
+                BorderBrush="White" Background="#33F5F5F5" RequestedTheme="Light"
+                Foreground="White" Margin="0,0,0,10" 
+                IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+
+                <TextBlock x:Name="timeChamber" 
+                           TextWrapping="Wrap" Foreground="#FFF3F3F3"
+                           Margin="0,-2" Width="150" Height="auto" 
+                           HorizontalAlignment="Right" VerticalAlignment="Center" 
+                           FontSize="32" TextAlignment="Center" FontWeight="SemiBold"/>
+
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+
+    <Grid Name="mainGrd" Background="#FFF3F3F3">
         <Grid.ChildrenTransitions>
             <TransitionCollection>
                 <EntranceThemeTransition/>
@@ -42,35 +79,10 @@
         </Grid.RowDefinitions>
 
         <!-- Back button and page title -->
-        <Grid x:Name="topString">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="120"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-
-            <Button x:ConnectionId='4' x:Name="backButton" Margin="52,60,0,0" 
-                    Style="{StaticResource NavigationBackButtonNormalStyle}"
-                    VerticalAlignment="Top"
-                    AutomationProperties.Name="Back"
-                    AutomationProperties.AutomationId="BackButton"
-                    IsTabStop="False"
-                    AutomationProperties.ItemType="Navigation Button" 
-                    Foreground="{ThemeResource ComboBoxHeaderForegroundThemeBrush}" 
-                    BorderBrush="{ThemeResource ButtonDisabledBackgroundThemeBrush}" 
-                                             
-                    Background="{x:Null}" 
-                    RequestedTheme="Light" IsHoldingEnabled="False" 
-                    IsRightTapEnabled="False" 
-                    Width="46" Height="46"/>
-            
-            <TextBlock x:Name="pageTitle" FontSize="34" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" TextAlignment="Center" Padding="10"
-                       Margin="10,15,150,15" FontFamily="Segoe UI" Foreground="#FF575757" SelectionHighlightColor="#FF7D7C7E"/>
-            <TextBlock x:Name="quesChamber" TextAlignment="Center" Padding="5" TextWrapping="Wrap" Margin="0,59,60,0" Width="100" Height="47" HorizontalAlignment="Right" VerticalAlignment="Top" FontSize="30" Grid.Column="1"/>
-        </Grid>
 
         <!-- Back button and page title -->
-        
-        
+
+
         <GridView x:Name="gvMain" 
                   AutomationProperties.AutomationId="ItemGridView"
                   AutomationProperties.Name="Grouped Items"
@@ -81,18 +93,30 @@
                   IsItemClickEnabled="True" Foreground="{x:Null}" 
                   Grid.RowSpan="2"/>
 
-        <TextBlock x:Name="tbQuest" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Stretch" Padding="10" RequestedTheme="Light" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" Foreground="#FF333333" FontFamily="Segoe UI" />
+        <TextBlock x:Name="tbQuest" HorizontalAlignment="Center" 
+                   Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Stretch" 
+                   Padding="10" RequestedTheme="Light" IsDoubleTapEnabled="False" 
+                   IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" 
+                   Foreground="#FF333333" FontFamily="Segoe UI" />
 
-        <ListView x:ConnectionId='2' x:Name="lv" IsRightTapEnabled="False" IsItemClickEnabled="True"                          Grid.Row="1" SelectionMode="None" RequestedTheme="Light" Grid.RowSpan="5" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsTapEnabled="False" ManipulationMode="None">
-            <TextBox x:Name="task" TextWrapping="NoWrap" SelectionHighlightColor="{x:Null}" RequestedTheme="Light" HorizontalAlignment="Center"/>
-            
+        <ListView x:ConnectionId='4' x:Name="lv" IsRightTapEnabled="False" 
+                  IsItemClickEnabled="True" 
+                                           
+                  Grid.Row="1" SelectionMode="None" 
+                  RequestedTheme="Light" Grid.RowSpan="5" 
+                  HorizontalAlignment="Center" 
+                  HorizontalContentAlignment="Center" 
+                  VerticalAlignment="Center" 
+                  VerticalContentAlignment="Center" 
+                  IsDoubleTapEnabled="False" 
+                  IsHoldingEnabled="False" 
+                  IsTapEnabled="False" ManipulationMode="None">
+            <TextBox x:Name="task" TextWrapping="NoWrap" 
+                     SelectionHighlightColor="{x:Null}" 
+                     RequestedTheme="Light" HorizontalAlignment="Center"/>
+
         </ListView>
-        
-        <Border BorderBrush="#1fbfba" BorderThickness="10,5,10,80" RenderTransformOrigin="0,1" CornerRadius="180" Grid.RowSpan="3"/>
-        
-        <Button x:ConnectionId='3' x:Name="btnDone" Width="150" Height="60" FontSize="18" Content="Готово" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Bottom"                       BorderBrush="White" Background="#33F5F5F5" RequestedTheme="Dark" Foreground="White" Margin="0,0,0,10" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
-        
-        <TextBlock x:Name="timeChamber" TextWrapping="Wrap" Margin="0" Width="150" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="32" Grid.Row="1" TextAlignment="Center"/>
+
     </Grid>
 </Page>
 

@@ -16,150 +16,213 @@
 
     <Page.Resources>
         <CollectionViewSource x:Name="cvsMain" IsSourceGrouped="true" ItemsPath="group"/>
-        <x:String x:Key="AppName">Тесты</x:String>
+        <SolidColorBrush x:Name="SelectedColor" x:Key="SelectedColor">#FF1FBFBA</SolidColorBrush>
+        <SolidColorBrush x:Name="BasicColor" x:Key="BasicColor">#A7A7A7</SolidColorBrush>
+        <local:SizeCorrection x:Key="SizeResource"/>
     </Page.Resources>
-	<Page.BottomAppBar>
-		<AppBar Background="#FF1FBFBA" BorderBrush="{x:Null}" Height="90" IsSticky="True" IsOpen="True">
+
+
+    <Page.TopAppBar>
+        <AppBar IsSticky="True" IsOpen="True" Background="Transparent" BorderThickness="0" Height="130" Width="auto"
+                HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="60, 5, 0, 5" BorderBrush="Transparent">
+            <GridView FontFamily="Minion Pro" BorderThickness="0" BorderBrush="Transparent" 
+                      VerticalAlignment="Bottom" SelectionMode="None" IsItemClickEnabled="True">
+
+                <GridView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <ItemsWrapGrid Orientation="Horizontal"></ItemsWrapGrid>
+                    </ItemsPanelTemplate>
+                </GridView.ItemsPanel>
+
+                <GridViewItem x:ConnectionId='2'                      Name="Psych" Tag="0" FontSize="36" Foreground="#a7a7a7">Психологические</GridViewItem>
+                <GridViewItem x:ConnectionId='3'                      Name="Logic" Tag="1" FontSize="36" Foreground="#a7a7a7">Логика и IQ</GridViewItem>
+                <GridViewItem x:ConnectionId='4'                      Name="Task" Tag="2" FontSize="36" Foreground="#a7a7a7">Задачи и загадки</GridViewItem>
+            </GridView>
+        </AppBar>
+    </Page.TopAppBar>
+
+    <Page.BottomAppBar>
+        <AppBar Background="#FF1FBFBA" BorderBrush="{x:Null}" Height="90" IsSticky="True" IsOpen="True">
             <GridView HorizontalAlignment="Center" Height="90">
 
-                <AppBarButton x:ConnectionId='2' HorizontalAlignment="Center" 
+                <AppBarButton x:ConnectionId='5' HorizontalAlignment="Center" 
 					VerticalAlignment="Center" 
-					Label="Новые тесты"
+					Label="Оценить"
 					                           
 					RequestedTheme="Dark" 
 					Margin="5, 0"
 					Foreground="#FFEEEEEE" 
-					Icon="Comment" 
-					ToolTipService.ToolTip="Оставить отзыв и поставить оценку" Height="85"/>
-				<AppBarButton x:ConnectionId='3' Label="Результат" x:Name="Result" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0" RequestedTheme="Dark"                              ToolTipService.ToolTip="Посмотреть результаты предыдуших тестов" Height="85">
-					<AppBarButton.Icon>
-						<SymbolIcon HorizontalAlignment="Center" Symbol="ShowResults" VerticalAlignment="Center" Height="25"/>
-					</AppBarButton.Icon>
-				</AppBarButton>
-				<Image Source="Assets/logo150.png" Stretch="Fill" VerticalAlignment="Center" HorizontalAlignment="Center" Width="75" Height="75" Margin="0"/>
-				<AppBarButton x:ConnectionId='4' HorizontalAlignment="Center" VerticalAlignment="Center" Label="О программе"                              RequestedTheme="Dark" Margin="0" Foreground="#FFEEEEEE" ToolTipService.ToolTip="Информация о программе и обновлениях" Height="85">
+					ToolTipService.ToolTip="Оставить отзыв и поставить оценку" Height="85" Icon="Like"/>
+                <AppBarButton x:ConnectionId='6' Label="Результат" x:Name="Result" 
+                              HorizontalAlignment="Center" VerticalAlignment="Center" 
+                              Margin="0" RequestedTheme="Dark"                              
+                              ToolTipService.ToolTip="Посмотреть результаты предыдуших тестов" Height="85">
+                    <AppBarButton.Icon>
+                        <SymbolIcon HorizontalAlignment="Center" Symbol="ShowResults" VerticalAlignment="Center" Height="25"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <Image Source="Assets/logo150.png" Stretch="Fill" VerticalAlignment="Center" HorizontalAlignment="Center" Width="75" Height="75" Margin="0"/>
+                <AppBarButton x:ConnectionId='7' HorizontalAlignment="Center" VerticalAlignment="Center" 
+                              Label="О программе"                              
+                              RequestedTheme="Dark" Margin="0" Foreground="#FFEEEEEE" 
+                              ToolTipService.ToolTip="Информация о программе и обновлениях" Height="85">
 
-					<AppBarButton.Icon>
-						<SymbolIcon Symbol="More" Width="40"/>
-					</AppBarButton.Icon>
-				</AppBarButton>
-				<AppBarButton x:ConnectionId='5' Label="Выход" x:Name="Exit" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0" Width="100" Height="85" RequestedTheme="Dark"                              ToolTipService.ToolTip="Закрыть приложение">
-					<AppBarButton.Icon>
-						<SymbolIcon HorizontalAlignment="Center" Symbol="Cancel" VerticalAlignment="Center" Height="25"/>
-					</AppBarButton.Icon>
-				</AppBarButton>
-			</GridView>
-		</AppBar>
-	</Page.BottomAppBar>
+                    <AppBarButton.Icon>
+                        <SymbolIcon Symbol="More" Width="40"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton x:ConnectionId='8' Label="Выход" x:Name="Exit" 
+                              HorizontalAlignment="Center" VerticalAlignment="Center" 
+                              Margin="0" Width="100" Height="85" 
+                              RequestedTheme="Dark"                              
+                              ToolTipService.ToolTip="Закрыть приложение">
+                    <AppBarButton.Icon>
+                        <SymbolIcon HorizontalAlignment="Center" Symbol="Cancel" VerticalAlignment="Center" Height="25"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+            </GridView>
+        </AppBar>
+    </Page.BottomAppBar>
 
-    <Grid x:Name="myGrid" Background="#FFEEEEEE" RequestedTheme="Light" >
+    <Grid x:Name="myGrid" Background="#FFF3F3F3" RequestedTheme="Light" >
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="140"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-
-        <Grid x:Name="topString">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="120"/>
-                <ColumnDefinition Width="355*"/>
-                <ColumnDefinition Width="891*"/>
-            </Grid.ColumnDefinitions>
-            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
-					IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,79,40" FontFamily="Segoe UI" RequestedTheme="Light" SelectionHighlightColor="#FF7D7C7E" Foreground="Black" Grid.ColumnSpan="2"/>
-        </Grid>
-
-
-        <local:VariableGridView x:ConnectionId='6' 
-						x:Name="gvMain" 
-						AutomationProperties.AutomationId="ItemGridView"
-						AutomationProperties.Name="Grouped Items"
-						Grid.Row="1" 
-						Padding="116,10,40,100" 
-                        Margin="15,0"
-						ItemsSource="{Binding Source={StaticResource cvsMain}}" 
-						                            
-						SelectionMode="None"
-						IsSwipeEnabled="false"
-						IsItemClickEnabled="True"
-						RequestedTheme="Light" 
-                        VerticalAlignment="Center"
-                        ScrollViewer.HorizontalScrollBarVisibility="Hidden">
-
-            <local:VariableGridView.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <VirtualizingStackPanel Orientation="Horizontal"/>
-                </ItemsPanelTemplate>
-            </local:VariableGridView.ItemsPanel>
-
-            <local:VariableGridView.ItemTemplate>
+        <FlipView Name="flipStatic"
+                  HorizontalAlignment="Left"
+                  Background="#FFE9E9E9"
+                  Width="{Binding Source={StaticResource SizeResource}, Path=FlipWidth}"
+                  Height="{Binding Source={StaticResource SizeResource}, Path=FlipHeight}"
+                  Margin="50, 150, 100, 50"
+                  VerticalAlignment="Center"
+                  >
+            <FlipView.ItemTemplate>
                 <DataTemplate>
-                    <Grid HorizontalAlignment="Left" x:Name="gt">
-                        <Border Background="#1fbfba">
-                            <Image Source="{Binding ImageSrc}" Stretch="Fill" />
-                        </Border>
-                        <StackPanel VerticalAlignment="Bottom">
-                            <StackPanel.Background>
-                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                    <GradientStop Offset="0" Color="#02242424"/>
-                                    <GradientStop Color="#8C1D2020" Offset="0.85"/>
-                                </LinearGradientBrush>
-                            </StackPanel.Background>
-                            <TextBlock x:Name="tBlock" Text="{Binding Name}" Foreground="White" Style="{StaticResource TitleTextBlockStyle}" Margin="15">
+                    <StackPanel x:ConnectionId='13' Name="staticFlip"                            Tag="{Binding Path}" >
+                        <Grid HorizontalAlignment="Left" x:Name="gt" Width="auto">
+
+                            <Image Source="{Binding ImageSrc}" Stretch="Fill"/>
+
+                            <StackPanel VerticalAlignment="Bottom" Background="#BB303030" Tag="{Binding Path}">
+                                <TextBlock Text="{Binding Name}" 
+                                       Foreground="White" FontFamily="Minion Pro" 
+                                       TextWrapping="WrapWholeWords"
+                                       FontSize="{Binding Source={StaticResource SizeResource}, Path=ItemFontSize}"
+                                       Margin="15" >
+                                </TextBlock>
+                            </StackPanel>
+                        </Grid>
+                        
+                        <TextBlock Text="{Binding Description}" 
+                                       Foreground="#BB303030" FontFamily="Minion Pro" 
+                                       TextWrapping="WrapWholeWords"                                       
+                                       FontSize="{Binding Source={StaticResource SizeResource}, Path=FlipFontSize}"
+                                       Margin="15"/>
+                    </StackPanel>
+                </DataTemplate>
+            </FlipView.ItemTemplate>
+        </FlipView>
+
+        <GridView Name="dataGrid" 
+                  SelectionMode="None"
+                  Width="auto" Height="auto" 
+                  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" 
+                  Margin="{Binding Source={StaticResource SizeResource}, Path=GridMargin}" 
+                  >
+
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <Grid x:ConnectionId='12' HorizontalAlignment="Left" x:Name="gt" Background="#AA303030"
+                          Height="{Binding Source={StaticResource SizeResource}, Path=ItemHeight}" 
+                          Width="auto" 
+                          Margin="10"      
+                                            
+                          Tag="{Binding UniqueId}"
+                          >
+                        <Image Source="{Binding ImageSrc}" Stretch="Fill" Margin="2"/>
+
+                        <StackPanel VerticalAlignment="Bottom" Background="#BB303030" Tag="{Binding Path}">
+                            <TextBlock Text="{Binding Name}" 
+                                       Foreground="White" FontFamily="Minion Pro" 
+                                       TextWrapping="WrapWholeWords"
+                                       FontSize="{Binding Source={StaticResource SizeResource}, Path=ItemFontSize}"
+                                       Margin="15"
+                                       >
                             </TextBlock>
                         </StackPanel>
                     </Grid>
                 </DataTemplate>
-            </local:VariableGridView.ItemTemplate>
+            </GridView.ItemTemplate>
 
-            <local:VariableGridView.GroupStyle>
-                <GroupStyle>
-                    <GroupStyle.HeaderTemplate>
-                        <DataTemplate>
-                            <Grid Margin="1,10,10,15">
-                                <Button x:ConnectionId='7' Style="{StaticResource TextBlockButtonStyle}"                     >
-                                    <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="{Binding GroupName}" Margin="3,-7,10,10" Style="{StaticResource SubheaderTextBlockStyle}" IsTapEnabled="False" IsDoubleTapEnabled="False" IsHoldingEnabled="False" >
-                                            <ToolTipService.ToolTip>
-                                                <TextBlock Text="Нажмите сюда, чтобы посмотреть все тесты"/>
-                                            </ToolTipService.ToolTip>
-                                        </TextBlock>
-                                    </StackPanel>
-                                </Button>
-                            </Grid>
-                        </DataTemplate>
-                    </GroupStyle.HeaderTemplate>
 
-                    <GroupStyle.Panel>
-                        <ItemsPanelTemplate>
-                            <VariableSizedWrapGrid Orientation="Vertical" Margin="0,0,80,0" ItemWidth="160" ItemHeight="160" MaximumRowsOrColumns="4"/>
-                        </ItemsPanelTemplate>
-                    </GroupStyle.Panel>
-                </GroupStyle>
-
-            </local:VariableGridView.GroupStyle>
             
-        </local:VariableGridView>
+        </GridView>
 
-        <ad:AdControl x:Name="adDuplexAd"
+        <Grid Name="hiddenGrid" Background="#EE303030" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+              Margin="0, 120, 0, 90" Visibility="Collapsed">
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Center"
+                  Width="{Binding Source={StaticResource SizeResource}, Path=FlipWidth}"
+                  Height="{Binding Source={StaticResource SizeResource}, Path=FlyoutGridHeight}"
+                  Background="#FFE9E9E9" Margin="0, 0, 0, 100">
+
+                <FlipView Name="flyingFlip"
+                  Background="#FFE9E9E9"
+                  Width="auto"
+                  VerticalAlignment="Top" HorizontalAlignment="Center">
+                    
+                    <FlipView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel x:ConnectionId='11' Name="staticFlip"                            Tag="{Binding Path}" >
+                                <Grid HorizontalAlignment="Left" x:Name="gt" Width="auto">
+
+                                    <Image Source="{Binding ImageSrc}" Stretch="Fill" 
+                                           Width="{Binding Source={StaticResource SizeResource}, Path=FlipWidth}"/>
+
+                                </Grid>
+                                <TextBlock Text="{Binding Name}" 
+                                                   Foreground="#303030" FontFamily="Minion Pro" 
+                                                   TextWrapping="WrapWholeWords"
+                                                   FontSize="{Binding Source={StaticResource SizeResource}, Path=FlipFontSize}"
+                                                   Margin="15" >
+                                </TextBlock>
+                                <ScrollViewer Name="Scroller" 
+                                  VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Auto"
+                                  HorizontalAlignment="Center" 
+                                  Visibility="Visible"
+                                  Margin="15, 15, 15, 60">
+                                <TextBlock Text="{Binding Description}" 
+                                       Foreground="#BB303030" FontFamily="Minion Pro" 
+                                       TextWrapping="WrapWholeWords"                                       
+                                       FontSize="{Binding Source={StaticResource SizeResource}, Path=FlipFontSize}"/>
+                                </ScrollViewer>
+                            </StackPanel>
+                        </DataTemplate>
+                    </FlipView.ItemTemplate>
+                </FlipView>
+                <Button x:ConnectionId='9' x:Name="btnStart"
+                        Width="{Binding Source={StaticResource SizeResource}, Path=ButtonWidth}"
+                        Height="{Binding Source={StaticResource SizeResource}, Path=ButtonHeight}" 
+                        FontSize="18" 
+                        Content="Начать" HorizontalAlignment="Center" Grid.Row="2" 
+                        VerticalAlignment="Bottom"                       
+                        RequestedTheme="Light" Margin="0,0,160,10" 
+                        IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+
+                <Button x:ConnectionId='10' x:Name="btnBack" 
+                        Width="{Binding Source={StaticResource SizeResource}, Path=ButtonWidth}"
+                        Height="{Binding Source={StaticResource SizeResource}, Path=ButtonHeight}" 
+                        FontSize="18" 
+                        Content="Назад" HorizontalAlignment="Center" Grid.Row="2" 
+                        VerticalAlignment="Bottom"                      
+                        RequestedTheme="Light" Margin="160,-150,0,10" 
+                        IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+            </Grid>
+        </Grid>
+        <!--<ad:AdControl x:Name="adDuplexAd"
                 AppId="128767"
                 Size="728x90"
                       VerticalAlignment="Bottom"
                       Margin="0, 0, 0, 85"
                       Grid.Row="1"
-                />
-
-        <!--<GridView Name="Calendar" Height="90" Width="728" Foreground="{x:Null}" Tapped="Calendar_Tapped" BorderBrush="{x:Null}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,85" Padding="0" Grid.Row="1">
-        	<GridView.Background>
-        		<ImageBrush Stretch="Fill" ImageSource="Assets/calendar.png"/>
-        	</GridView.Background>
-        </GridView>-->
-        <!--<Button  ">
-            
-        </Button>-->
-        <!--<Button IsEnabled="False" x:Name="comm" Click="comm_Click" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="74" Height="72" Margin="648,0,644,7" Grid.Row="1" Foreground="{x:Null}" Background="{x:Null}" BorderBrush="{x:Null}" >-->
-        <!--</Button> -->
-
+                />-->
     </Grid>
 </Page>
 

@@ -70,6 +70,7 @@ Assets\73.jpg
 Assets\74.jpg
 Assets\8.jpg
 Assets\9.jpg
+Assets\bottomAppBarImg.png
 Assets\calendar.png
 Assets\Logo.scale-100.png
 Assets\logo150.scale-100.png
@@ -185,8 +186,10 @@ Data\3\399.xml
 Data\MainSource.xml
 Data\PersData.xml
 PersData.xml
+Assets\BadgeLogo.scale-100.png
 Assets\logo50.scale-100.png
 Assets\SplashScreen.scale-100.png
+Assets\StoreLogo.scale-100.png
 1.MainPage.xbf
 2.1.TestPage.xbf
 3.GraphPage.xbf

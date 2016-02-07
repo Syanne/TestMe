@@ -96,6 +96,7 @@
     <Content Include="$(MSBuildThisFileDirectory)Assets\74.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\8.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\9.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\bottomAppBarImg.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\calendar.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Logo.scale-100.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\logo150.scale-100.png" />

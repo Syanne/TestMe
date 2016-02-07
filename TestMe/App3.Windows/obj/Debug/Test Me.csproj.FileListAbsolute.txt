@@ -1,281 +1,96 @@
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App.xbf
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\1.MainPage.xbf
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\2.1.TestPage.xbf
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\3.GraphPage.xbf
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\4.Statistics.xbf
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\5.GroupDetailPage.xbf
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.xr.xml
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.exe
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.pdb
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\resources.pri
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AppxManifest.xml
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\Test Me.build.appxrecipe
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.winmd
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.winmd
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\Microsoft.Live.dll
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.dll
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.dll
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.pri
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.pri
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.pri
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\Test Me.csprojResolveAssemblyReference.cache
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\App.g.i.cs
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\App.g.cs
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\1.MainPage.g.i.cs
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\1.MainPage.g.cs
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\2.1.TestPage.g.i.cs
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\2.1.TestPage.g.cs
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\3.GraphPage.g.i.cs
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\3.GraphPage.g.cs
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\4.Statistics.g.i.cs
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\4.Statistics.g.cs
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\5.GroupDetailPage.g.i.cs
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\5.GroupDetailPage.g.cs
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\XamlTypeInfo.g.cs
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\App.xaml
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\2.1.TestPage.xaml
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\3.GraphPage.xaml
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\4.Statistics.xaml
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\5.GroupDetailPage.xaml
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\App.xbf
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\2.1.TestPage.xbf
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\3.GraphPage.xbf
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\4.Statistics.xbf
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\5.GroupDetailPage.xbf
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\XamlSaveStateFile.xml
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\1.MainPage.xaml
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\1.MainPage.xbf
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\App3.Windows.exe
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\App3.Windows.pdb
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\en-US\WinRTXamlToolkit.Controls.DataVisualization.Properties.Resources.resw
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\Test Me.csproj.GenerateResource.Cache
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\qualifiers.txt
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\priconfig.xml
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\priconfig.xml.intermediate
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\layout.resfiles
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\layout.resfiles.intermediate
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\resources.resfiles
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\resources.resfiles.intermediate
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\pri.resfiles
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\pri.resfiles.intermediate
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\qualifiers.txt
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\qualifiers.txt.intermediate
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\AdDuplex.Universal.Controls.Win.XAML.pri.xml
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\AdDuplex.Universal.Win.WinRT.pri.xml
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.pri.xml
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri.xml
-E:\Sky\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\ProjectArchitectures.txt
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\App.xbf
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\1.MainPage.xbf
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\2.1.TestPage.xbf
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\3.GraphPage.xbf
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\4.Statistics.xbf
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\5.GroupDetailPage.xbf
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\App3.Windows.xr.xml
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\App3.Windows.exe
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\App3.Windows.pdb
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\resources.pri
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\AppxManifest.xml
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\Test Me.build.appxrecipe
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.winmd
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.winmd
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\Microsoft.Live.dll
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.dll
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.dll
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.pri
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.pri
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.pri
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\Test Me.csprojResolveAssemblyReference.cache
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App.g.i.cs
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App.g.cs
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\1.MainPage.g.i.cs
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\1.MainPage.g.cs
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\2.1.TestPage.g.i.cs
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\2.1.TestPage.g.cs
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\3.GraphPage.g.i.cs
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\3.GraphPage.g.cs
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\4.Statistics.g.i.cs
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\4.Statistics.g.cs
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\5.GroupDetailPage.g.i.cs
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\5.GroupDetailPage.g.cs
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\XamlTypeInfo.g.cs
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App.xaml
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\1.MainPage.xaml
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\2.1.TestPage.xaml
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\3.GraphPage.xaml
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\4.Statistics.xaml
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\5.GroupDetailPage.xaml
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App.xbf
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\1.MainPage.xbf
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\2.1.TestPage.xbf
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\3.GraphPage.xbf
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\4.Statistics.xbf
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\5.GroupDetailPage.xbf
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\XamlSaveStateFile.xml
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App3.Windows.exe
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App3.Windows.pdb
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\en-US\WinRTXamlToolkit.Controls.DataVisualization.Properties.Resources.resw
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\Test Me.csproj.GenerateResource.Cache
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\qualifiers.txt
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\priconfig.xml
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\priconfig.xml.intermediate
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\layout.resfiles
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\layout.resfiles.intermediate
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\resources.resfiles
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\resources.resfiles.intermediate
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\pri.resfiles
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\pri.resfiles.intermediate
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\qualifiers.txt
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\qualifiers.txt.intermediate
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\AdDuplex.Universal.Controls.Win.XAML.pri.xml
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\AdDuplex.Universal.Win.WinRT.pri.xml
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.pri.xml
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri.xml
-E:\Sky\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\ProjectArchitectures.txt
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\App.xbf
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\1.MainPage.xbf
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\2.1.TestPage.xbf
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\3.GraphPage.xbf
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\4.Statistics.xbf
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\App3.Windows.xr.xml
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\App3.Windows.exe
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\App3.Windows.pdb
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\resources.pri
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\AppxManifest.xml
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\Test Me.build.appxrecipe
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.winmd
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.winmd
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\Microsoft.Live.dll
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.dll
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.dll
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.pri
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.pri
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.pri
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\Test Me.csprojResolveAssemblyReference.cache
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App.g.i.cs
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App.g.cs
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\1.MainPage.g.i.cs
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\1.MainPage.g.cs
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\2.1.TestPage.g.i.cs
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\2.1.TestPage.g.cs
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\3.GraphPage.g.i.cs
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\3.GraphPage.g.cs
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\4.Statistics.g.i.cs
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\4.Statistics.g.cs
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\XamlTypeInfo.g.cs
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App.xaml
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\1.MainPage.xaml
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\2.1.TestPage.xaml
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\3.GraphPage.xaml
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\4.Statistics.xaml
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App.xbf
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\1.MainPage.xbf
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\2.1.TestPage.xbf
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\3.GraphPage.xbf
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\4.Statistics.xbf
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\XamlSaveStateFile.xml
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App3.Windows.exe
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App3.Windows.pdb
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\en-US\WinRTXamlToolkit.Controls.DataVisualization.Properties.Resources.resw
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\Test Me.csproj.GenerateResource.Cache
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\qualifiers.txt
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\priconfig.xml
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\priconfig.xml.intermediate
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\layout.resfiles
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\layout.resfiles.intermediate
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\resources.resfiles
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\resources.resfiles.intermediate
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\pri.resfiles
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\pri.resfiles.intermediate
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\qualifiers.txt
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\qualifiers.txt.intermediate
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\AdDuplex.Universal.Controls.Win.XAML.pri.xml
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\AdDuplex.Universal.Win.WinRT.pri.xml
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.pri.xml
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri.xml
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\ProjectArchitectures.txt
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles.intermediate
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles.intermediate
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles.intermediate
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml
-E:\Sky\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml.intermediate
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\App.xbf
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\1.MainPage.xbf
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\2.1.TestPage.xbf
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\3.GraphPage.xbf
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\4.Statistics.xbf
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\App3.Windows.xr.xml
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\App3.Windows.exe
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\App3.Windows.pdb
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\resources.pri
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\AppxManifest.xml
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\Test Me.build.appxrecipe
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.winmd
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.winmd
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\Microsoft.Live.dll
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.dll
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.dll
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.pri
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.pri
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.pri
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\Test Me.csprojResolveAssemblyReference.cache
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App.g.i.cs
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App.g.cs
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\1.MainPage.g.i.cs
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\1.MainPage.g.cs
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\2.1.TestPage.g.i.cs
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\2.1.TestPage.g.cs
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\3.GraphPage.g.i.cs
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\3.GraphPage.g.cs
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\4.Statistics.g.i.cs
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\4.Statistics.g.cs
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\XamlTypeInfo.g.cs
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App.xaml
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\1.MainPage.xaml
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\2.1.TestPage.xaml
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\3.GraphPage.xaml
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\4.Statistics.xaml
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App.xbf
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\1.MainPage.xbf
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\2.1.TestPage.xbf
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\3.GraphPage.xbf
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\4.Statistics.xbf
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\XamlSaveStateFile.xml
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App3.Windows.exe
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\App3.Windows.pdb
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\en-US\WinRTXamlToolkit.Controls.DataVisualization.Properties.Resources.resw
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\Test Me.csproj.GenerateResource.Cache
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\qualifiers.txt
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\priconfig.xml
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\priconfig.xml.intermediate
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\layout.resfiles
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\layout.resfiles.intermediate
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\resources.resfiles
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\resources.resfiles.intermediate
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\pri.resfiles
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\pri.resfiles.intermediate
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\qualifiers.txt
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\qualifiers.txt.intermediate
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\AdDuplex.Universal.Controls.Win.XAML.pri.xml
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\AdDuplex.Universal.Win.WinRT.pri.xml
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.pri.xml
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri.xml
-E:\OneDrive\Programming\Personal\C#\TestMe Main\TestMe\App3.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\App.xbf
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\1.MainPage.xbf
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\2.1.TestPage.xbf
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\3.GraphPage.xbf
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\4.Statistics.xbf
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.xr.xml
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.exe
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.pdb
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\resources.pri
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\AppxManifest.xml
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.winmd
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.winmd
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\Microsoft.Live.dll
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.dll
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.dll
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.pri
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.pri
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.pri
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\App.g.i.cs
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\App.g.cs
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\1.MainPage.g.i.cs
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\1.MainPage.g.cs
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\2.1.TestPage.g.i.cs
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\2.1.TestPage.g.cs
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\3.GraphPage.g.i.cs
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\3.GraphPage.g.cs
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\4.Statistics.g.i.cs
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\4.Statistics.g.cs
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\App.xaml
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\1.MainPage.xaml
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\2.1.TestPage.xaml
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\3.GraphPage.xaml
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\4.Statistics.xaml
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\App.xbf
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\1.MainPage.xbf
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\2.1.TestPage.xbf
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\3.GraphPage.xbf
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\4.Statistics.xbf
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\App3.Windows.exe
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\App3.Windows.pdb
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\en-US\WinRTXamlToolkit.Controls.DataVisualization.Properties.Resources.resw
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\Test Me.csproj.GenerateResource.Cache
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles.intermediate
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles.intermediate
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles.intermediate
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml.intermediate
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\qualifiers.txt
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\priconfig.xml
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\priconfig.xml.intermediate
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\layout.resfiles
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\layout.resfiles.intermediate
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\resources.resfiles
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\resources.resfiles.intermediate
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\pri.resfiles
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\pri.resfiles.intermediate
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\qualifiers.txt
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\AdDuplex.Universal.Controls.Win.XAML.pri.xml
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\AdDuplex.Universal.Win.WinRT.pri.xml
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.pri.xml
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri.xml
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Anna\Desktop\TestMe\TestMe\TestMe\App3.Windows\bin\Debug\Test Me.build.appxrecipe
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\1.MainPage.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\2.1.TestPage.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\3.GraphPage.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\4.Statistics.xbf
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.xr.xml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.exe
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.pdb
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\resources.pri
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AppxManifest.xml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\Test Me.build.appxrecipe
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.winmd
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.winmd
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\Microsoft.Live.dll
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.dll
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.dll
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.pri
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.pri
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.pri
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\Test Me.csprojResolveAssemblyReference.cache
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\App.g.i.cs
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\App.g.cs
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\1.MainPage.g.i.cs
@@ -298,26 +113,6 @@ E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\2.1.Tes
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\3.GraphPage.xbf
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\4.Statistics.xbf
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\XamlSaveStateFile.xml
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App.xbf
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\1.MainPage.xbf
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\2.1.TestPage.xbf
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\3.GraphPage.xbf
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\4.Statistics.xbf
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.xr.xml
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.exe
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.pdb
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\resources.pri
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AppxManifest.xml
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\Test Me.build.appxrecipe
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.winmd
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.winmd
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\Microsoft.Live.dll
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.dll
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.dll
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.pri
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.pri
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.pri
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\App3.Windows.exe
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\App3.Windows.pdb
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\en-US\WinRTXamlToolkit.Controls.DataVisualization.Properties.Resources.resw
@@ -340,4 +135,3 @@ E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\AdDuple
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.pri.xml
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri.xml
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\ProjectArchitectures.txt
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\Test Me.csprojResolveAssemblyReference.cache

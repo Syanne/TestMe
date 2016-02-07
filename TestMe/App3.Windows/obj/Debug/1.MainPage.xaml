@@ -34,16 +34,16 @@
                     </ItemsPanelTemplate>
                 </GridView.ItemsPanel>
 
-                <GridViewItem x:ConnectionId='2'                      Name="Psych" Tag="0" FontSize="36" Foreground="#a7a7a7">Психологические</GridViewItem>
-                <GridViewItem x:ConnectionId='3'                      Name="Logic" Tag="1" FontSize="36" Foreground="#a7a7a7">Логика и IQ</GridViewItem>
-                <GridViewItem x:ConnectionId='4'                      Name="Task" Tag="2" FontSize="36" Foreground="#a7a7a7">Задачи и загадки</GridViewItem>
+                <GridViewItem x:ConnectionId='2'                      VerticalAlignment="Stretch" Name="Psych" Tag="0" FontSize="36" Foreground="#a7a7a7">Психологические</GridViewItem>
+                <GridViewItem x:ConnectionId='3'                      VerticalAlignment="Stretch" Name="Logic" Tag="1" FontSize="36" Foreground="#a7a7a7">Логика и IQ</GridViewItem>
+                <GridViewItem x:ConnectionId='4'                      VerticalAlignment="Stretch" Name="Task" Tag="2" FontSize="36" Foreground="#a7a7a7">Задачи и загадки</GridViewItem>
             </GridView>
         </AppBar>
     </Page.TopAppBar>
 
     <Page.BottomAppBar>
         <AppBar Background="#FF1FBFBA" BorderBrush="{x:Null}" Height="90" IsSticky="True" IsOpen="True">
-            <GridView HorizontalAlignment="Center" Height="90">
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Height="90">
 
                 <AppBarButton x:ConnectionId='5' HorizontalAlignment="Center" 
 					VerticalAlignment="Center" 
@@ -61,7 +61,9 @@
                         <SymbolIcon HorizontalAlignment="Center" Symbol="ShowResults" VerticalAlignment="Center" Height="25"/>
                     </AppBarButton.Icon>
                 </AppBarButton>
-                <Image Source="Assets/logo150.png" Stretch="Fill" VerticalAlignment="Center" HorizontalAlignment="Center" Width="75" Height="75" Margin="0"/>
+                <Image Source="Assets/bottomAppBarImg.png" Stretch="Fill" 
+                       VerticalAlignment="Center" 
+                       HorizontalAlignment="Center" Width="70" Height="70" Margin="20, 0, 20, 15"/>
                 <AppBarButton x:ConnectionId='7' HorizontalAlignment="Center" VerticalAlignment="Center" 
                               Label="О программе"                              
                               RequestedTheme="Dark" Margin="0" Foreground="#FFEEEEEE" 
@@ -80,7 +82,7 @@
                         <SymbolIcon HorizontalAlignment="Center" Symbol="Cancel" VerticalAlignment="Center" Height="25"/>
                     </AppBarButton.Icon>
                 </AppBarButton>
-            </GridView>
+            </StackPanel>
         </AppBar>
     </Page.BottomAppBar>
 

@@ -1,10 +1,10 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="e:\sky\programming\personal\c#\testme\testme\app3.windows\obj\release\intermediatexaml\app3.windows.exe" HashGuid="940970c0-c231-20fb-8bff-eb20ee4696f3" />
-    <ReferenceAssembly PathName="e:\onedrive\programming\personal\c#\testme\packages\adduplexwin81.9.0.0.5\lib\portable-win81+wpa81\adduplex.universal.controls.win.xaml.winmd" HashGuid="7b80d026-7796-a510-dbf0-079d021e1b8d" />
-    <ReferenceAssembly PathName="e:\onedrive\programming\personal\c#\testme\packages\adduplexwin81.9.0.0.5\lib\portable-win81+wpa81\adduplex.universal.win.winrt.winmd" HashGuid="cc68de6d-67bc-e414-eaaf-6e9539740855" />
-    <ReferenceAssembly PathName="e:\onedrive\programming\personal\c#\testme\packages\livesdk.5.6\windowsxaml\microsoft.live.dll" HashGuid="129ce77c-af09-9d5d-b95e-bf89af6739c7" />
-    <ReferenceAssembly PathName="e:\onedrive\programming\personal\c#\testme\packages\winrtxamltoolkit.controls.datavisualization.1.6.1.3\lib\netcore45\winrtxamltoolkit.controls.datavisualization.dll" HashGuid="848f1b1e-7398-00ab-3f61-291b87557e14" />
-    <ReferenceAssembly PathName="e:\onedrive\programming\personal\c#\testme\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\winrtxamltoolkit.dll" HashGuid="f2a43d5d-312f-9500-8dd0-3a887084ca3b" />
+    <LocalAssembly PathName="c:\users\anna\desktop\testme\testme\testme\app3.windows\obj\release\intermediatexaml\app3.windows.exe" HashGuid="a570c754-3302-25e6-6a89-a263574cbd3e" />
+    <ReferenceAssembly PathName="c:\users\anna\desktop\testme\testme\packages\adduplexwin81.9.0.0.5\lib\portable-win81+wpa81\adduplex.universal.controls.win.xaml.winmd" HashGuid="7b80d026-7796-a510-dbf0-079d021e1b8d" />
+    <ReferenceAssembly PathName="c:\users\anna\desktop\testme\testme\packages\adduplexwin81.9.0.0.5\lib\portable-win81+wpa81\adduplex.universal.win.winrt.winmd" HashGuid="cc68de6d-67bc-e414-eaaf-6e9539740855" />
+    <ReferenceAssembly PathName="c:\users\anna\desktop\testme\testme\packages\livesdk.5.6\windowsxaml\microsoft.live.dll" HashGuid="129ce77c-af09-9d5d-b95e-bf89af6739c7" />
+    <ReferenceAssembly PathName="c:\users\anna\desktop\testme\testme\packages\winrtxamltoolkit.controls.datavisualization.1.6.1.3\lib\netcore45\winrtxamltoolkit.controls.datavisualization.dll" HashGuid="848f1b1e-7398-00ab-3f61-291b87557e14" />
+    <ReferenceAssembly PathName="c:\users\anna\desktop\testme\testme\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\winrtxamltoolkit.dll" HashGuid="f2a43d5d-312f-9500-8dd0-3a887084ca3b" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>
