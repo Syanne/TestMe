@@ -9,6 +9,7 @@ using Windows.UI.Xaml.Media.Animation;
 using Windows.Foundation.Metadata;
 using Windows.UI.Xaml;
 using System.Xml.Linq;
+using Windows.UI.Xaml.Media;
 
 namespace Test_me_alfa
 {
@@ -66,6 +67,7 @@ namespace Test_me_alfa
         public string Description { get; set; }
         public int UniqueId { get; set; }
         public string Path { get; set; }
+        public SolidColorBrush Background { get; set; }
 
         //set image
         public string _tImageSrc = "/Assets/logo300.scale-100.png";
@@ -82,6 +84,8 @@ namespace Test_me_alfa
     public class Group
     {
         public int GroupId { get; set; }
+        public string GroupName { get; set; }
+        public SolidColorBrush Foreground { get; set; }
 
         public ObservableCollection<Member> group { get; set; }
 
@@ -101,8 +105,20 @@ namespace Test_me_alfa
         /// <param name="method"></param>
         public void AddGroup(int method)
         {
+            SolidColorBrush dark = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 240, 240, 240));
+            SolidColorBrush light = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 250, 250, 250));
+            int counter = 0;
+            string name;
+            switch (method)
+            {
+                case 1: name = "Психологические"; break;
+                case 2: name = "Логика и IQ"; break;
+                case 3: name = "Задачи и загадки"; break;
+                default: name = "Error"; break;
+            }
+
             XmlReader xml = XmlReader.Create("Data/MainSource.xml");
-            Group feedGroup = new Group { GroupId = method };
+            Group feedGroup = new Group { GroupId = method, GroupName = name };
             while (xml.Read())
             {
                 if (Convert.ToInt32(xml.GetAttribute("method")) == method)
@@ -113,8 +129,10 @@ namespace Test_me_alfa
                         Name = xml.GetAttribute("value").ToString(),
                         ImageSrc = xml.GetAttribute("img").ToString(),
                         Description = xml.GetAttribute("desc").ToString(),
-                        Path = xml.GetAttribute("path")
+                        Path = xml.GetAttribute("path"),
+                        Background = (counter % 2 == 0) ? dark : light
                     });
+                    counter +=1;
                 }
             }
             grps.Add(feedGroup);
@@ -153,7 +171,6 @@ namespace Test_me_alfa
         public ObservableCollection<Member> CreateGroup(int method, ObservableCollection<Member> group)
         {
             group = new ObservableCollection<Member>();
-
             XmlReader xml = XmlReader.Create("Data/MainSource.xml");
             while (xml.Read())
             {

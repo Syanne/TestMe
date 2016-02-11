@@ -146,8 +146,8 @@ namespace Test_me_alfa
         {
                 var dial = new MessageDialog("Тест не завершен! Вы действительно хотите покинуть страницу?");
                 
-               dial.Commands.Add(new UICommand("Продолжить"));
-               dial.Commands.Add(new UICommand("Вернуться в Главное меню",
+               dial.Commands.Add(new UICommand("продолжить"));
+               dial.Commands.Add(new UICommand("назад",
                new UICommandInvokedHandler((args) =>
                {
                    this.Frame.Navigate(typeof(MainPage));

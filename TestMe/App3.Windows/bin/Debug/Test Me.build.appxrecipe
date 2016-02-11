@@ -4,8 +4,6 @@
     <Machine>IMMORTAL</Machine>
     <WindowsUser>Anna</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
-    <TargetOsVersion>6.3</TargetOsVersion>
-    <TargetOsDescription>Windows 8.1</TargetOsDescription>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>36856Syanne.TestMe</PackageIdentityName>
@@ -621,9 +619,6 @@
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\PersData.xml">
       <PackagePath>PersData.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.xr.xml">
-      <PackagePath>App3.Windows.xr.xml</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
@@ -638,6 +633,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\4.Statistics.xbf">
       <PackagePath>4.Statistics.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.xr.xml">
+      <PackagePath>App3.Windows.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\AdDuplexWin81.9.0.0.5\lib\portable-win81+wpa81\AdDuplex.Universal.Controls.Win.XAML\AdDuplex.Universal.Controls.Win.XAML.xr.xml">
       <PackagePath>AdDuplex.Universal.Controls.Win.XAML\AdDuplex.Universal.Controls.Win.XAML.xr.xml</PackagePath>

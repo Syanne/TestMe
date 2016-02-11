@@ -135,3 +135,11 @@ E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\AdDuple
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.pri.xml
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri.xml
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\ProjectArchitectures.txt
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml.intermediate

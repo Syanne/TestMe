@@ -18,6 +18,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Navigation;
 using Windows.UI.Xaml.Controls.Primitives;
+using Windows.UI;
 
 namespace Test_me_alfa
 {
@@ -33,13 +34,14 @@ namespace Test_me_alfa
         {
             this.InitializeComponent();
             sds = new SampleDataSource();
-            
-            for (int i = 1; i <= 3; i++)
-                sds.AddGroup(i);
 
-            selectedItem = Psych;
-            Psych.Foreground = SelectedColor;
-            dataGrid.ItemsSource = sds.grps[0].group;
+            for (int i = 1; i <= 3; i++)
+            {
+                sds.AddGroup(i);
+                sds.grps[i - 1].Foreground = BasicColor;
+            }
+
+            cvsMain.Source = sds.grps;
             flipStatic.ItemsSource = sds.grps[0].group;            
         }
 
@@ -51,7 +53,15 @@ namespace Test_me_alfa
         /// <param name="e"></param>
         private void gvMain_ItemClick(object sender, ItemClickEventArgs e)
         {
-                this.Frame.Navigate(typeof(TestPage), ((Member)e.ClickedItem).Path);
+            int index = (sender as ListView).SelectedIndex;
+            int groupId = (int)(sender as ListView).Tag;
+
+            flyingFlip.ItemsSource = sds.grps[groupId - 1].group;
+            flyingFlip.SelectedIndex = index;
+
+            hiddenGrid.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            
+            //    this.Frame.Navigate(typeof(TestPage), ((Member)e.ClickedItem).Path);
         }
         
 
@@ -175,9 +185,9 @@ namespace Test_me_alfa
         
         private void Name_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            (sender as GridViewItem).Foreground = SelectedColor;
-            selectedItem.Foreground = BasicColor;
-            selectedItem = (sender as GridViewItem);
+            //(sender as GridViewItem).Foreground = SelectedColor;
+           // selectedItem.Foreground = BasicColor;
+            //selectedItem = (sender as GridViewItem);
 
             var number = Convert.ToInt32((sender as GridViewItem).Tag);
             dataGrid.ItemsSource = sds.grps[number].group;
@@ -218,6 +228,23 @@ namespace Test_me_alfa
         private void btnBack_Click(object sender, RoutedEventArgs e)
         {
             hiddenGrid.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+        }
+
+        private void TextBlock_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+
+        }
+
+        private void ScrollViewer_PointerEntered(object sender, PointerRoutedEventArgs e)
+        {
+            int index = (int)(sender as ScrollViewer).Tag - 1;
+            (typeNamesListView.Items[index] as Group).Foreground = new Windows.UI.Xaml.Media.SolidColorBrush(Colors.Black) ;
+        }
+
+        private void ScrollViewer_PointerExited(object sender, PointerRoutedEventArgs e)
+        {
+            int index = (int)(sender as ScrollViewer).Tag - 1;
+            (typeNamesListView.Items[index] as Group).Foreground = BasicColor;
         }
 
     }

@@ -15,9 +15,12 @@ namespace Test_me_alfa
 
         public double ItemFontSize { get; set; }
 
+        public double ListViewHeight { get; set; }
+
         public double FlipFontSize { get; set; }
 
         public Thickness GridMargin { get; set; }
+        public Thickness TitlesMargin { get; set; }
 
         public double FlipWidth {get; set;}
 
@@ -54,8 +57,9 @@ namespace Test_me_alfa
 
             FlipWidth = ItemHeight * 2;
             
-            GridMargin = new Thickness(FlipWidth + 70, 150, 50, 100);
-
+            ListViewHeight = Window.Current.Bounds.Height - 340;
+            GridMargin = new Thickness(FlipWidth + 70, 100, 20, 50);
+            TitlesMargin = new Thickness(FlipWidth + 70, 80, 10, 10);
         }
     }
 }

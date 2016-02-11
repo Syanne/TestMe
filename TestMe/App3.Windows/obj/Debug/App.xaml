@@ -9,8 +9,11 @@
                 <ResourceDictionary x:Key="Default">
                     <SolidColorBrush x:Key="ListViewItemPointerOverBackgroundThemeBrush" Color="Transparent" />
                     <SolidColorBrush x:Key="ListViewItemSelectedBackgroundThemeBrush" Color="Transparent" />
-                    <SolidColorBrush x:Key="ListViewItemSelectedForegroundThemeBrush" Color="#661a9994" />
-                    <SolidColorBrush x:Key="ListViewItemSelectedPointerOverBackgroundThemeBrush" Color="#ff303030" />
+                    <SolidColorBrush x:Key="ListViewItemSelectedForegroundThemeBrush" Color="Transparent" />
+                    <SolidColorBrush x:Key="ListViewItemSelectedPointerOverBackgroundThemeBrush" Color="Transparent" />
+                    <SolidColorBrush x:Key="ListViewItemSelectedPointerOverBorderThemeBrush" Color="Transparent" />
+                    <SolidColorBrush x:Name="DarkItemBackground" x:Key="DarkItemBackground">#FFF0F0F0</SolidColorBrush>
+                    <SolidColorBrush x:Name="LightItemBackground" x:Key="LightItemBackground">#FFFAFAFA</SolidColorBrush>
                 </ResourceDictionary>
             </ResourceDictionary.ThemeDictionaries>
         </ResourceDictionary>
