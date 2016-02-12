@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace Test_me_alfa.Common
+namespace TestMe.Common
 {
     /// <summary>
     /// Команда, единственным назначением которой является передача собственной функциональности 

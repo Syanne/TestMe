@@ -31,9 +31,7 @@
         </m2:DefaultTile>
         <m2:SplashScreen Image="Assets\Logo620.png" BackgroundColor="#1FBFBA" />
         <m2:InitialRotationPreference>
-          <m2:Rotation Preference="portrait" />
           <m2:Rotation Preference="landscape" />
-          <m2:Rotation Preference="portraitFlipped" />
           <m2:Rotation Preference="landscapeFlipped" />
         </m2:InitialRotationPreference>
       </m2:VisualElements>
@@ -46,37 +44,17 @@
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>
         <Path>CLRHost.dll</Path>
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Controls.Win.XAML.Tracking.AdDuplexTrackingSDK" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Controls.Win.XAML.AdDuplex_Universal_Controls_Win_XAML_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Controls.Win.XAML.AdControl" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.AdCoveredEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.InterstitialAdCacher" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.AdCacher" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.NetworkManager" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.ScreenHelper" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.DialogHelper" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.InterstitialSettingsManager" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.SettingsManager" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.ActionManager" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.InterstitialNetworkManager" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Core.AdSizeToSizeConverter" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InterstitialAdClickEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InterstitialAdLoadedEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.ImageLoadedEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InterstitialCachedAd" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.CachedAd" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InterstitialAdLoadingErrorEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.AdLoadingErrorEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InterstitialAdInfo" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.AdLoadedEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.ControlSettings" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InterstitialImageLoadedEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.AdClickEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.AdInfo" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.NoAdEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InstallationInfo" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InterstitialControlSettings" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="AdDuplex.Universal.Win.WinRT.Models.InterstitialInstallationInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.AdControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.XamlAdControl_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.AdSettingsFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.JSONWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.AdEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.SdkInfoProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.AdPlacement" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.RendererOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.AdErrorEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.Advertisement" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.UserInfoProvider" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
   </Extensions>
@@ -90,6 +68,7 @@
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.40629.0" />
     <build:Item Name="ProjectGUID" Value="{3A0DDEE4-27BF-4512-86AA-D0742C6FD387}" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="12.0.30501.0" />
+    <build:Item Name="MSAdvertisingXaml" Version="8.1" />
     <build:Item Name="MakePri.exe" Version="6.3.9600.17336 (winblue.150226-1500)" />
   </build:Metadata>
 </Package>

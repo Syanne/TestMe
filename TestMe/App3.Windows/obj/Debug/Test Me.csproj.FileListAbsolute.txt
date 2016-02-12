@@ -81,13 +81,9 @@ E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Wi
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\resources.pri
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AppxManifest.xml
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\Test Me.build.appxrecipe
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.winmd
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.winmd
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\Microsoft.Live.dll
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.dll
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.dll
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Controls.Win.XAML.pri
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AdDuplex.Universal.Win.WinRT.pri
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.pri
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\Test Me.csprojResolveAssemblyReference.cache
@@ -130,16 +126,10 @@ E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\pri.res
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\qualifiers.txt
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\qualifiers.txt.intermediate
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\AdDuplex.Universal.Controls.Win.XAML.pri.xml
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\AdDuplex.Universal.Win.WinRT.pri.xml
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.pri.xml
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri.xml
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\ProjectArchitectures.txt
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles.intermediate
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles.intermediate
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles.intermediate
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml
-E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\Microsoft.Advertising.WinRT.UI.winmd
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\Microsoft.Advertising.WinRT.UI.xml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\MicrosoftAdvertising.winmd
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\MicrosoftAdvertising.xml

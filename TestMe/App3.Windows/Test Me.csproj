@@ -121,7 +121,6 @@
     <Compile Include="2.1.TestPage.xaml.cs">
       <DependentUpon>2.1.TestPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="2.2.TestPage.cs" />
     <Compile Include="3.GraphPage.xaml.cs">
       <DependentUpon>3.GraphPage.xaml</DependentUpon>
     </Compile>
@@ -166,14 +165,6 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="AdDuplex.Universal.Controls.Win.XAML, Version=9.0.0.5, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\AdDuplexWin81.9.0.0.5\lib\portable-win81+wpa81\AdDuplex.Universal.Controls.Win.XAML.winmd</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="AdDuplex.Universal.Win.WinRT, Version=9.0.0.5, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\AdDuplexWin81.9.0.0.5\lib\portable-win81+wpa81\AdDuplex.Universal.Win.WinRT.winmd</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Microsoft.Live">
       <HintPath>..\..\packages\LiveSDK.5.6\WindowsXAML\Microsoft.Live.dll</HintPath>
     </Reference>
@@ -193,6 +184,11 @@
   <ItemGroup>
     <Content Include="Assets\logo50.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="MSAdvertisingXaml, Version=8.1">
+      <Name>Microsoft Advertising SDK for Windows 8.1 %28Xaml%29</Name>
+    </SDKReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>

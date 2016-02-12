@@ -16,6 +16,7 @@
     <Import_RootNamespace>App3</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)2.2.TestPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\NavigationHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\ObservableDictionary.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\RelayCommand.cs" />
@@ -99,6 +100,7 @@
     <Content Include="$(MSBuildThisFileDirectory)Assets\bottomAppBarImg.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\calendar.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Logo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Logo.scale-240.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\logo150.scale-100.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Logo24.scale-100.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\logo30.scale-100.png" />
@@ -108,8 +110,13 @@
     <Content Include="$(MSBuildThisFileDirectory)Assets\logo70.scale-100.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\logoWide.scale-100.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\SmallLogo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SmallLogo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SplashScreen.scale-240.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square71x71Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\StoreLogo.scale-240.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\WideLogo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\WideLogo.scale-240.png" />
     <Content Include="$(MSBuildThisFileDirectory)Common\ReadMe.txt" />
     <Content Include="$(MSBuildThisFileDirectory)Data\1\140.xml" />
     <Content Include="$(MSBuildThisFileDirectory)Data\1\141.xml" />

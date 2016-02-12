@@ -1,4 +1,4 @@
-﻿using Test_me_alfa.Common;
+﻿using TestMe.Common;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -23,7 +23,7 @@ using System.Collections.ObjectModel;
 
 // Документацию по шаблону элемента "Основная страница" см. по адресу http://go.microsoft.com/fwlink/?LinkId=234237
 
-namespace Test_me_alfa
+namespace TestMe
 {
     /// <summary>
     /// Основная страница, которая обеспечивает характеристики, являющимися общими для большинства приложений.

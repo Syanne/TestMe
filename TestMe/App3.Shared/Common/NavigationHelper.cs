@@ -10,7 +10,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
-namespace Test_me_alfa.Common
+namespace TestMe.Common
 {
     /// <summary>
     /// NavigationManager облегчает переходы между страницами.  Средство предоставляет команды для 

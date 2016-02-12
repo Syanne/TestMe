@@ -9,7 +9,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 using System.Xml.Linq;
 
-namespace Test_me_alfa
+namespace TestMe
 {
     public sealed partial class TestPage : Page
     {
@@ -105,7 +105,6 @@ namespace Test_me_alfa
         #endregion
 
         #region Tests from folders 1 and 2 handles here
-
         /// <summary>
         /// if we're choosing true or false
         /// </summary>
@@ -151,7 +150,6 @@ namespace Test_me_alfa
             lv.Items.Add(rb);
             lv.IsSynchronizedWithCurrentItem.GetValueOrDefault(true);
         }
-
         #endregion
 
         /// <summary>
@@ -184,5 +182,4 @@ namespace Test_me_alfa
             }
         }
     }
-
 }

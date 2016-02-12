@@ -17,7 +17,7 @@ using Windows.UI.Xaml.Navigation;
 
 // Шаблон пустого приложения задокументирован по адресу http://go.microsoft.com/fwlink/?LinkId=234227
 
-namespace Test_me_alfa
+namespace TestMe
 {
     /// <summary>
     /// Обеспечивает зависящее от конкретного приложения поведение, дополняющее класс Application по умолчанию.
@@ -76,7 +76,7 @@ namespace Test_me_alfa
                 // Если стек навигации не восстанавливается для перехода к первой странице,
                 // настройка новой страницы путем передачи необходимой информации в качестве параметра
                 // навигации
-                rootFrame.Navigate(typeof(Test_me_alfa.MainPage), e.Arguments);
+                rootFrame.Navigate(typeof(TestMe.MainPage), e.Arguments);
             }
             // Обеспечение активности текущего окна
             Window.Current.Activate();

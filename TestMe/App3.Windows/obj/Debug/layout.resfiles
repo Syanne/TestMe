@@ -73,6 +73,7 @@ Assets\9.jpg
 Assets\bottomAppBarImg.png
 Assets\calendar.png
 Assets\Logo.scale-100.png
+Assets\Logo.scale-240.png
 Assets\logo150.scale-100.png
 Assets\Logo24.scale-100.png
 Assets\logo30.scale-100.png
@@ -82,8 +83,13 @@ Assets\Logo620.scale-100.png
 Assets\logo70.scale-100.png
 Assets\logoWide.scale-100.png
 Assets\SmallLogo.scale-100.png
+Assets\SmallLogo.scale-240.png
+Assets\SplashScreen.scale-240.png
 Assets\Square44x44Logo.scale-100.png
+Assets\Square71x71Logo.scale-240.png
+Assets\StoreLogo.scale-240.png
 Assets\WideLogo.scale-100.png
+Assets\WideLogo.scale-240.png
 Common\ReadMe.txt
 Data\0-logic_psych_Example.xml
 Data\0-task_Example.xml

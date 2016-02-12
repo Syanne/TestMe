@@ -1,4 +1,4 @@
-﻿using Test_me_alfa.Common;
+﻿using TestMe.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ using WinRTXamlToolkit.Controls.DataVisualization.Charting;
 
 // Документацию по шаблону элемента "Основная страница" см. по адресу http://go.microsoft.com/fwlink/?LinkId=234237
 
-namespace Test_me_alfa
+namespace TestMe
 {
     /// <summary>
     /// Основная страница, которая обеспечивает характеристики, являющимися общими для большинства приложений.

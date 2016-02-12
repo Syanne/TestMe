@@ -1,4 +1,4 @@
-﻿using Test_me_alfa.Common;
+﻿using TestMe.Common;
 using System;
 using Windows.UI.Xaml;
 using Windows.UI.Popups;
@@ -6,7 +6,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
-namespace Test_me_alfa
+namespace TestMe
 {
     /// <summary>
     /// Основная страница, которая обеспечивает характеристики, являющимися общими для большинства приложений.
@@ -55,7 +55,6 @@ namespace Test_me_alfa
         }
 
         #region Регистрация NavigationHelper
-
         /// Методы, предоставленные в этом разделе, используются исключительно для того, чтобы
         /// NavigationHelper для отклика на методы навигации страницы.
         /// 
@@ -75,9 +74,7 @@ namespace Test_me_alfa
         {
             navigationHelper.OnNavigatedFrom(e);
         }
-
         #endregion
-
 
         /// <summary>
         /// The main button's handler
@@ -130,10 +127,10 @@ namespace Test_me_alfa
         /// <summary>
         /// Popup
         /// </summary>
-        /// <param name="lol">Message</param>
-        private async void ShowPop(string lol)
+        /// <param name="message">Message</param>
+        private async void ShowPop(string message)
         {
-            var dial = new MessageDialog(lol);
+            var dial = new MessageDialog(message);
             var command = await dial.ShowAsync();
         }
 
@@ -144,15 +141,15 @@ namespace Test_me_alfa
         /// <param name="e"></param>
         private async void backButton_Click(object sender, RoutedEventArgs e)
         {
-                var dial = new MessageDialog("Тест не завершен! Вы действительно хотите покинуть страницу?");
+            var dial = new MessageDialog("тест не завершен! вы действительно хотите покинуть страницу?");
                 
-               dial.Commands.Add(new UICommand("продолжить"));
-               dial.Commands.Add(new UICommand("назад",
-               new UICommandInvokedHandler((args) =>
-               {
-                   this.Frame.Navigate(typeof(MainPage));
-               })));
-                var command = await dial.ShowAsync();
+            dial.Commands.Add(new UICommand("продолжить"));
+            dial.Commands.Add(new UICommand("вернуться",
+            new UICommandInvokedHandler((args) =>
+            {
+                this.Frame.Navigate(typeof(MainPage));
+            })));
+            var command = await dial.ShowAsync();
         }
 
         /// <summary>
