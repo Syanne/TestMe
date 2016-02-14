@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="20" max="20" name="Правда или ложь? 20 фактов о Шерлоке">
+  <question number="1" name="Охотничье кепи, без которого трудно представить себе Шерлока Холмса, ни словом не упоминается ни в одной книге Конан Дойля">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="2" name="Во времена Конан Дойля дома с адресом Бейкер-стрит 221б в Лондоне не существовало">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="3" name="Холмса &quot;воскресили&quot; в рассказе &quot;Пляшущие человечки&quot;">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="4" name="К услугам Холмса прибегали исключительно жители Англии">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="5" name="Артур Конан Дойль считал книги о Холмсе главным произведением своей жизни">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="6" name="Канонический Холмс ни разу не фотографирует место преступления">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="7" name="Прототипом доктора Ватсона был врач-стоматолог">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="8" name="Почти все оригинальные рукописи Конан Дойля хранятся в Музее Шерлока Холмса на Бейкер-стрит">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="9" name="Фразу &quot;Элементарно, Ватсон&quot; книжный Шерлок не произнес ни разу">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="10" name="Бенедикт Камбербэтч был единственным кандидатом на роль Шерлока в одноименном британском сериале">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="11" name="В Великобритании никогда не показывали советские фильмы о Шерлоке">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="12" name="Марк Твен писал рассказы о Холмсе">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="13" name="Приключения Холмса являются вторым самым экранизируемым литературным произведением в истории человечества">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="14" name="Рост Холмса составляет примерно 180 сантиметров">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="15" name="Канонический Холмс делал себе инъекции только одного наркотического вещества - кокаина">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="16" name="Знаменитое охотничье кепи Холмса впервые появляется в рассказе &quot;Знак Четырех&quot;">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="17" name="Шерлок является праобразом доктора Хауса из одноименного сериала">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="18" name="Любимое оружие - пистолет">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+  <question number="19" name="Известный английский комик Стивен Фрай исполнил роль Майкрофта Холмса в одной из экранизаций">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="20" name="Артур Конан Дойль написал 65 рассказов и повестей о Холмсе">
+    <ans id="1" value="0" means="правда"/>
+    <ans id="2" value="1" means="ложь"/>
+  </question>
+
+
+  <end>
+    <result min="14" >Перед нами истинный шерлокоман! Нет сомнений, что вы прочли большинство произведений Конан Дойля!</result>
+    <result min="8" >Скорее всего, вы поклонник экранного Шерлока Холмса. К сожалению, результат средний.</result>
+    <result min="0" >К сожалению, у вас очень низкий результат. Может быть, не повезло? </result>
+  </end>
+</head>

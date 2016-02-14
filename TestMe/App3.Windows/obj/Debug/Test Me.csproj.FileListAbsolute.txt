@@ -133,3 +133,11 @@ E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\Microso
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\Microsoft.Advertising.WinRT.UI.xml
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\MicrosoftAdvertising.winmd
 E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\MicrosoftAdvertising.xml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles.intermediate
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml
+E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml.intermediate

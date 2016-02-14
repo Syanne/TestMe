@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
+  <!--
+    ЭТОТ ФАЙЛ МАНИФЕСТА ПАКЕТА СОЗДАН ПРОЦЕССОМ СБОРКИ.
+
+    Изменения этого файла будут потеряны при его повторном создании. Чтобы исправить ошибки в этом файле, измените исходный файл .appxmanifest.
+
+ Дополнительные сведения о файлах манифестов приложений см. по адресу http://go.microsoft.com/fwlink/?LinkID=241727
+  -->
+  <Identity Name="05e70525-eb5a-4c98-abe2-504c2572b48d" Publisher="CN=Anna" Version="1.0.0.0" ProcessorArchitecture="neutral" />
+  <mp:PhoneIdentity PhoneProductId="05e70525-eb5a-4c98-abe2-504c2572b48d" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>TestMeWP</DisplayName>
+    <PublisherDisplayName>Anna</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="EN-US" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="TestMeWP.exe" EntryPoint="TestMeWP.App">
+      <m3:VisualElements DisplayName="TestMeWP" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="TestMeWP" ForegroundText="light" BackgroundColor="transparent">
+        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png" />
+        <m3:SplashScreen Image="Assets\SplashScreen.png" />
+      </m3:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClientServer" />
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>CLRHost.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Mobile.Common.PublisherErrorEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Mobile.Common.SdkInfoProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Mobile.Common.PublisherMessageEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Mobile.Display.Key35MSSharedLib1024" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Mobile.UI.AdControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Mobile.UI.UI_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="SharedGUID" Value="d965e37c-9ad6-43e4-a4be-be2abb69445e" />
+    <build:Item Name="CodeSharingProject" Value="248F659F-DAC5-46E8-AC09-60EC9FC95053" />
+    <build:Item Name="TargetFrameworkMoniker" Value="WindowsPhoneApp,Version=v8.1" />
+    <build:Item Name="VisualStudio" Version="12.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Professional 2013" />
+    <build:Item Name="OperatingSystem" Version="10.0.10240.16384 (th1.150709-1700)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.40629.0" />
+    <build:Item Name="ProjectGUID" Value="{7E64DDBA-9CD7-42C5-AD11-0FAAFC1F1B9A}" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="12.0.30501.0" />
+    <build:Item Name="Microsoft.Advertising.Mobile.Display" Version="8.1" />
+    <build:Item Name="MakePri.exe" Version="6.3.9600.17336 (winblue.150226-1500)" />
+  </build:Metadata>
+</Package>

@@ -61,7 +61,6 @@
                            Margin="0,-2" Width="150" Height="auto" 
                            HorizontalAlignment="Right" VerticalAlignment="Center" 
                            FontSize="32" TextAlignment="Center" FontWeight="SemiBold"/>
-
             </Grid>
         </AppBar>
     </Page.BottomAppBar>
@@ -81,7 +80,6 @@
         <!-- Back button and page title -->
 
         <!-- Back button and page title -->
-
 
         <GridView x:Name="gvMain" 
                   AutomationProperties.AutomationId="ItemGridView"
@@ -112,7 +110,7 @@
                   IsHoldingEnabled="False" 
                   IsTapEnabled="False" ManipulationMode="None">
             <TextBox x:Name="task" TextWrapping="NoWrap" 
-                     SelectionHighlightColor="{x:Null}" 
+                     SelectionHighlightColor="{x:Null}" FontSize="20"
                      RequestedTheme="Light" HorizontalAlignment="Center"/>
 
         </ListView>

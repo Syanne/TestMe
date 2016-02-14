@@ -316,6 +316,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="SelectionHighlightColor" />
+      <RootProperty Name="FontSize" />
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="HorizontalAlignment" />
     </RootType>

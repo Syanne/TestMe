@@ -341,14 +341,71 @@
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\74.jpg">
       <PackagePath>Assets\74.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\75.jpg">
+      <PackagePath>Assets\75.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\76.jpg">
+      <PackagePath>Assets\76.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\77.jpg">
+      <PackagePath>Assets\77.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\78.jpg">
+      <PackagePath>Assets\78.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\79.jpg">
+      <PackagePath>Assets\79.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\8.jpg">
       <PackagePath>Assets\8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\80.jpg">
+      <PackagePath>Assets\80.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\81.jpg">
+      <PackagePath>Assets\81.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\82.jpg">
+      <PackagePath>Assets\82.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\83.jpg">
+      <PackagePath>Assets\83.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\84.jpg">
+      <PackagePath>Assets\84.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\85.jpg">
+      <PackagePath>Assets\85.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\86.jpg">
+      <PackagePath>Assets\86.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\87.jpg">
+      <PackagePath>Assets\87.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\88.jpg">
+      <PackagePath>Assets\88.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\89.jpg">
+      <PackagePath>Assets\89.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\9.jpg">
       <PackagePath>Assets\9.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\1\139.xml">
+      <PackagePath>Data\1\139.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\1\136.xml">
+      <PackagePath>Data\1\136.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\1\137.xml">
+      <PackagePath>Data\1\137.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\1\138.xml">
+      <PackagePath>Data\1\138.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\1\140.xml">
       <PackagePath>Data\1\140.xml</PackagePath>
@@ -530,6 +587,24 @@
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\1\147.xml">
       <PackagePath>Data\1\147.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\274.xml">
+      <PackagePath>Data\2\274.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\275.xml">
+      <PackagePath>Data\2\275.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\276.xml">
+      <PackagePath>Data\2\276.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\277.xml">
+      <PackagePath>Data\2\277.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\278.xml">
+      <PackagePath>Data\2\278.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\279.xml">
+      <PackagePath>Data\2\279.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\280.xml">
       <PackagePath>Data\2\280.xml</PackagePath>
     </AppxPackagedFile>
@@ -589,6 +664,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\299.xml">
       <PackagePath>Data\2\299.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\373.xml">
+      <PackagePath>Data\3\373.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\374.xml">
+      <PackagePath>Data\3\374.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\375.xml">
+      <PackagePath>Data\3\375.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\376.xml">
+      <PackagePath>Data\3\376.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\377.xml">
+      <PackagePath>Data\3\377.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\378.xml">
+      <PackagePath>Data\3\378.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\379.xml">
+      <PackagePath>Data\3\379.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\380.xml">
+      <PackagePath>Data\3\380.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\381.xml">
+      <PackagePath>Data\3\381.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\382.xml">
+      <PackagePath>Data\3\382.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\383.xml">
+      <PackagePath>Data\3\383.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\384.xml">
       <PackagePath>Data\3\384.xml</PackagePath>

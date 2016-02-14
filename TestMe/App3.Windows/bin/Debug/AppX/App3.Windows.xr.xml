@@ -100,6 +100,7 @@
       <RootProperty Name="HorizontalScrollMode" />
       <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Padding" />
       <RootProperty Name="VerticalScrollBarVisibility" />
       <RootProperty Name="VerticalScrollMode" />
       <RootProperty Name="IsVerticalRailEnabled" />
@@ -315,6 +316,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="SelectionHighlightColor" />
+      <RootProperty Name="FontSize" />
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="HorizontalAlignment" />
     </RootType>

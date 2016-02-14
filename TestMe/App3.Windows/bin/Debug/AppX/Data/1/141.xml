@@ -1,15 +1,80 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<head qcount="" max="" name="">
-  <question number="" name="">
-    <ans id="1" value="0" means=""/>
-    <ans id="2" value="0" means=""/>
-    <ans id="3" value="0" means=""/>
+<head qcount="10" max="30" name="Умение рационально использовать время">
+
+  <question number="1" name="Я резервирую в начале рабочего дня время для подготовительной работы, планирования">
+    <ans id="1" value="0" means="почти никогда"/>
+    <ans id="2" value="1" means="иногда"/>
+    <ans id="3" value="2" means="часто"/>
+    <ans id="4" value="3" means="почти всегда"/>
   </question>
 
+  <question number="2" name="Я перепоручаю все, что может быть перепоручено">
+    <ans id="1" value="0" means="почти никогда"/>
+    <ans id="2" value="1" means="иногда"/>
+    <ans id="3" value="2" means="часто"/>
+    <ans id="4" value="3" means="почти всегда"/>
+  </question>
 
-  <end>
-    <result min="" > </result>
-    <result min="" > </result>
-    <result min="" > </result>
+<question number="3" name="Я письменно фиксирую задачи и цели, с указанием сроков их реализации">
+    <ans id="1" value="0" means="почти никогда"/>
+    <ans id="2" value="1" means="иногда"/>
+    <ans id="3" value="2" means="часто"/>
+    <ans id="4" value="3" means="почти всегда"/>
+  </question>
+
+<question number="4" name="Каждый официальный документ я стараюсь обрабатывать за один раз и окончательно">
+    <ans id="1" value="0" means="почти никогда"/>
+    <ans id="2" value="1" means="иногда"/>
+    <ans id="3" value="2" means="часто"/>
+    <ans id="4" value="3" means="почти всегда"/>
+  </question>
+
+  <question number="5" name="Каждый день я составляю список предстоящих дел, упорядоченный по приоритетам. Важнейшие вещи я делаю в первую очередь">
+    <ans id="1" value="0" means="почти никогда"/>
+    <ans id="2" value="1" means="иногда"/>
+    <ans id="3" value="2" means="часто"/>
+    <ans id="4" value="3" means="почти всегда"/>
+  </question>
+
+  <question number="6" name="Свой рабочий день я освобождаю от посторонних телефонных разговоров незапланированных встреч, неожиданных совещаний">
+    <ans id="1" value="0" means="почти никогда"/>
+    <ans id="2" value="1" means="иногда"/>
+    <ans id="3" value="2" means="часто"/>
+    <ans id="4" value="3" means="почти всегда"/>
+  </question>
+
+  <question number="7" name="Свою дневную нагрузку я распределяю в соответствии с графиком моей работоспособности">
+    <ans id="1" value="0" means="почти никогда"/>
+    <ans id="2" value="1" means="иногда"/>
+    <ans id="3" value="2" means="часто"/>
+    <ans id="4" value="3" means="почти всегда"/>
+  </question>
+
+  <question number="8" name="В моем плане всегда есть окна, позволяющие реагировать на актуальные проблемы">
+    <ans id="1" value="0" means="почти никогда"/>
+    <ans id="2" value="1" means="иногда"/>
+    <ans id="3" value="2" means="часто"/>
+    <ans id="4" value="3" means="почти всегда"/>
+  </question>
+
+  <question number="9" name="Я направляю свою активность таким образом, чтобы в первую очередь концентрироваться на немногих, «жизненно важных» проблемах">
+    <ans id="1" value="0" means="почти никогда"/>
+    <ans id="2" value="1" means="иногда"/>
+    <ans id="3" value="2" means="часто"/>
+    <ans id="4" value="3" means="почти всегда"/>
+  </question>
+
+  <question number="10" name="Я умею говорить «нет», когда на мое время претендуют другие, а мне необходимо делать более важные дела">
+    <ans id="1" value="0" means="почти никогда"/>
+    <ans id="2" value="1" means="иногда"/>
+    <ans id="3" value="2" means="часто"/>
+    <ans id="4" value="3" means="почти всегда"/>
+  </question>
+    
+    <end>
+    <result min="26" >Вы можете служить образцом каждому, кто хочет научиться рационально использовать свое время. У Вас стоит поучиться.</result>
+    <result min="21" >У Вас достаточно высокий уровень самоменеджмента.</result>
+    <result min="16" >Вы пытаетесь овладеть своим временем, но не всегда достаточно последовательны, чтобы иметь успех.</result>
+    <result min="0" >Вы не планируете свое время и находитесь во власти внешних обстоятельств. Вы добьетесь своих целей, если составите список приоритетов и будете придерживаться его.</result>
   </end>
 </head>

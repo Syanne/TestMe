@@ -1,15 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<head qcount="" max="" name="">
-  <question number="" name="">
-    <ans id="1" value="0" means=""/>
-    <ans id="2" value="0" means=""/>
-    <ans id="3" value="0" means=""/>
+<head qcount="14" max="14" name="Правда или ложь? Интересные факты">
+  <question number="1" name="У осьминога три сердца">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="2" name="Арахис не является орехом">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="3" name="Франкенштейн — имя не монстра, а ученого, который его создал">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="4" name="У бегемотов розовое молоко">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="5" name="От торговых автоматов пострадало в два раза больше людей, чем от зубов акулы.">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="6" name="Еще никто не смог приручить африканского слона">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="7" name="Колибри — единственная птица, способная летать назад">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="8" name="Клеопатра жила ближе к высадке на Луну, чем к постройке пирамид">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="9" name="Нилу Армстронгу пришлось заполнить иммиграционную форму, когда он вернулся в США с Луны">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="10" name="99% потребляемой микроволновой печью энергии приходится на режим ожидания, а не на нагрев.">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="11" name="Сердце синего кита настолько огромно, что человек может запросто плавать по артериям.">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="12" name="Человеческая ДНК на 50% повторяет ДНК банана">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="13" name="Мед — единственный продукт питания, который никогда не портится.">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
+  </question>
+  <question number="14" name="Вероятность того, что в стакане питьевой воды содержится молекула, которая побывала в теле динозавра, - почти 100 %">
+    <ans id="1" value="1" means="правда"/>
+    <ans id="2" value="0" means="ложь"/>
   </question>
 
 
   <end>
-    <result min="" > </result>
-    <result min="" > </result>
-    <result min="" > </result>
+    <result min="9" >Этот тест с подвохом: все приведенные факты правдивы. Вы ответили правильно на большинство вопросов. Если вам понравился этот тест, не забудьте оценить приложение (кнопка &quot;оценить&quot; на главной странице). Больше оценок - больше интересных тестов!</result>
+    <result min="5" >Неплохой результат, попробуйте пройти и другие тесты в приложении. Если оно вам понравилось, не забудьте поставить оценку в магазине (кнопка &quot;оценить&quot; на главной странице). Больше оценок - больше интересных тестов!</result>
+    <result min="0" >Все утверждения были истинны, а вы не поверили)</result>
   </end>
 </head>

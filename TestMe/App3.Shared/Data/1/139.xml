@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="24" max="24" name="Артистические наклонности">
+
+<question number="1" name="Есть ли разница между словами тон и нюанс?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="2" name="Можете ли вы жить в неуютной, скучной квартире и не замечать этого?">
+<ans id="1" value="0" means="да"/>
+<ans id="2" value="1" means="нет"/>
+</question>
+<question number="3" name="Вы любите рисовать?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="4" name="Одеваетесь ли вы, опираясь не на моду, а на собственный вкус?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="5" name="Говорят ли вам что-нибудь следующие имена: Мане, Ван Дейк, Хосе Рибера, Фальконе?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="6" name="У вас очень плохой почерк?">
+<ans id="1" value="0" means="да"/>
+<ans id="2" value="1" means="нет"/>
+</question>
+<question number="7" name="Стараетесь ли вы одеваться в одной цветовой гамме?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="8" name="Любите ли вы посещать музеи?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="9" name="Остановитесь ли по пути, чтобы полюбоваться закатом?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="10" name="Вы любите чертить геометрические фигуры?">
+<ans id="1" value="0" means="да"/>
+<ans id="2" value="1" means="нет"/>
+</question>
+<question number="11" name="Часто ли посещаете художественные салоны?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="12" name="Склонны ли вы долго бродить по улицам?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="13" name="Любите ли одиночество?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="14" name="Кажется ли вам абсурдом, когда кто-то начинает декламировать стихи?">
+<ans id="1" value="0" means="да"/>
+<ans id="2" value="1" means="нет"/>
+</question>
+<question number="15" name="Слушаете ли вы музыку только ради развлечения?">
+<ans id="1" value="0" means="да"/>
+<ans id="2" value="1" means="нет"/>
+</question>
+<question number="16" name="Надолго ли запоминаете красивые пейзажи?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="17" name="Кажутся ли вам очень красивыми морские камни?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="18" name="Любите ли новые встречи и знакомства?">
+<ans id="1" value="0" means="да"/>
+<ans id="2" value="1" means="нет"/>
+</question>
+<question number="19" name="Нравится ли вам читать стихи вслух?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="20" name="Не было ли желания разрисовать картинами стены своей комнаты?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="21" name="Часто ли меняете прическу?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="22" name="Часто ли переставляете мебель у себя дома?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="23" name="Вы пробовали когда-нибудь сочинять песенки?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+<question number="24" name="Пишете ли вы стихи?">
+<ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+</question>
+
+<end>
+<result min="16" >Можно сказать совершенно определенно одно: у вас есть чувство красоты, свойственное натуре артистической.</result>
+<result min="6" >Что ж, вы иногда витаете в облаках, но, хотя красота вам и небезразлична, вы скорее рационалист. Короче говоря, вы всегда сочетаете приятное с полезным.</result>
+<result min="0" >Такого человека, как вы, вряд ли остановит красота восхода или заката.</result>
+</end>
+</head>
