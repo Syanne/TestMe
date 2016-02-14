@@ -1,15 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<head qcount="" max="" name="">
-  <question number="" name="">
-    <ans id="1" value="0" means=""/>
-    <ans id="2" value="0" means=""/>
-    <ans id="3" value="0" means=""/>
+<head qcount="15" max="150" name="Капитан или пассажир">
+
+<question number="1" name="Я всегда чувствую ответственность за все, что происходит в моей жизни">
+    <ans id="1" value="10" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+    <ans id="3" value="5" means="не знаю"/>
+  </question>
+<question number="2" name="У меня не было бы столько проблем, если бы некоторые люди изменили свое отношение ко мне">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="10" means="нет"/>
+    <ans id="3" value="5" means="не знаю"/>
+  </question>
+<question number="3" name="Я предпочитаю действовать, а поразмышлять над причинами своих неудач">
+    <ans id="1" value="10" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+    <ans id="3" value="5" means="не знаю"/>
+  </question>
+<question number="4" name="Иногда мне кажется, что я родился (родилась) под &quot;несчастливой звездой&quot;">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="10" means="нет"/>
+    <ans id="3" value="5" means="не знаю"/>
+  </question>
+<question number="5" name="Алкоголики сами виноваты в своей болезни">
+    <ans id="1" value="10" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+    <ans id="3" value="5" means="не знаю"/>
+  </question>
+<question number="6" name="Иногда я думаю, что за многое в моей жизни ответственны те люди, под влиянием которых я стал (стала) таким (такой), какой (какая) я есть">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="10" means="нет"/>
+    <ans id="3" value="5" means="не знаю"/>
+  </question>
+<question number="7" name="Если я простужаюсь, предпочитаю лечиться самостоятельно">
+    <ans id="1" value="10" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+    <ans id="3" value="5" means="не знаю"/>
+  </question>
+<question number="8" name="Во вздорности и агрессивности, которые так раздражают в женщине, чаще всего виноваты другие люди">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="10" means="нет"/>
+    <ans id="3" value="5" means="не знаю"/>
+  </question>
+<question number="9" name="Любую проблему можно решить">
+    <ans id="1" value="10" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+    <ans id="3" value="5" means="не знаю"/>
+  </question>
+<question number="10" name="Я люблю помогать людям, потому что чувствую благодарность за то, что другие сделали для меня">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="10" means="нет"/>
+    <ans id="3" value="5" means="не знаю"/>
+  </question>
+<question number="11" name="Если происходит конфликт, то, размышляя, кто в нем виноват, я обычно начинаю с самого (самой) себя">
+    <ans id="1" value="10" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+    <ans id="3" value="5" means="не знаю"/>
+  </question>
+<question number="12" name="Если черная кошка перейдет мне дорогу, я перехожу на другую сторону улицы">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="10" means="нет"/>
+    <ans id="3" value="5" means="не знаю"/>
+  </question>
+<question number="13" name="Каждый человек, независимо от обстоятельств, должен быть сильным и самостоятельным">
+    <ans id="1" value="10" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+    <ans id="3" value="5" means="не знаю"/>
+  </question>
+<question number="14" name="Я знаю свои недостатки, но хочу, чтобы окружающие относились к ним снисходительно">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="10" means="нет"/>
+    <ans id="3" value="5" means="не знаю"/>
+  </question>
+<question number="15" name="Обычно я мирюсь с ситуацией, повлиять на которую не в состоянии">
+    <ans id="1" value="0" means="да"/>
+    <ans id="2" value="10" means="нет"/>
+    <ans id="3" value="5" means="не знаю"/>
   </question>
 
-
   <end>
-    <result min="" > </result>
-    <result min="" > </result>
-    <result min="" > </result>
+    <result min="100" >Вы легко подчиняетесь внешним силам. В своих трудностях обвиняете кого угодно, но только не себя. Настоящая независимость кажется вам недостижимой.</result>
+    <result min="50" >Вы охотно бываете &quot;рулевым&quot;, но можете, если это необходимо, передавать штурвал в верные руки. Гибкость, рассудительность и чуткость всегда бывают вашими союзниками.</result>
+    <result min="0" >Вы &quot;капитан&quot; собственной жизни, чувствуете ответственность за все, что с вами происходит, многое берете на себя, преодолеваете трудности, не преувеличивая их, не возводя в ранг жизненных проблем</result>
   </end>
 </head>

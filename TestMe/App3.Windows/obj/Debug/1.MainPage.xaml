@@ -115,8 +115,8 @@
                           HorizontalScrollBarVisibility="Disabled"
                           HorizontalScrollMode="Disabled"
                           Width="auto" 
-                          Margin="0,60,0,0"
-                          VerticalScrollBarVisibility="Hidden"
+                          Margin="0,60,0,0" Padding="10, 0"
+                          VerticalScrollBarVisibility="Visible"
                           VerticalScrollMode="Enabled"
                           IsVerticalRailEnabled="True"
                           IsHorizontalRailEnabled="False">

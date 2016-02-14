@@ -1,15 +1,143 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<head qcount="" max="" name="">
-  <question number="" name="">
-    <ans id="1" value="0" means=""/>
-    <ans id="2" value="0" means=""/>
-    <ans id="3" value="0" means=""/>
+<head qcount="34" max="34" name="Ваша честность "> 
+  
+<question number="1" name="Бывает, что я смеюсь над неприличным анекдотом"> 
+  <ans id="1" value="1" means="да"/> 
+  <ans id="2" value="0" means="нет"/> 
   </question>
+<question number="2" name="Если ко мне обращаются вежливо, то я тоже всегда отвечаю вежливо"> 
+  <ans id="1" value="0" means="да"/> 
+  <ans id="2" value="1" means="нет"/> 
+  </question>
+<question number="3" name="У меня бывают денежные затруднения"> 
+  <ans id="1" value="1" means="да"/> 
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="4" name="Мне всегда приятно, когда человек, который мне не нравится, добивается заслуженного успеха"> 
+  <ans id="1" value="0" means="да"/> 
+  <ans id="2" value="1" means="нет"/> 
+  </question>
+<question number="5" name="Бывало, откладывал то, что требовалось сделать немедленно"> 
+  <ans id="1" value="1" means="да"/> 
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="6" name="В компании я веду себя не так, как дома"> 
+  <ans id="1" value="1" means="да"/> 
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="7" name="Я полностью свободен от всяких предрассудков"> 
+  <ans id="1" value="0" means="да"/> 
+  <ans id="2" value="1" means="нет"/> 
+  </question>
+<question number="8" name="Я не всегда говорю правду"> 
+  <ans id="1" value="1" means="да"/> 
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="9" name="Когда я с кем-нибудь играю, мне всегда хочется победить"> 
+  <ans id="1" value="1" means="да"/> 
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="10" name="Иногда я сержусь"> 
+  <ans id="1" value="1" means="да"/> 
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="11" name="В свое оправдание я иногда кое-что выдумывал"> 
+  <ans id="1" value="1" means="да"/> 
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="12" name="Бывает, что я выхожу из себя"> 
+  <ans id="1" value="1" means="да"/> 
+<ans id="2" value="0" means="нет"/> </question>
+<question number="13" name="В детстве я сразу и без пререканий делал всё, что от меня требовалось">
+  <ans id="1" value="0" means="да"/> 
+<ans id="2" value="1" means="нет"/> 
+  </question>
+<question number="14" name="Иногда я раздражен чем-нибудь"> 
+  <ans id="1" value="1" means="да"/> 
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="15" name="Бывает, что я смехом реагирую на неприличную шутку"> 
+  <ans id="1" value="1" means="да"/> 
+<ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="16" name="Бывало, я опаздывал к назначенному времени">
+  <ans id="1" value="1" means="да"/>
+  <ans id="2" value="0" means="нет"/>
+  </question>
+<question number="17" name="Я люблю иногда посплетничать">
+  <ans id="1" value="1" means="да"/>
+  <ans id="2" value="0" means="нет"/>
+  </question>
+<question number="18" name="Среди тех, кого я знаю, есть такие лица, которые мне очень не нравятся">
+  <ans id="1" value="1" means="да"/>
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="19" name="Не помню, чтобы меня особенно опечалили неудачи человека, которого я не могу терпеть">
+  <ans id="1" value="1" means="да"/>
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="20" name="Мне случалось опаздывать">
+  <ans id="1" value="1" means="да"/>
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="21" name="Мне свойственно иногда прихвастнуть">
+  <ans id="1" value="1" means="да"/>
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="22" name="Иногда нет никакого желания чем-либо заняться">
+  <ans id="1" value="1" means="да"/> 
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="23" name="У меня бывают иногда мысли, о которых стыдно рассказывать другим"> 
+  <ans id="1" value="1" means="да"/>
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="24" name="Иногда я оказывался причиной плохого настроения кого-нибудь из окружающих"> 
+  <ans id="1" value="1" means="да"/> <ans id="2" value="0" means="нет"/> </question>
+<question number="25" name="Бывало, что я говорил неправду"> 
+  <ans id="1" value="1" means="да"/> 
+<ans id="2" value="0" means="нет"/> </question>
+<question number="26" name="Все мои привычки положительны"> 
+  <ans id="1" value="0" means="да"/> 
+  <ans id="2" value="1" means="нет"/> 
+</question>
+<question number="27" name="Если я что-то обещал, то всегда сдерживаю слово несмотря ни на что"> 
+  <ans id="1" value="0" means="да"/>
+  <ans id="2" value="1" means="нет"/> 
+  </question>
+<question number="28" name="Иногда могу похвастаться"> 
+  <ans id="1" value="1" means="да"/> 
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="29" name="Подростком я проявлял интерес к запретным темам"> 
+  <ans id="1" value="1" means="да"/> 
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="30" name="Я откладываю иногда на завтра то, что необходимо сделать сегодня"> 
+  <ans id="1" value="1" means="да"/> 
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="31" name="У меня бывают мысли, которых следовало бы стыдиться"> 
+  <ans id="1" value="1" means="да"/> 
+  <ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="32" name="Я иногда спорю о вещах, о которых слишком мало знаю"> 
+  <ans id="1" value="1" means="да"/> 
+<ans id="2" value="0" means="нет"/> 
+  </question>
+<question number="33" name="Я люблю не всех своих знакомых">
+  <ans id="1" value="1" means="да"/>
+<ans id="2" value="0" means="нет"/>
+  </question>
+<question number="34" name="Я могу про кого-нибудь сказать плохо"> 
+  <ans id="1" value="1" means="да"/> 
+<ans id="2" value="0" means="нет"/> 
+    </question>
 
-
-  <end>
-    <result min="" > </result>
-    <result min="" > </result>
-    <result min="" > </result>
-  </end>
+<end>
+<result min="30" > Высокий результат по шкале &quot;Честность&quot;. Такой высокий результат может быть связан не только с высокой личностной честностью, но и следствием других причин: преднамеренного искажения ответов, очень неверной самооценки. Следует осторожно отнестись к данному результату.</result>
+<result min="13" >Нормальный результат. Склонность ко лжи не выявлена. Может быть, изредка склонен приукрашивать себя, своё поведение, но в пределах нормы. </result>
+<result min="6" >Низкий показатель по шкале &quot;Честность&quot;. Свидетельствует о значительной склонности ко лжи. Любит приукрашивать себя, своё поведение. Если опросник применялся в составе батареи методик, то результаты по личностным опросникам не обязательнос следует признавать недостоверными. Однако следует отнестить к их результатам вполне критично. </result>
+<result min="0" >Очень низкий показатель по шкале &quot;Честность&quot;. Свидетельствует о ярко выраженной склонности ко лжи, приукрашиванию себя. Также может свидетельствовать о низких показателях социального интеллекта. Если данный опросник применялся в составе батареи методик, то результаты по личностным опросникам следует признать недостоверными. </result>
+</end>
 </head>

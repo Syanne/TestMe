@@ -14,10 +14,11 @@ namespace TestMe
         //item
         public double ItemHeight { get; set; }
         public double ItemWidth { get; set; }
+        public double TextBlockWidth { get; set; }
         public double ItemFontSize { get; set; }
 
         //flip & flyout
-        public double FlipWidth {get; set;}
+        public double FlipWidth { get; set; }
         public double FlipHeight { get; set; }
         public double FlyingFlipHeight { get; set; }
         public double FlyingFlipWidth { get; set; }
@@ -34,6 +35,30 @@ namespace TestMe
         public double ButtonHeight { get; set; }
         public double ButtonWidth { get; set; }
 
+#if WINDOWS_PHONE_APP
+        public SizeCorrection()
+        {
+            ItemHeight = Window.Current.Bounds.Height / 8;
+            ItemWidth = 300 * ItemHeight / 200;
+            TextBlockWidth = Window.Current.Bounds.Width - ItemWidth - 20;
+            FlipWidth = ItemHeight * 2;
+            FlipHeight = Window.Current.Bounds.Height - 215;
+
+            ItemFontSize = ItemHeight / 5;
+            FlipFontSize = 16;
+            ButtonHeight = 50;
+            ButtonWidth = 110;
+            FlyoutGridHeight = FlipHeight + 150;
+
+            FlipWidth = ItemHeight * 2;
+            FlyingFlipHeight = FlipWidth * 1.5;
+            FlyingFlipWidth = FlipWidth + 10;
+            GridWidth = Window.Current.Bounds.Width - FlipWidth - 100;
+            GridMargin = new Thickness(FlipWidth + 70, 50, 50, 110);
+            TitleMargin = new Thickness(10, 0, 10, 10);
+            AppBarButtonWidth = FlipWidth / 3;
+        }
+#else
         public SizeCorrection()
         {
             ItemHeight = Window.Current.Bounds.Height / 5;
@@ -69,5 +94,6 @@ namespace TestMe
             TitleMargin = new Thickness(10, 0, 10, 10);
             AppBarButtonWidth = FlipWidth / 3;
         }
+#endif
     }
 }
