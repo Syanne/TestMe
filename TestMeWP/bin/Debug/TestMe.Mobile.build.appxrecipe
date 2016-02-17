@@ -28,12 +28,6 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI.winmd">
       <PackagePath>Microsoft.Advertising.Mobile.UI.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization.dll">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit.dll">
-      <PackagePath>WinRTXamlToolkit.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI\Web\bootstrap.html">
       <PackagePath>Microsoft.Advertising.Mobile.UI\Web\bootstrap.html</PackagePath>
     </AppxPackagedFile>
@@ -43,20 +37,43 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI\Web\Ormma.js">
       <PackagePath>Microsoft.Advertising.Mobile.UI\Web\Ormma.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMeWP\Assets\BadgeLogo.scale-240.png">
+      <PackagePath>Assets\BadgeLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMeWP\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMeWP\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMeWP\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMeWP\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMeWP\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMeWP\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMeWP\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMeWP\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMeWP\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMeWP\Assets\StoreLogo.scale-240.png">
@@ -65,52 +82,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMeWP\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\bottomAppBarImg.png">
-      <PackagePath>Assets\bottomAppBarImg.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\calendar.png">
-      <PackagePath>Assets\calendar.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\Logo.scale-100.png">
-      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logo150.scale-100.png">
-      <PackagePath>Assets\logo150.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\Logo24.scale-100.png">
-      <PackagePath>Assets\Logo24.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logo30.scale-100.png">
-      <PackagePath>Assets\logo30.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logo300.scale-100.png">
-      <PackagePath>Assets\logo300.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logo44.scale-100.png">
-      <PackagePath>Assets\logo44.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\Logo620.scale-100.png">
-      <PackagePath>Assets\Logo620.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logo70.scale-100.png">
-      <PackagePath>Assets\logo70.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logoWide.scale-100.png">
-      <PackagePath>Assets\logoWide.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\SmallLogo.scale-100.png">
-      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\Square44x44Logo.scale-100.png">
-      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\WideLogo.scale-100.png">
-      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\1.jpg">
       <PackagePath>Assets\1.jpg</PackagePath>
@@ -322,14 +293,71 @@
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\74.jpg">
       <PackagePath>Assets\74.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\75.jpg">
+      <PackagePath>Assets\75.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\76.jpg">
+      <PackagePath>Assets\76.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\77.jpg">
+      <PackagePath>Assets\77.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\78.jpg">
+      <PackagePath>Assets\78.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\79.jpg">
+      <PackagePath>Assets\79.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\8.jpg">
       <PackagePath>Assets\8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\80.jpg">
+      <PackagePath>Assets\80.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\81.jpg">
+      <PackagePath>Assets\81.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\82.jpg">
+      <PackagePath>Assets\82.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\83.jpg">
+      <PackagePath>Assets\83.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\84.jpg">
+      <PackagePath>Assets\84.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\85.jpg">
+      <PackagePath>Assets\85.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\86.jpg">
+      <PackagePath>Assets\86.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\87.jpg">
+      <PackagePath>Assets\87.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\88.jpg">
+      <PackagePath>Assets\88.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\89.jpg">
+      <PackagePath>Assets\89.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\9.jpg">
       <PackagePath>Assets\9.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\1\139.xml">
+      <PackagePath>Data\1\139.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\1\136.xml">
+      <PackagePath>Data\1\136.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\1\137.xml">
+      <PackagePath>Data\1\137.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\1\138.xml">
+      <PackagePath>Data\1\138.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\1\140.xml">
       <PackagePath>Data\1\140.xml</PackagePath>
@@ -511,6 +539,24 @@
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\1\147.xml">
       <PackagePath>Data\1\147.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\274.xml">
+      <PackagePath>Data\2\274.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\275.xml">
+      <PackagePath>Data\2\275.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\276.xml">
+      <PackagePath>Data\2\276.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\277.xml">
+      <PackagePath>Data\2\277.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\278.xml">
+      <PackagePath>Data\2\278.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\279.xml">
+      <PackagePath>Data\2\279.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\280.xml">
       <PackagePath>Data\2\280.xml</PackagePath>
     </AppxPackagedFile>
@@ -570,6 +616,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\2\299.xml">
       <PackagePath>Data\2\299.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\373.xml">
+      <PackagePath>Data\3\373.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\374.xml">
+      <PackagePath>Data\3\374.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\375.xml">
+      <PackagePath>Data\3\375.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\376.xml">
+      <PackagePath>Data\3\376.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\377.xml">
+      <PackagePath>Data\3\377.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\378.xml">
+      <PackagePath>Data\3\378.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\379.xml">
+      <PackagePath>Data\3\379.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\380.xml">
+      <PackagePath>Data\3\380.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\381.xml">
+      <PackagePath>Data\3\381.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\382.xml">
+      <PackagePath>Data\3\382.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\383.xml">
+      <PackagePath>Data\3\383.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\3\384.xml">
       <PackagePath>Data\3\384.xml</PackagePath>
@@ -646,152 +725,8 @@
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMeWP\bin\Debug\3.GraphPage.xbf">
       <PackagePath>3.GraphPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMeWP\bin\Debug\4.Statistics.xbf">
-      <PackagePath>4.Statistics.xbf</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMeWP\bin\Debug\TestMeWP.xr.xml">
       <PackagePath>TestMeWP.xr.xml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\ImageButton\ImageButton.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\ImageButton\ImageButton.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\InputDialog\InputDialog.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\InputDialog\InputDialog.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\TreeView\TreeView.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeView.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xaml">
-      <PackagePath>WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Themes\Generic.xaml">
-      <PackagePath>WinRTXamlToolkit\Themes\Generic.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\AxisLabel.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\AxisLabel.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DateTimeAxisLabel.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DateTimeAxisLabel.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DisplayAxis.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DisplayAxis.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\NumericAxisLabel.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\NumericAxisLabel.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\RangeAxis.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\RangeAxis.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Chart\Chart.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Chart\Chart.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\AreaDataPoint.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\AreaDataPoint.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BarDataPoint.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BarDataPoint.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BubbleDataPoint.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BubbleDataPoint.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ColumnDataPoint.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ColumnDataPoint.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\LineDataPoint.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\LineDataPoint.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\PieDataPoint.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\PieDataPoint.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ScatterDataPoint.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ScatterDataPoint.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Primitives\DelegatingListBox.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Primitives\DelegatingListBox.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\AreaSeries.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\AreaSeries.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DataPointSeries.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DataPointSeries.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DefinitionSeries.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DefinitionSeries.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LegendItem.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LegendItem.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LineSeries.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LineSeries.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\PieSeries.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\PieSeries.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Legend\Legend.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Legend\Legend.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Themes\Generic.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Themes\Generic.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore45\WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xaml">
-      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xaml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMeWP\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

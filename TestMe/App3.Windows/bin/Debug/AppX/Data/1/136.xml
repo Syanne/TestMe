@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<head qcount="10" max="10" name="В состоянии аффекта">
+<question number="1" name="Долго помните оскорбления или обиды, которые вам нанесли">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+<question number="2" name="Практически постоянно выясняете с кем-то отношения (либо с одним и тем же человеком, либо с разными партнерами)">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+<question number="3" name="Вам очень трудно сделать первый шаг к примирению, когда Вас кто-нибудь обидел">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+<question number="4" name="Долго переживаете из-за несправедливости по отношению к себе">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+<question number="5" name="Мелкие неприятности обычно рассказываете ближним, ища сочувствия">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+<question number="6" name="По несколько дней мысленно выясняете свои отношения с обидчиком">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+<question number="7" name="Поссорившись с близким человеком, можете не разговаривать с ним по долгое время">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+<question number="8" name="Долго переживаете случившийся с вами конфуз, допущенный промах, ошибку в работе">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+<question number="9" name="Долго переживаете конфликты с близкими людьми">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+<question number="10" name="После конфликта дома (на работе) бываете до того расстроены, что идти домой (на работу) вам кажется просто невыносимым">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+<question number="11" name="Часто трудно засыпаете из-за того, что проблемы прожитого или будущего дня все время крутятся в ваших мыслях">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+<question number="12" name="Не в состоянии отвлечься от трудных проблем, требующих решения">
+    <ans id="1" value="1" means="да"/>
+    <ans id="2" value="0" means="нет"/>
+  </question>
+
+  <end>
+    <result min="10" >аффективность стала неотъемлемой чертой вашего характера</result>
+    <result min="5" >аффективность свойственна вам, возможно достигла уровня тенденции</result>
+    <result min="0" >вам не свойственны дисфункциональные аффективные состояния</result>
+  </end>
+</head>

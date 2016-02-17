@@ -9,98 +9,90 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" 
-    RequestedTheme="Light"
-    Loaded="pageRoot_Loaded"
-    Unloaded="pageRoot_Unloaded">
+    RequestedTheme="Light">
+    <Page.Resources>
+        <local:SizeCorrection x:Key="SizeResource"/>
+    </Page.Resources>
 
-    <Page.TopAppBar>
-        <AppBar Height="90" IsSticky="True" IsOpen="True" Background="Transparent" BorderThickness="0" BorderBrush="Transparent">
-            <Grid x:Name="topString">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="120"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-
-                <Button x:Name="backButton" Margin="52,0,0,0" 
-                    Style="{StaticResource NavigationBackButtonNormalStyle}"
-                    VerticalAlignment="Center"
-                    AutomationProperties.Name="Back"
-                    AutomationProperties.AutomationId="BackButton"
-                    IsTabStop="False"
-                    AutomationProperties.ItemType="Navigation Button" 
-                    Foreground="{ThemeResource ComboBoxHeaderForegroundThemeBrush}" 
-                    BorderBrush="{ThemeResource ButtonDisabledBackgroundThemeBrush}" 
-                    Click="backButton_Click" 
-                    Background="{x:Null}" 
-                    RequestedTheme="Light" IsHoldingEnabled="False" 
-                    IsRightTapEnabled="False" 
-                    Width="46" Height="46"/>
-
-                <TextBlock x:Name="pageTitle" FontSize="34" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" TextAlignment="Center" Padding="10"
-                       Margin="10,15,170,15" FontFamily="Segoe UI" Foreground="#FF575757" SelectionHighlightColor="#FF7D7C7E"/>
-                <TextBlock x:Name="quesChamber" TextAlignment="Center" Padding="5" 
-                           TextWrapping="Wrap" Margin="0,20,60,0" Foreground="#FF575757" 
-                           Width="100" Height="47" HorizontalAlignment="Right" VerticalAlignment="Top" FontSize="30" Grid.Column="1"/>
-            </Grid>
-        </AppBar>
-    </Page.TopAppBar>
-    
     <Grid Name="mainGrd" Background="#FFEBEBEB">
-        <Grid.ChildrenTransitions>
-            <TransitionCollection>
-                <EntranceThemeTransition/>
-            </TransitionCollection>
-        </Grid.ChildrenTransitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="140"/>
-            <RowDefinition Height="527*"/>
-            <RowDefinition Height="101*"/>
-        </Grid.RowDefinitions>
+        <StackPanel Width="{Binding Source={StaticResource SizeResource}, Path=FlyingFlipWidth}" 
+                    VerticalAlignment="Stretch" 
+                    HorizontalAlignment="Stretch">
+            <Grid Name="TopStackPanel"
+                Margin="0, 20, 0, 0"
+                Height="{Binding Source={StaticResource SizeResource}, Path=ItemHeight}"
+                HorizontalAlignment="Stretch"
+                Background="Transparent">
+                <TextBlock x:Name="quesChamber" 
+                       TextAlignment="Center" 
+                       VerticalAlignment="Top"
+                       HorizontalAlignment="Left"
+                       Width="60"
+                       Padding="0"
+                       TextWrapping="Wrap" 
+                       Margin="10, 5" 
+                       Foreground="Black"  
+                       FontSize="20" />
+                <TextBlock x:Name="timeChamber"
+                   TextWrapping="Wrap" Foreground="#FFF3F3F3"
+                   Margin="10, 5" 
+                   Width="100" Height="60" 
+                   HorizontalAlignment="Right" 
+                   VerticalAlignment="Top" 
+                   FontSize="20" 
+                   TextAlignment="Center" />
+            </Grid>
 
-        <GridView x:Name="gvMain" 
-                  AutomationProperties.AutomationId="ItemGridView"
-                  AutomationProperties.Name="Grouped Items"
-                  Grid.Row="1"
-                  Padding="116,37,40,46"  
-                  SelectionMode="None"
-                  IsSwipeEnabled="false"
-                  IsItemClickEnabled="True" Foreground="{x:Null}" 
-                  Grid.RowSpan="2"/>
-
-        <TextBlock x:Name="tbQuest" HorizontalAlignment="Center" 
-                   Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Stretch" 
-                   Padding="10" RequestedTheme="Light" IsDoubleTapEnabled="False" 
-                   IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" 
-                   Foreground="#FF333333" FontFamily="Segoe UI" />
-
-        <ListView x:Name="lv" IsRightTapEnabled="False" 
-                  IsItemClickEnabled="True" 
-                  ItemClick="lv_ItemClick" 
-                  Grid.Row="1" SelectionMode="None" 
-                  RequestedTheme="Light" Grid.RowSpan="5" 
-                  HorizontalAlignment="Center" 
-                  HorizontalContentAlignment="Center" 
-                  VerticalAlignment="Center" 
-                  VerticalContentAlignment="Center" 
-                  IsDoubleTapEnabled="False" 
-                  IsHoldingEnabled="False" 
-                  IsTapEnabled="False" ManipulationMode="None">
-            <TextBox x:Name="task" TextWrapping="NoWrap" 
-                     SelectionHighlightColor="{x:Null}" 
-                     RequestedTheme="Light" HorizontalAlignment="Center"/>
-
+            <TextBlock x:Name="tbQuest" 
+                        HorizontalAlignment="Stretch" 
+                        TextAlignment="Left"
+                        FontSize="{Binding Source={StaticResource SizeResource}, Path=ItemFontSize}"
+                        TextWrapping="WrapWholeWords" 
+                        Padding="0" Margin="20, 5"
+                        IsDoubleTapEnabled="False" 
+                        IsHoldingEnabled="False" 
+                        IsRightTapEnabled="False" 
+                        IsTapEnabled="False" 
+                        Foreground="Black" 
+                        FontFamily="Segoe UI" />
+            <TextBox x:Name="task" TextWrapping="NoWrap"
+                 SelectionHighlightColor="{x:Null}"
+                 Margin="50, 20"
+                 RequestedTheme="Light" 
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Stretch"/>
+            <ListView x:Name="lv" IsRightTapEnabled="False" 
+                      Width="{Binding Source={StaticResource SizeResource}, Path=FlyingFlipWidth}" 
+                      IsItemClickEnabled="True" 
+                      ItemClick="lv_ItemClick"
+                      SelectionMode="None" 
+                      Foreground="Black" 
+                      Margin="20, 50, 0, 10"
+                      ScrollViewer.VerticalScrollBarVisibility="Auto"
+                      ScrollViewer.VerticalScrollMode="Enabled"
+                      ScrollViewer.IsVerticalRailEnabled="True"
+                      ScrollViewer.IsHorizontalRailEnabled="False"
+                      ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                      ScrollViewer.HorizontalScrollMode="Disabled"
+                      VerticalAlignment="Center"
+                      VerticalContentAlignment="Bottom"
+                      HorizontalAlignment="Center" 
+                      HorizontalContentAlignment="Center" 
+                      IsDoubleTapEnabled="False" 
+                      IsHoldingEnabled="False" 
+                      IsTapEnabled="False" ManipulationMode="None">
         </ListView>
-        <Button x:Name="btnDone" Width="170" Height="70" FontSize="26" 
-                Content="Готово" HorizontalAlignment="Center" Grid.Row="2" 
-                VerticalAlignment="Bottom" Click="btnDone_Click" 
-                BorderBrush="White" Background="#33F5F5F5" RequestedTheme="Light"
-                Foreground="White" Margin="0,0,0,10" 
-                IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+        </StackPanel>
 
-        <TextBlock x:Name="timeChamber" 
-                           TextWrapping="Wrap" Foreground="#FFF3F3F3"
-                           Margin="0,-2" Width="150" Height="auto" 
-                           HorizontalAlignment="Right" VerticalAlignment="Center" 
-                           FontSize="32" TextAlignment="Center" FontWeight="SemiBold"/>
+        <AppBarButton Icon="Accept" 
+                      Click="btnDone_Click" 
+                      RequestedTheme="Light"
+                      HorizontalAlignment="Center"
+                      VerticalAlignment="Bottom"
+                      Height="70" Margin="0"
+                      IsDoubleTapEnabled="False" 
+                      IsHoldingEnabled="False" 
+                      IsRightTapEnabled="False" 
+                      IsTapEnabled="False"/>           
     </Grid>
 </Page>

@@ -67,7 +67,7 @@
                               Width="{Binding Source={StaticResource SizeResource}, Path=AppBarButtonWidth}"
 					        VerticalAlignment="Center" 
 					        Label="Оценить"
-					        Click="AppBarButton_Click" 
+					        Click="RateApp_Click" 
 					        RequestedTheme="Dark" 
 					        Margin="0"
 					        Foreground="#FFEEEEEE" 
@@ -83,7 +83,7 @@
                 </AppBarButton>
                 <AppBarButton HorizontalAlignment="Stretch" VerticalAlignment="Center" 
                               Width="{Binding Source={StaticResource SizeResource}, Path=AppBarButtonWidth}"
-                              Label="О программе" Click="AppBarButton_Click_2" 
+                              Label="О программе" Click="About_Click" 
                               RequestedTheme="Dark" Margin="0" Foreground="#FFEEEEEE" 
                               ToolTipService.ToolTip="Информация о программе и обновлениях" Height="85">
 

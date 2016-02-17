@@ -203,6 +203,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
       <RootProperty Name="Padding" />
       <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Setter">
       <RootProperty Name="Property" />
@@ -327,13 +328,22 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Series" />
+      <RootProperty Name="Palette" />
     </RootType>
     <RootType FullName="WinRTXamlToolkit.Controls.DataVisualization.Charting.PieSeries">
       <RootProperty Name="Margin" />
       <RootProperty Name="IndependentValuePath" />
       <RootProperty Name="DependentValuePath" />
-      <RootProperty Name="HorizontalContentAlignment" />
-      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="IsRightTapEnabled" />
+      <RootProperty Name="IsSelectionEnabled" />
+      <RootProperty Name="IsTapEnabled" />
+    </RootType>
+    <RootType FullName="WinRTXamlToolkit.Controls.DataVisualization.Charting.ResourceDictionaryCollection" />
+    <RootType FullName="Windows.UI.Xaml.Shapes.Shape">
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="StrokeMiterLimit" />
+      <RootProperty Name="Fill" />
     </RootType>
     <RootType FullName="TestMe.GraphPage" />
     <RootType FullName="TestMe.Statistics" />

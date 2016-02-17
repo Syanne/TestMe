@@ -20,13 +20,13 @@
     <AppXManifest Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-02-14T23:18:56.271</Modified>
+      <Modified>2016-02-17T13:03:32.606</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.exe">
       <PackagePath>App3.Windows.exe</PackagePath>
-      <Modified>2016-02-14T23:48:07.509</Modified>
+      <Modified>2016-02-17T13:14:04.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI.winmd">
       <PackagePath>Microsoft.Advertising.WinRT.UI.winmd</PackagePath>
@@ -72,104 +72,116 @@
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
       <Modified>2016-02-07T22:26:57.900</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <Modified>2016-02-16T16:16:55.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2016-02-16T16:42:45.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\logo150.scale-100.png">
+      <PackagePath>Assets\logo150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-02-16T16:16:53.314</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\Logo24.png">
+      <PackagePath>Assets\Logo24.png</PackagePath>
+      <Modified>2016-02-16T16:16:55.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\Logo24.scale-100.png">
+      <PackagePath>Assets\Logo24.scale-100.png</PackagePath>
+      <Modified>2016-02-16T16:16:53.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\logo30.scale-100.png">
+      <PackagePath>Assets\logo30.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-02-16T16:43:41.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\logo300.scale-100.png">
+      <PackagePath>Assets\logo300.scale-100.png</PackagePath>
+      <Modified>2016-02-16T16:16:53.351</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\logo44.scale-100.png">
+      <PackagePath>Assets\logo44.scale-100.png</PackagePath>
+      <Modified>2016-02-16T16:16:53.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\logo480-800_2.png">
+      <PackagePath>Assets\logo480-800_2.png</PackagePath>
+      <Modified>2016-02-16T16:16:55.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\Logo620.scale-100.png">
+      <PackagePath>Assets\Logo620.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-02-16T16:55:05.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\logo70.scale-100.png">
+      <PackagePath>Assets\logo70.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-02-16T16:40:38.660</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\Logo71.png">
+      <PackagePath>Assets\Logo71.png</PackagePath>
+      <Modified>2016-02-16T16:16:55.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\logoWide.scale-100.png">
+      <PackagePath>Assets\logoWide.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-02-16T16:49:26.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\more.png">
+      <PackagePath>Assets\more.png</PackagePath>
+      <Modified>2016-02-16T16:16:55.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2016-02-16T16:16:53.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <Modified>2016-02-16T16:16:53.405</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <Modified>2016-02-16T16:16:53.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2016-02-16T16:16:53.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <Modified>2016-02-16T16:50:50.541</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-02-07T22:15:39.410</Modified>
+      <Modified>2016-02-16T16:46:16.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-02-16T16:51:08.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\TestMe-Logo2015.png">
+      <PackagePath>Assets\TestMe-Logo2015.png</PackagePath>
+      <Modified>2016-02-16T16:16:57.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <Modified>2016-02-16T16:54:35.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <Modified>2016-02-16T16:54:10.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\logo50.scale-100.png">
       <PackagePath>Assets\logo50.scale-100.png</PackagePath>
-      <Modified>2015-12-01T16:52:24.000</Modified>
+      <Modified>2016-02-16T16:46:38.617</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
-      <Modified>2015-12-01T16:52:24.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\bottomAppBarImg.png">
-      <PackagePath>Assets\bottomAppBarImg.png</PackagePath>
-      <Modified>2016-02-07T22:38:01.858</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\calendar.png">
-      <PackagePath>Assets\calendar.png</PackagePath>
-      <Modified>2015-12-01T16:52:01.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\Logo.scale-100.png">
-      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
-      <Modified>2016-02-07T22:19:21.967</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\Logo.scale-240.png">
-      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
-      <Modified>2015-07-06T19:01:10.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logo150.scale-100.png">
-      <PackagePath>Assets\logo150.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-02-07T22:19:36.035</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\Logo24.scale-100.png">
-      <PackagePath>Assets\Logo24.scale-100.png</PackagePath>
-      <Modified>2016-02-07T22:28:09.358</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logo30.scale-100.png">
-      <PackagePath>Assets\logo30.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-01T16:52:01.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logo300.scale-100.png">
-      <PackagePath>Assets\logo300.scale-100.png</PackagePath>
-      <Modified>2015-12-01T16:52:01.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logo44.scale-100.png">
-      <PackagePath>Assets\logo44.scale-100.png</PackagePath>
-      <Modified>2016-02-07T22:26:14.286</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\Logo620.scale-100.png">
-      <PackagePath>Assets\Logo620.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-02-07T22:22:28.486</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logo70.scale-100.png">
-      <PackagePath>Assets\logo70.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-02-07T22:13:28.561</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logoWide.scale-100.png">
-      <PackagePath>Assets\logoWide.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-02-07T22:22:19.171</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\SmallLogo.scale-100.png">
-      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
-      <Modified>2015-12-01T16:52:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\SmallLogo.scale-240.png">
-      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
-      <Modified>2015-07-06T19:01:10.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\SplashScreen.scale-240.png">
-      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
-      <Modified>2015-07-06T19:01:10.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\Square44x44Logo.scale-100.png">
-      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
-      <Modified>2015-12-01T16:52:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\Square71x71Logo.scale-240.png">
-      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
-      <Modified>2015-07-06T19:01:10.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\StoreLogo.scale-240.png">
-      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-06T19:01:10.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\WideLogo.scale-100.png">
-      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
-      <Modified>2016-02-07T22:28:57.431</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\WideLogo.scale-240.png">
-      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
-      <Modified>2015-07-06T19:01:10.000</Modified>
+      <Modified>2016-02-16T16:48:42.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Fonts\LiveSymbol.ttf">
       <PackagePath>Fonts\LiveSymbol.ttf</PackagePath>
@@ -625,7 +637,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\1\161.xml">
       <PackagePath>Data\1\161.xml</PackagePath>
-      <Modified>2015-12-01T16:52:05.000</Modified>
+      <Modified>2016-02-16T23:11:39.519</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\1\162.xml">
       <PackagePath>Data\1\162.xml</PackagePath>
@@ -1001,7 +1013,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\MainSource.xml">
       <PackagePath>Data\MainSource.xml</PackagePath>
-      <Modified>2016-02-14T23:42:01.152</Modified>
+      <Modified>2016-02-16T23:12:29.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Data\PersData.xml">
       <PackagePath>Data\PersData.xml</PackagePath>
@@ -1021,23 +1033,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\1.MainPage.xbf">
       <PackagePath>1.MainPage.xbf</PackagePath>
-      <Modified>2016-02-12T14:47:04.376</Modified>
+      <Modified>2016-02-16T22:42:40.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\2.1.TestPage.xbf">
       <PackagePath>2.1.TestPage.xbf</PackagePath>
-      <Modified>2016-02-14T23:48:07.020</Modified>
+      <Modified>2016-02-15T16:22:42.194</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\3.GraphPage.xbf">
       <PackagePath>3.GraphPage.xbf</PackagePath>
-      <Modified>2016-02-11T23:28:49.271</Modified>
+      <Modified>2016-02-17T13:14:03.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\4.Statistics.xbf">
       <PackagePath>4.Statistics.xbf</PackagePath>
-      <Modified>2016-02-11T23:28:49.274</Modified>
+      <Modified>2016-02-17T13:14:03.841</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\App3.Windows.xr.xml">
       <PackagePath>App3.Windows.xr.xml</PackagePath>
-      <Modified>2016-02-14T23:47:44.156</Modified>
+      <Modified>2016-02-17T13:14:03.761</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\packages\winrtxamltoolkit.1.6.1.3\lib\netcore45\WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xaml">
       <PackagePath>WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xaml</PackagePath>
@@ -1229,7 +1241,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-02-14T23:48:08.132</Modified>
+      <Modified>2016-02-17T13:14:05.008</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

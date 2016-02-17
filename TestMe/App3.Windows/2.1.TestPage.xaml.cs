@@ -13,35 +13,6 @@ namespace TestMe
     /// </summary>
     public sealed partial class TestPage : Page
     {
-        private NavigationHelper navigationHelper;
-        private ObservableDictionary defaultViewModel = new ObservableDictionary();
-        TestInfo testInfo;
-
-        private double FontSizeOnPage
-        {
-            get
-            {
-                 return (Window.Current.Bounds.Width < 1000) ? 20 : 26;
-            }
-        }
-
-        /// <summary>
-        /// Эту настройку можно изменить на модель строго типизированных представлений.
-        /// </summary>
-        public ObservableDictionary DefaultViewModel
-        {
-            get { return this.defaultViewModel; }
-        }
-
-        /// <summary>
-        /// NavigationHelper используется на каждой странице для облегчения навигации и 
-        /// управление жизненным циклом процесса
-        /// </summary>
-        public NavigationHelper NavigationHelper
-        {
-            get { return this.navigationHelper; }
-        }
-
         public TestPage()
         {
             this.InitializeComponent();
@@ -139,17 +110,9 @@ namespace TestMe
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private async void backButton_Click(object sender, RoutedEventArgs e)
+        private void backButton_Click(object sender, RoutedEventArgs e)
         {
-            var dial = new MessageDialog("тест не завершен! вы действительно хотите покинуть страницу?");
-                
-            dial.Commands.Add(new UICommand("продолжить"));
-            dial.Commands.Add(new UICommand("вернуться",
-            new UICommandInvokedHandler((args) =>
-            {
-                this.Frame.Navigate(typeof(MainPage));
-            })));
-            var command = await dial.ShowAsync();
+            GoBackMessage();
         }
 
         /// <summary>

@@ -1,0 +1,93 @@
+﻿<Page
+    xmlns:Charting="using:WinRTXamlToolkit.Controls.DataVisualization.Charting"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestMe"
+    xmlns:common="using:TestMe.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="pageRoot"
+    x:Class="TestMe.GraphPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Mode=Self}}"
+    mc:Ignorable="d"
+    RequestedTheme="Light"
+    Loaded="pageRoot_Loaded"
+    Unloaded="pageRoot_Unloaded" 
+    >
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">Тесты</x:String>
+    </Page.Resources>
+
+
+    <Page.TopAppBar>
+        <AppBar Height="90" IsSticky="True" IsOpen="True" Background="Transparent" BorderThickness="0" BorderBrush="Transparent">
+        </AppBar>
+    </Page.TopAppBar>
+
+    <Page.BottomAppBar>
+        <AppBar Background="#FF1FBFBA" BorderBrush="{x:Null}" Height="90" IsSticky="True" IsOpen="True">
+            <Grid>
+                <AppBarButton x:Name="Again" Label="Заново" 
+                              Click="AppBarButton_Click_2" 
+                              HorizontalAlignment="Center" VerticalAlignment="Bottom" 
+                              RequestedTheme="Dark" 
+                              Foreground="#FFEEEEEE" 
+                              Margin="0,0,250,0" Height="86" Grid.Row="2">
+
+                    <AppBarButton.Icon>
+                        <SymbolIcon Symbol="RepeatAll" Height="40" VerticalAlignment="Top"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton x:Name="Menu" Label="В Меню" 
+                              HorizontalAlignment="Center" VerticalAlignment="Bottom" 
+                              Height="86" Margin="250,0,0,0" Grid.Row="2" 
+                              Foreground="#FFEEEEEE" 
+                              RequestedTheme="Dark" 
+                              Click="Menu_Click">
+
+                    <Image Source="Assets/logo50.png"></Image>
+
+                    <AppBarButton.Icon>
+                        <SymbolIcon Symbol="GoToStart" Height="40" VerticalAlignment="Top"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+
+    <Grid Background="#FFEBEBEB">        
+
+        <Grid x:Name="main" Grid.Row="1" Grid.RowSpan="2">
+            <TextBlock x:Name="tbRes" VerticalAlignment="Center" HorizontalAlignment="Left" TextWrapping="WrapWholeWords" 
+                       Padding="30,0,0,0" Margin="10, 10, 10, 100"
+                       FontFamily="Segoe UI" Foreground="#FF292929" />
+            <Charting:Chart x:Name="Charty" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0, 100, 0, 100" >
+                <Charting:PieSeries Margin="0" IndependentValuePath="Title" DependentValuePath="Result"/>
+            </Charting:Chart>
+            <Button Name="ChangeTextBtn" 
+                    Content="Текст результата" 
+                    Click="Button_Click2" 
+                    VerticalAlignment="Bottom" HorizontalAlignment="Center" 
+                    MinWidth="150" Height="60" FontSize="20"
+                    Foreground="#FF131313" RequestedTheme="Dark" Background="#FFE1E1E1" 
+                    BorderBrush="#FFBCBCBC" BorderThickness="0" />
+            
+            <ScrollViewer Name="Scroller" 
+                          VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Visible"
+                          HorizontalAlignment="Right" 
+                          Visibility="Collapsed"
+                          Margin="10,10,10,200"
+                          >
+             
+            <TextBlock Name="descBlock" 
+                       FontSize="20" HorizontalAlignment="Right" 
+                       Visibility="Collapsed" 
+                       Padding="20" TextWrapping="WrapWholeWords" 
+                       SelectionHighlightColor="{x:Null}"                  
+                       />
+            </ScrollViewer>
+        </Grid>   
+    </Grid>
+</Page>

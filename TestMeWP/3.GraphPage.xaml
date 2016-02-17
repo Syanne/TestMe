@@ -11,80 +11,76 @@
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Mode=Self}}"
     mc:Ignorable="d"
     RequestedTheme="Light"
-    Loaded="pageRoot_Loaded"
-    Unloaded="pageRoot_Unloaded" 
     >
 
     <Page.Resources>
-        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <local:SizeCorrection x:Key="SizeResource"/>
         <x:String x:Key="AppName">Тесты</x:String>
     </Page.Resources>
 
-
-    <Page.TopAppBar>
-        <AppBar Height="90" IsSticky="True" IsOpen="True" Background="Transparent" BorderThickness="0" BorderBrush="Transparent">
-        </AppBar>
-    </Page.TopAppBar>
-
     <Page.BottomAppBar>
-        <AppBar Background="#FF1FBFBA" BorderBrush="{x:Null}" Height="90" IsSticky="True" IsOpen="True">
-            <Grid>
-                <AppBarButton x:Name="Again" Label="Заново" 
+        <CommandBar IsSticky="True" 
+                    x:Name="appBar"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center"
+                    Background="#ff303030"  
+                    BorderThickness="0"
+                    RequestedTheme="Dark"
+                    >
+            <CommandBar.PrimaryCommands>
+                <AppBarButton x:Name="Again" Label="заново" 
                               Click="AppBarButton_Click_2" 
-                              HorizontalAlignment="Center" VerticalAlignment="Bottom" 
-                              RequestedTheme="Dark" 
-                              Foreground="#FFEEEEEE" 
-                              Margin="0,0,250,0" Height="86" Grid.Row="2">
+                              HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                              Icon="RepeatAll"/>
+                <AppBarButton x:Name="ChangeTextBtn" 
+                              Label="ответы" 
+                              HorizontalAlignment="Center" 
+                              VerticalAlignment="Bottom" 
+                              Icon="List"
+                              Click="Button_Click2"/>
+                <AppBarButton x:Name="Menu" Label="в меню" 
+                              HorizontalAlignment="Center" 
+                              VerticalAlignment="Bottom" 
+                              Icon="GoToStart"
+                              Click="Menu_Click"/>
 
-                    <AppBarButton.Icon>
-                        <SymbolIcon Symbol="RepeatAll" Height="40" VerticalAlignment="Top"/>
-                    </AppBarButton.Icon>
-                </AppBarButton>
-                <AppBarButton x:Name="Menu" Label="В Меню" 
-                              HorizontalAlignment="Center" VerticalAlignment="Bottom" 
-                              Height="86" Margin="250,0,0,0" Grid.Row="2" 
-                              Foreground="#FFEEEEEE" 
-                              RequestedTheme="Dark" 
-                              Click="Menu_Click">
-
-                    <Image Source="Assets/logo50.png"></Image>
-
-                    <AppBarButton.Icon>
-                        <SymbolIcon Symbol="GoToStart" Height="40" VerticalAlignment="Top"/>
-                    </AppBarButton.Icon>
-                </AppBarButton>
-            </Grid>
-        </AppBar>
+            </CommandBar.PrimaryCommands>
+        </CommandBar>
     </Page.BottomAppBar>
 
-    <Grid Background="#FFEBEBEB">        
+    <Grid Background="#FFEBEBEB">    
+        <Grid x:Name="main">
+            <TextBlock Name="pageTitle"
+                       Text="результаты:"
+                       FontSize="{Binding Source={StaticResource SizeResource}, Path=ItemFontSize}"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       IsHoldingEnabled="False"
+                       IsRightTapEnabled="False"
+                       IsTextSelectionEnabled="False"
+                       IsTapEnabled="False"
+                       TextWrapping="WrapWholeWords"
+                       Margin="0, 20"/>
+                       
+            <TextBlock x:Name="tbRes" 
+                       VerticalAlignment="Top" 
+                       HorizontalAlignment="Stretch" 
+                       TextWrapping="WrapWholeWords" 
+                       Padding="5" Margin="10, 150, 10, 10"
+                       FontFamily="Segoe UI" 
+                       FontSize="{Binding Source={StaticResource SizeResource}, Path=ItemFontSize}"
+                       Foreground="#FF292929" />
 
-        <Grid x:Name="main" Grid.Row="1" Grid.RowSpan="2">
-            <TextBlock x:Name="tbRes" VerticalAlignment="Center" HorizontalAlignment="Left" TextWrapping="WrapWholeWords" 
-                       Padding="30,0,0,0" Margin="10, 10, 10, 100"
-                       FontFamily="Segoe UI" Foreground="#FF292929" />
-            <Charting:Chart x:Name="Charty" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0, 100, 0, 100" >
-                <Charting:PieSeries Margin="0" IndependentValuePath="Title" DependentValuePath="Result"/>
-            </Charting:Chart>
-            <Button Name="ChangeTextBtn" 
-                    Content="Текст результата" 
-                    Click="Button_Click2" 
-                    VerticalAlignment="Bottom" HorizontalAlignment="Center" 
-                    MinWidth="150" Height="60" FontSize="20"
-                    Foreground="#FF131313" RequestedTheme="Dark" Background="#FFE1E1E1" 
-                    BorderBrush="#FFBCBCBC" BorderThickness="0" />
-            
             <ScrollViewer Name="Scroller" 
+                          Margin="10, 100, 10, 10"
                           VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Visible"
-                          HorizontalAlignment="Right" 
+                          HorizontalAlignment="Center" 
                           Visibility="Collapsed"
-                          Margin="10,10,10,200"
-                          >
-             
+                          >             
             <TextBlock Name="descBlock" 
-                       FontSize="20" HorizontalAlignment="Right" 
-                       Visibility="Collapsed" 
-                       Padding="20" TextWrapping="WrapWholeWords" 
+                       HorizontalAlignment="Right" 
+                       FontSize="{Binding Source={StaticResource SizeResource}, Path=ItemFontSize}"
+                       Padding="10" TextWrapping="WrapWholeWords" 
                        SelectionHighlightColor="{x:Null}"                  
                        />
             </ScrollViewer>

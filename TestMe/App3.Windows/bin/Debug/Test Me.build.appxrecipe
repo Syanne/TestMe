@@ -52,81 +52,90 @@
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\logo150.scale-100.png">
+      <PackagePath>Assets\logo150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\Logo24.png">
+      <PackagePath>Assets\Logo24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\Logo24.scale-100.png">
+      <PackagePath>Assets\Logo24.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\logo30.scale-100.png">
+      <PackagePath>Assets\logo30.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\logo300.scale-100.png">
+      <PackagePath>Assets\logo300.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\logo44.scale-100.png">
+      <PackagePath>Assets\logo44.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\logo480-800_2.png">
+      <PackagePath>Assets\logo480-800_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\Logo620.scale-100.png">
+      <PackagePath>Assets\Logo620.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\logo70.scale-100.png">
+      <PackagePath>Assets\logo70.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\Logo71.png">
+      <PackagePath>Assets\Logo71.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\logoWide.scale-100.png">
+      <PackagePath>Assets\logoWide.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\more.png">
+      <PackagePath>Assets\more.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\TestMe-Logo2015.png">
+      <PackagePath>Assets\TestMe-Logo2015.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\logo50.scale-100.png">
       <PackagePath>Assets\logo50.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\bottomAppBarImg.png">
-      <PackagePath>Assets\bottomAppBarImg.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\calendar.png">
-      <PackagePath>Assets\calendar.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\Logo.scale-100.png">
-      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\Logo.scale-240.png">
-      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logo150.scale-100.png">
-      <PackagePath>Assets\logo150.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\Logo24.scale-100.png">
-      <PackagePath>Assets\Logo24.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logo30.scale-100.png">
-      <PackagePath>Assets\logo30.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logo300.scale-100.png">
-      <PackagePath>Assets\logo300.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logo44.scale-100.png">
-      <PackagePath>Assets\logo44.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\Logo620.scale-100.png">
-      <PackagePath>Assets\Logo620.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logo70.scale-100.png">
-      <PackagePath>Assets\logo70.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\logoWide.scale-100.png">
-      <PackagePath>Assets\logoWide.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\SmallLogo.scale-100.png">
-      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\SmallLogo.scale-240.png">
-      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\SplashScreen.scale-240.png">
-      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\Square44x44Logo.scale-100.png">
-      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\Square71x71Logo.scale-240.png">
-      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\StoreLogo.scale-240.png">
-      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\WideLogo.scale-100.png">
-      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Shared\Assets\WideLogo.scale-240.png">
-      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\OneDrive\Programming\Personal\C#\TestMe\TestMe\App3.Windows\Fonts\LiveSymbol.ttf">
       <PackagePath>Fonts\LiveSymbol.ttf</PackagePath>

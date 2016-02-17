@@ -7,12 +7,8 @@
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	xmlns:UI="using:Microsoft.Advertising.Mobile.UI"
 	mc:Ignorable="d" RequestedTheme="Dark"
-	Loaded="Page_Loaded"
-	Unloaded="Page_Unloaded" 
-	RenderTransformOrigin="0.5,0.5" 
 	CompositeMode="SourceOver"
-	NavigationCacheMode="Required"    
-	>
+	NavigationCacheMode="Required">
 
     <Page.Resources>
         <CollectionViewSource x:Name="cvsMain" IsSourceGrouped="False" ItemsPath="group"/>
@@ -30,138 +26,167 @@
                     >
             <CommandBar.PrimaryCommands>
                 <AppBarButton HorizontalAlignment="Stretch" 
-					        VerticalAlignment="Center" 
-					        Label="Оценить"
-					        Click="AppBarButton_Click" 
+					        VerticalAlignment="Stretch" 
+					        Label="оценить"
+					        Click="RateApp_Click" 
 					        RequestedTheme="Dark" 
-					        Margin="0"
+					        Margin="10, 0"
+                            Width="120"
 					        Foreground="#FFEEEEEE" Icon="Like"/>
-                <AppBarButton Label="Результат" x:Name="Result" 
-                              HorizontalAlignment="Stretch" VerticalAlignment="Center" 
-                              Margin="0" RequestedTheme="Dark" Click="Statistics_Tapped" 
-                              Icon="List">
-                    
-                </AppBarButton>
-                <AppBarButton HorizontalAlignment="Stretch" VerticalAlignment="Center" 
-                              Label="О программе" Click="AppBarButton_Click_2" 
-                              RequestedTheme="Dark" Margin="0" 
+                <AppBarButton HorizontalAlignment="Stretch" 
+                              VerticalAlignment="Stretch" 
+                              Label="информация" Click="About_Click" 
+                              RequestedTheme="Dark" Margin="0"
+                              Width="120"
                               Foreground="#FFEEEEEE"
                               Icon="Message">                    
                 </AppBarButton>
             </CommandBar.PrimaryCommands>
-
         </CommandBar>
     </Page.BottomAppBar>
 
-    <Grid x:Name="myGrid" Background="#FF00ada3" RequestedTheme="Light">        
-        <TextBlock Name="TypeName" Height="70" 
-                   Margin="0" Padding="0, 30, 0 , 10"   
+    <Grid x:Name="myGrid" 
+          Background="WhiteSmoke"
+          RequestedTheme="Light">
+        <StackPanel Orientation="Horizontal" 
+                    Background="#FF00ada3" 
+                    Height="60" 
+                    VerticalAlignment="Top">
+        <Image Source="Assets/SmallLogo.scale-240.png" 
+               Width="40" Height="40"
+               Margin="10, 10, 0, 10"
+               VerticalAlignment="Top"
+               HorizontalAlignment="Left"/>
+            <TextBlock Name="TypeName" Height="70" 
+                   Margin="0, 10, 10, 10" Padding="0, 10"   
                    HorizontalAlignment="Stretch"
                    VerticalAlignment="Top"
-                   TextAlignment="Center"
+                   TextAlignment="Left"
                    FontSize="24" Foreground="White"/>
-        <StackPanel Background="White" Margin="0, 80, 0, 0">
+        </StackPanel>
         <FlipView Name="mainFlip"
-                  Margin="0"
-                  Padding="5, 0"
-                  Background="Transparent"
-                  HorizontalAlignment="Center"
-                  SelectionChanged="mainFlip_SelectionChanged"
-                  Height="{Binding Source={StaticResource SizeResource}, Path=FlipHeight}"
-                  ItemsSource="{Binding Source={StaticResource cvsMain}}" > 
-            <FlipView.ItemTemplate>
-                <DataTemplate>
-                    <ListView ItemsSource="{Binding group}" 
+                      Background="WhiteSmoke"
+                      Margin="0, 60, 0, 50"
+                      VerticalAlignment="Stretch"
+                      HorizontalAlignment="Stretch"
+                      Padding="5, 0"
+                      Height="Auto"
+                      SelectionChanged="mainFlip_SelectionChanged"
+                      ItemsSource="{Binding Source={StaticResource cvsMain}}" >
+                <FlipView.ItemTemplate>
+                    <DataTemplate>
+                        <ListView ItemsSource="{Binding group}" 
                               Tag="{Binding GroupId}"
                               Margin="0"                              
                               IsRightTapEnabled="False"
                               IsSwipeEnabled="False"
                               IsItemClickEnabled="True">
-                        <ListView.ItemTemplate>
-                            <DataTemplate>
-                                <Border BorderThickness="0, 1" 
-                                        BorderBrush="e8e8e8"
-                                        Height="{Binding Source={StaticResource SizeResource}, Path=ItemHeight}" Width="600" >
-                                    <StackPanel Orientation="Horizontal"
-                                                Height="{Binding Source={StaticResource SizeResource}, Path=ItemHeight}"
-                                                Tapped="Name_Tapped"
-                                                Tag="{Binding Path}">
-                                        <Image Source="{Binding ImageSrc}"
-                                               Width="{Binding Source={StaticResource SizeResource}, Path=ItemWidth}"
-                                               Stretch="UniformToFill"/>
-                                        <TextBlock TextWrapping="WrapWholeWords" 
-                                                   Text="{Binding Name}" 
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <Border BorderThickness="0, 0, 0, 1" 
+                                            BorderBrush="#22303030"
+                                            Height="{Binding Source={StaticResource SizeResource}, Path=ItemHeight}" Width="600" >
+                                        <StackPanel Orientation="Horizontal"
+                                                    Height="{Binding Source={StaticResource SizeResource}, Path=ItemHeight}"
+                                                    Tapped="gt_Tapped"
+                                                    Tag="{Binding UniqueId}">
+                                            <Image Source="{Binding ImageSrc}"
                                                    Height="{Binding Source={StaticResource SizeResource}, Path=ItemHeight}"
-                                                   Width="{Binding Source={StaticResource SizeResource}, Path=TextBlockWidth}"
-                                                   FontSize="{Binding Source={StaticResource SizeResource}, Path=ItemFontSize}" 
-                                                   Padding="10, 2"
-                                                   HorizontalAlignment="Center"
-                                                   VerticalAlignment="Top"
-                                                   Foreground="#cc303030"/>
-                                    </StackPanel>
-                                </Border>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
-                </DataTemplate>
-            </FlipView.ItemTemplate>
-        </FlipView>
-            <StackPanel Height="60" HorizontalAlignment="Center">
-                <UI:AdControl Name="adControl" 
-                  AutoRefreshIntervalInSeconds="60" 
-                  AdUnitId="11580786" 
-                  ApplicationId="d2af5343-a1b2-4685-bf78-5b31383a26ce" 
-                  HorizontalAlignment="Center" 
-                  Height="50" 
-                  IsAutoRefreshEnabled="True" 
-                  Margin="0" 
-                  VerticalAlignment="Top" 
-                  Width="480"/>
-            </StackPanel>
-        </StackPanel>
-        <Grid Name="hiddenGrid" Background="#EE303030" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
-			  Margin="0, 120, 0, 90" Visibility="Collapsed">
-			<Grid HorizontalAlignment="Center" VerticalAlignment="Center"
-				  Width="{Binding Source={StaticResource SizeResource}, Path=FlipWidth}"
-				  Height="{Binding Source={StaticResource SizeResource}, Path=FlyoutGridHeight}"
-				  Background="#FFE9E9E9" Margin="0, 0, 0, 100">
+                                                   Width="{Binding Source={StaticResource SizeResource}, Path=ItemHeight}"
+                                                   Margin="5"
+                                                   Stretch="UniformToFill"/>
+                                            <TextBlock TextWrapping="WrapWholeWords" 
+                                                       Text="{Binding Name}" 
+                                                       Width="{Binding Source={StaticResource SizeResource}, Path=TextBlockWidth}"
+                                                       FontSize="{Binding Source={StaticResource SizeResource}, Path=ItemFontSize}" 
+                                                       MinHeight="{Binding Source={StaticResource SizeResource}, Path=SmallNameHeight}"
+                                                       Margin="5"
+                                                       HorizontalAlignment="Left"
+                                                       TextAlignment="Left"
+                                                       VerticalAlignment="Top"
+                                                       Foreground="#aa000000"/>
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </DataTemplate>
+                </FlipView.ItemTemplate>
 
-                <FlipView Name="flyingFlip"
-				  Background="#FFE9E9E9"
-				  Width="auto"
-				  VerticalAlignment="Top" HorizontalAlignment="Center">
-
-                    <FlipView.ItemTemplate>
-                        <DataTemplate>
-                            <StackPanel Name="staticFlip" Tapped="staticFlip_Tapped" Tag="{Binding Path}" >
-                                <Grid HorizontalAlignment="Left" x:Name="gt" Width="auto">
-
-                                    <Image Source="{Binding ImageSrc}" Stretch="Fill" 
-										   Width="{Binding Source={StaticResource SizeResource}, Path=FlipWidth}"/>
-
-                                </Grid>
-                                <TextBlock Text="{Binding Name}" 
-												   Foreground="#303030" FontFamily="Minion Pro" 
-												   TextWrapping="WrapWholeWords"
-												   FontSize="{Binding Source={StaticResource SizeResource}, Path=FlipFontSize}"
-												   Margin="15" >
-                                </TextBlock>
-                                <ScrollViewer Name="Scroller" 
-								  VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Auto"
-								  HorizontalAlignment="Center" 
-								  Visibility="Visible"
-								  Margin="15, 15, 15, 60">
-                                    <TextBlock Text="{Binding Description}" 
-									   Foreground="#BB303030" FontFamily="Minion Pro" 
-									   TextWrapping="WrapWholeWords"                                       
-									   FontSize="{Binding Source={StaticResource SizeResource}, Path=FlipFontSize}"/>
-                                </ScrollViewer>
-                            </StackPanel>
-                        </DataTemplate>
-                    </FlipView.ItemTemplate>
-                </FlipView>
-            </Grid>
-		</Grid>
-		
-	</Grid>
+                <FlyoutBase.AttachedFlyout>
+                    <Flyout x:Name="theFlyout"
+                            Placement="Full">
+                        <Flyout.FlyoutPresenterStyle>
+                            <Style TargetType="FlyoutPresenter">
+                            <Setter Property="BorderThickness" Value="0"/>
+                            <Setter Property="Background" Value="#ff303030"/>
+                        </Style>
+                        </Flyout.FlyoutPresenterStyle>
+                        <Grid VerticalAlignment="Center" 
+                              HorizontalAlignment="Center">
+                            <TextBlock Text="нажмите на изображение, чтобы перейти к тесту"
+                                       Foreground="#88ffffff"
+                                       TextWrapping="WrapWholeWords"
+                                       TextAlignment="Center"
+                                       FontSize="{Binding Source={StaticResource SizeResource}, Path=ItemFontSize}"
+                                       Margin="5, 50, 5, 4" />
+                                <FlipView Name="flyingFlip"
+                                          VerticalAlignment="Center"
+                                          HorizontalAlignment="Stretch"
+                                          Background="Transparent"
+                                          Height="{Binding Source={StaticResource SizeResource}, Path=FlyingFlipHeight}"
+                                          Padding="0" Margin="0, 100, 0, 40">
+                                    <FlipView.ItemTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Name="staticFlip" 
+                                                Background="Transparent" 
+                                                Orientation="Vertical"
+                                                VerticalAlignment="Top"
+                                                Tapped="staticFlip_Tapped" 
+                                                Tag="{Binding Path}" >
+                                                <Image Source="{Binding ImageSrc}" 
+                                                       Stretch="UniformToFill" 
+                                                       Margin="0, 20" />
+                                                <TextBlock Text="{Binding Name}" 
+                                                           Foreground="White" 
+                                                           VerticalAlignment="Top"
+                                                           FontFamily="Minion Pro" 
+                                                           TextWrapping="WrapWholeWords"
+                                                           FontSize="{Binding Source={StaticResource SizeResource}, Path=ItemFontSize}"
+                                                           Margin="5,10,5,5" />
+                                                <TextBlock Text="{Binding Description}" 
+                                                           VerticalAlignment="Top"
+                                                           Foreground="#ddffffff"
+                                                           MaxHeight="500"
+                                                           FontFamily="Minion Pro"                                                
+                                                           TextWrapping="WrapWholeWords"
+                                                           FontSize="{Binding Source={StaticResource SizeResource}, Path=FlipFontSize}"
+                                                           Margin="5"/>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </FlipView.ItemTemplate>
+                            </FlipView>
+                    <UI:AdControl Name="adControl2" 
+                                  AutoRefreshIntervalInSeconds="60" 
+                                  AdUnitId="11580786" 
+                                  ApplicationId="d2af5343-a1b2-4685-bf78-5b31383a26ce" 
+                                  HorizontalAlignment="Left"                          
+                                  Height="50" 
+                                  IsAutoRefreshEnabled="True" 
+                                  VerticalAlignment="Bottom" 
+                                  Width="480"/>
+                    </Grid>
+                </Flyout>
+                </FlyoutBase.AttachedFlyout>
+            </FlipView>
+        <UI:AdControl Name="adControl" 
+                              AutoRefreshIntervalInSeconds="60" 
+                              AdUnitId="11580786" 
+                              ApplicationId="d2af5343-a1b2-4685-bf78-5b31383a26ce" 
+                              HorizontalAlignment="Left"                          
+                              Height="50" 
+                              IsAutoRefreshEnabled="True" 
+                              VerticalAlignment="Bottom" 
+                              Width="480"/>
+    </Grid>
 </Page>

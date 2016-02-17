@@ -1,22 +1,9 @@
-﻿using TestMe.Common;
-using System;
-using System.IO;
+﻿using System;
 using System.Linq;
-using System.Xml;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Data.Xml.Dom;
-using Windows.Foundation;
-using Windows.Foundation.Metadata;
-using Windows.Foundation.Collections;
-using Windows.UI.Notifications;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Navigation;
 using Windows.UI.Xaml.Controls.Primitives;
 
 namespace TestMe
@@ -26,7 +13,6 @@ namespace TestMe
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        SampleDataSource sds;
         GridViewItem selectedItem;
 
         public MainPage()
@@ -55,32 +41,14 @@ namespace TestMe
 
         #region Bottom Menu
 
-        /// <summary>
-        /// PopUp
-        /// </summary>
-        /// <param name="lol"> String for Message</param>
-        private async void ShowPop(string lol)
+        private void About_Click(object sender, RoutedEventArgs e)
         {
-            var dial = new MessageDialog(lol);
-            var command = await dial.ShowAsync();
+            AboutMessage();
         }
 
-        private async void AppBarButton_Click_2(object sender, RoutedEventArgs e)
+        private void RateApp_Click(object sender, RoutedEventArgs e)
         {
-            var dial = new MessageDialog("спасибо, что скачали приложение!\n\nприложению очень помогут ваши отзывы и оценки.\n\nесли вы обнаружили проблемы или возникли вопросы, пишите на ящик: syanne.red@gmail.com");
-            dial.Commands.Add(new UICommand("оставить отзыв",
-               new UICommandInvokedHandler((args) =>
-               {
-                   GottStore();
-               }))); 
-            dial.Commands.Add(new UICommand("служба поддержки",
-                new UICommandInvokedHandler((args) =>
-                {
-                    Message();
-                })));
-            dial.Commands.Add(new UICommand("назад"));
-
-            var command = await dial.ShowAsync();
+            GottStore();
         }
 
         private async void Message()
@@ -93,11 +61,6 @@ namespace TestMe
         {
             var uri = new Uri("ms-windows-store:PDP?PFN=36856Syanne.TestMe_x48427g2pbxee");
             await Windows.System.Launcher.LaunchUriAsync(uri);
-        }
-
-        private void AppBarButton_Click(object sender, RoutedEventArgs e)
-        {
-            GottStore();
         }
 
         private void Statistics_Tapped(object sender, RoutedEventArgs e)
@@ -155,8 +118,6 @@ namespace TestMe
             var number = Convert.ToInt32((sender as GridViewItem).Tag);
             dataGrid.ItemsSource = sds.grps[number].group;
             flipStatic.ItemsSource = sds.grps[number].group;
-
-
         }
 
         private void staticFlip_Tapped(object sender, TappedRoutedEventArgs e)

@@ -46,13 +46,14 @@
     </Page.TopAppBar>
     
     <Page.BottomAppBar>
-        <AppBar Background="#FF1FBFBA" BorderBrush="{x:Null}" Height="90" IsSticky="True" IsOpen="True">
+        <AppBar Background="#ff303030" BorderBrush="{x:Null}" 
+                Height="90" IsSticky="True" IsOpen="True">
             <Grid HorizontalAlignment="Stretch">
 
                 <Button x:ConnectionId='3' x:Name="btnDone" Width="170" Height="70" FontSize="26" 
                 Content="Готово" HorizontalAlignment="Center" Grid.Row="2" 
                 VerticalAlignment="Bottom"                       
-                BorderBrush="White" Background="#33F5F5F5" RequestedTheme="Light"
+                BorderBrush="White" Background="#aa424242" RequestedTheme="Light"
                 Foreground="White" Margin="0,0,0,10" 
                 IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
 
@@ -110,7 +111,7 @@
                   IsHoldingEnabled="False" 
                   IsTapEnabled="False" ManipulationMode="None">
             <TextBox x:Name="task" TextWrapping="NoWrap" 
-                     SelectionHighlightColor="{x:Null}" FontSize="20"
+                     SelectionHighlightColor="{x:Null}" FontSize="18"
                      RequestedTheme="Light" HorizontalAlignment="Center"/>
 
         </ListView>

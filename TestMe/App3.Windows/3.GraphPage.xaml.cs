@@ -57,7 +57,12 @@ namespace TestMe
                 //gets info from Tag and opens the file
                 List<Graph> gList = new List<Graph>();
 
-                gList.Add(new Graph() { Title = "Ваш результат", Result = Convert.ToInt32(testInfo.result) });
+                gList.Add(new Graph()
+                {
+                    Title = "Ваш результат",
+                    Result = Convert.ToInt32(testInfo.result)
+                 
+                });
 
                 string descXML = "";
                 string nameXML = testInfo.xDoc.Element("head").Attribute("name").Value;

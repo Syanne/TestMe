@@ -27,7 +27,7 @@
     </Page.TopAppBar>
 
     <Page.BottomAppBar>
-        <AppBar Background="#FF1FBFBA" BorderBrush="{x:Null}" Height="90" IsSticky="True" IsOpen="True">
+        <AppBar Background="#ff303030" BorderBrush="{x:Null}" Height="90" IsSticky="True" IsOpen="True">
             <Grid>
                 <AppBarButton x:ConnectionId='2' x:Name="Again" Label="Заново" 
                                                            
@@ -63,8 +63,47 @@
             <TextBlock x:Name="tbRes" VerticalAlignment="Center" HorizontalAlignment="Left" TextWrapping="WrapWholeWords" 
                        Padding="30,0,0,0" Margin="10, 10, 10, 100"
                        FontFamily="Segoe UI" Foreground="#FF292929" />
-            <Charting:Chart x:Name="Charty" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0, 100, 0, 100" >
-                <Charting:PieSeries Margin="0" IndependentValuePath="Title" DependentValuePath="Result"/>
+            <Charting:Chart x:Name="Charty" 
+                            HorizontalAlignment="Right" 
+                            VerticalAlignment="Top" 
+                            Margin="0, 100, 0, 100" >
+                <Charting:PieSeries Margin="0" 
+                                    IndependentValuePath="Title" 
+                                    DependentValuePath="Result"
+                                    IsRightTapEnabled="False"
+                                    IsSelectionEnabled="False"
+                                    IsTapEnabled="False"
+                                    />
+                <Charting:Chart.Palette>
+                    <Charting:ResourceDictionaryCollection>
+                        <!-- Yellow -->
+                        <ResourceDictionary>
+                            <SolidColorBrush x:Key="Background" Color="#FF1FBFBA" />
+                            <Style x:Key="DataPointStyle" TargetType="Control">
+                                <Setter Property="Background" Value="{StaticResource Background}" />
+                            </Style>
+                            <Style x:Key="DataShapeStyle" TargetType="Shape">
+                                <Setter Property="Stroke" Value="{StaticResource Background}" />
+                                <Setter Property="StrokeThickness" Value="2" />
+                                <Setter Property="StrokeMiterLimit" Value="1" />
+                                <Setter Property="Fill" Value="{StaticResource Background}" />
+                            </Style>
+                        </ResourceDictionary>
+                        <!-- Main App Color -->
+                        <ResourceDictionary>
+                            <SolidColorBrush x:Key="Background" Color="WhiteSmoke" />
+                            <Style x:Key="DataPointStyle" TargetType="Control">
+                                <Setter Property="Background" Value="{StaticResource Background}" />
+                            </Style>
+                            <Style x:Key="DataShapeStyle" TargetType="Shape">
+                                <Setter Property="Stroke" Value="{StaticResource Background}" />
+                                <Setter Property="StrokeThickness" Value="2" />
+                                <Setter Property="StrokeMiterLimit" Value="1" />
+                                <Setter Property="Fill" Value="{StaticResource Background}" />
+                            </Style>
+                        </ResourceDictionary>
+                    </Charting:ResourceDictionaryCollection>
+                </Charting:Chart.Palette>
             </Charting:Chart>
             <Button x:ConnectionId='4' Name="ChangeTextBtn" 
                     Content="Текст результата" 

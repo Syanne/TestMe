@@ -31,7 +31,7 @@
     </Page.TopAppBar>
 
     <Page.BottomAppBar>
-        <AppBar Background="#FF1FBFBA" BorderBrush="{x:Null}" Height="90" IsSticky="True" IsOpen="True">
+        <AppBar Background="#ff303030" BorderBrush="{x:Null}" Height="90" IsSticky="True" IsOpen="True">
             <Grid>
                 <TextBlock x:Name="pageTitle" Text="Нажмите на название, чтобы увидеть результат" Style="{StaticResource HeaderTextBlockStyle}" 
         		TextWrapping="WrapWholeWords" VerticalAlignment="Center" Margin="50,0,50,0" Foreground="White" SelectionHighlightColor="#00525252" HorizontalAlignment="Center" FontSize="40"/>
@@ -41,9 +41,45 @@
 
     <Grid Background="#FFEBEBEB">
 
-        <Grid x:Name="main" Grid.Row="1">
-                    <Charting:Chart x:Name="Charty" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,0,110"  >
-                <Charting:PieSeries Margin="0" IndependentValuePath="Title" DependentValuePath="Result" HorizontalContentAlignment="Center" VerticalContentAlignment="Top"/>
+        <Grid x:Name="main">
+            <Charting:Chart x:Name="Charty" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,0,110"  >
+                <Charting:PieSeries Margin="0" 
+                                    IndependentValuePath="Title" 
+                                    DependentValuePath="Result"
+                                    IsRightTapEnabled="False"
+                                    IsSelectionEnabled="False"
+                                    IsTapEnabled="False"
+                                    />
+                <Charting:Chart.Palette>
+                    <Charting:ResourceDictionaryCollection>
+                        <!-- Yellow -->
+                        <ResourceDictionary>
+                            <SolidColorBrush x:Key="Background" Color="#FF1FBFBA" />
+                            <Style x:Key="DataPointStyle" TargetType="Control">
+                                <Setter Property="Background" Value="{StaticResource Background}" />
+                            </Style>
+                            <Style x:Key="DataShapeStyle" TargetType="Shape">
+                                <Setter Property="Stroke" Value="{StaticResource Background}" />
+                                <Setter Property="StrokeThickness" Value="2" />
+                                <Setter Property="StrokeMiterLimit" Value="1" />
+                                <Setter Property="Fill" Value="{StaticResource Background}" />
+                            </Style>
+                        </ResourceDictionary>
+                        <!-- Main App Color -->
+                        <ResourceDictionary>
+                            <SolidColorBrush x:Key="Background" Color="WhiteSmoke" />
+                            <Style x:Key="DataPointStyle" TargetType="Control">
+                                <Setter Property="Background" Value="{StaticResource Background}" />
+                            </Style>
+                            <Style x:Key="DataShapeStyle" TargetType="Shape">
+                                <Setter Property="Stroke" Value="{StaticResource Background}" />
+                                <Setter Property="StrokeThickness" Value="2" />
+                                <Setter Property="StrokeMiterLimit" Value="1" />
+                                <Setter Property="Fill" Value="{StaticResource Background}" />
+                            </Style>
+                        </ResourceDictionary>
+                    </Charting:ResourceDictionaryCollection>
+                </Charting:Chart.Palette>
             </Charting:Chart>
             <Button Name="ChangeTextBtn" Content="Текст результата" Click="Button_Click2" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="150" Foreground="#FF131313" RequestedTheme="Dark" Background="#FFE1E1E1" BorderBrush="#FFBCBCBC" BorderThickness="0" Height="50"/>
             <TextBlock Name="descBlock" FontSize="22" HorizontalAlignment="Right" VerticalAlignment="Center" Padding="20,20,20,20" TextWrapping="WrapWholeWords" SelectionHighlightColor="{x:Null}" Margin="0,0,0,100" />
@@ -52,7 +88,6 @@
         <ListView x:Name="lvMain" 
                   IsRightTapEnabled="False" 
                   IsItemClickEnabled="True" 
-                  Grid.Row="1" 
                   SelectionMode="None" 
                   RequestedTheme="Light" 
                   HorizontalAlignment="Left" 
@@ -62,7 +97,7 @@
                   IsHoldingEnabled="False" 
                   IsTapEnabled="False" 
                   ManipulationMode="None" 
-                  Margin="80,0,0,110" 
+                  Margin="80,100,0,110" 
                   VerticalAlignment="Center"
                   ItemClick="lvMain_ItemClick"/>
     </Grid>

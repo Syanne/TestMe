@@ -26,39 +26,49 @@ namespace TestMe
         public double FlipFontSize { get; set; }
 
         //grids
-        public Thickness GridMargin { get; set; }
         public double GridWidth { get; set; }
-        public Thickness TitleMargin { get; set; }
 
+#if WINDOWS_PHONE_APP
+        
+        //main page
+        public double SmallNameHeight { get; set; }
+        public double DescriptionHeight { get; set; }
+
+        //test page
+        public double TestPageTitleWidth { get; set; }
+        public double TestPageGridHeight { get; set; }
+
+        public SizeCorrection()
+        {
+            ItemHeight = Window.Current.Bounds.Height / 10;
+            TextBlockWidth = Window.Current.Bounds.Width - ItemHeight - 20;
+            SmallNameHeight = ItemHeight - 10;
+            FlipWidth = ItemHeight * 2;
+            FlipHeight = Window.Current.Bounds.Height - 270;
+
+            ItemFontSize = ItemHeight / 4;
+            FlipFontSize = ItemFontSize - 2;
+            DescriptionHeight = ItemFontSize * 2;
+            FlyoutGridHeight = FlipHeight + 150;
+
+            FlipWidth = ItemHeight * 2;
+            FlyingFlipHeight = Window.Current.Bounds.Height - 300;
+            FlyingFlipWidth = Window.Current.Bounds.Width;
+            GridWidth = Window.Current.Bounds.Width - FlipWidth - 100;
+
+            TestPageTitleWidth = Window.Current.Bounds.Width - 200;
+            TestPageGridHeight = Window.Current.Bounds.Height - ItemHeight - 200;
+        }
+#else
         //buttons
         public double AppBarButtonWidth { get; set; }
         public double ButtonHeight { get; set; }
         public double ButtonWidth { get; set; }
+        
+        //grids
+        public Thickness GridMargin { get; set; }
+        public Thickness TitleMargin { get; set; }
 
-#if WINDOWS_PHONE_APP
-        public SizeCorrection()
-        {
-            ItemHeight = Window.Current.Bounds.Height / 8;
-            ItemWidth = 300 * ItemHeight / 200;
-            TextBlockWidth = Window.Current.Bounds.Width - ItemWidth - 20;
-            FlipWidth = ItemHeight * 2;
-            FlipHeight = Window.Current.Bounds.Height - 215;
-
-            ItemFontSize = ItemHeight / 5;
-            FlipFontSize = 16;
-            ButtonHeight = 50;
-            ButtonWidth = 110;
-            FlyoutGridHeight = FlipHeight + 150;
-
-            FlipWidth = ItemHeight * 2;
-            FlyingFlipHeight = FlipWidth * 1.5;
-            FlyingFlipWidth = FlipWidth + 10;
-            GridWidth = Window.Current.Bounds.Width - FlipWidth - 100;
-            GridMargin = new Thickness(FlipWidth + 70, 50, 50, 110);
-            TitleMargin = new Thickness(10, 0, 10, 10);
-            AppBarButtonWidth = FlipWidth / 3;
-        }
-#else
         public SizeCorrection()
         {
             ItemHeight = Window.Current.Bounds.Height / 5;
